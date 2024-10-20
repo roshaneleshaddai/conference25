@@ -7,9 +7,32 @@ module.exports = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
+        swipeInLeft: {
+          "0%": { transform: "translateX(-100%)" },
+          "100%": { transform: "translateX(0)" },
+        },
+        swipeInRight: {
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(0)" },
+        },
+      },
+      animation: {
+        fadeIn: "fadeIn 0.5s ease-in-out",
+        swipeInLeft: "swipeInLeft 1.0s ease-in-out",
+        swipeInRight: "swipeInRight 1.0s ease-in-out",
+      },
+
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      fontFamily: {
+        sans: ["ui-sans-serif", "system-ui", "sans-serif"], // Customize the "sans" font family
       },
     },
   },
