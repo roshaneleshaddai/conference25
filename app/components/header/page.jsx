@@ -45,7 +45,7 @@ const Header = () => {
 
   return (
   // <div className="relative w-full h-full">
-    <header className={`fixed w-full top-0 z-50 h-30 transition-all duration-300 ease-in-out  bg-[#78B7D0] ${isScrolled ? 'py-0 md:py-2' : 'py-2 md:py-4'}`}>
+    <header className={`fixed md:w-full top-0 z-50 h-30 transition-all duration-300 ease-in-out  bg-[#78B7D0] ${isScrolled ? 'py-0 md:py-2' : 'py-2 md:py-4'}`}>
     {/* <video
       
       loop
@@ -54,7 +54,7 @@ const Header = () => {
     >
       <source src="/images/bg.mp4" type="video/mp4" />
     </video> */}
-      <div className="flex items-center justify-around md:p-2 md:mx-auto max-w-7xl">
+      <div className="flex items-center  md:p-2 md:mx-auto md:max-w-7xl">
         {/* Logo Section */}
         <div className="flex items-center justify-around space-x-0 md:space-x-4">
           <Image
@@ -62,7 +62,7 @@ const Header = () => {
               alt="VRSEC Logo"
               width={isScrolled ? 100 : 140}
               height={isScrolled ? 100 : 140}
-              className="rounded-full object-contain transition-all duration-300"
+              className="rounded-full  object-contain transition-all duration-300"
               loading="lazy"
           />
           <div className={`md:block md:text-center transition-all duration-300 ease-in-out ${isScrolled ? 'text-xs md:text-2xl ' : 'text-xl md:text-4xl'}`}>
@@ -182,7 +182,7 @@ const Header = () => {
           Committees
         </Link></li>
         <li><Link
-          href="/authr_info"
+          href="/author_info"
           className="" onClick={toggleMenu}>
           Author Info
         </Link></li>
