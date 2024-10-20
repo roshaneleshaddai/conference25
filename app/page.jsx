@@ -36,16 +36,16 @@ export default function Home() {
     }, []);
   
     return (
-      <section id="about" className="p-20  mt-5">
+      <section id="about" className="p-10  mt-5">
         
         <div className=" flex flex-col justify-around  md:flex-row">
 
-        <div className="text-3xl w-1/3 font-bold text-[#227B94] underline-offset-8">
+        <div className="text-3xl md:w-1/3 font-bold text-[#227B94] underline-offset-8 md:ml-10">
           <h1 className="text-7xl">About<br></br> ICICC-2025</h1>
           <hr className="h-1 my-4 bg-[#227B94] border-0  w-1/3" />
           <h1 className="text-4xl text-[#10375C]">It is our great pleasure to warmly <br />welcome you to <div className="text-[#F3C623]">ICICC-2025.</div></h1>
         </div>
-        <div className=" md: font-medium w-2/3  text-xl md:text-2xl">
+        <div className=" md: font-medium md:w-2/3  text-xl md:text-2xl">
             <p className="text-justify">
       The objective of this Scopus indexed 7th International Conference on Intelligent
       Computing and Communication (ICICC - 2024) is to present a unified platform
