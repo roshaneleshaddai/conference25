@@ -180,13 +180,13 @@ const Schedule = () => {
       <div className="mt-44 md:mt-96"></div>
       <Imageplacer name="Schedule" />
       <h1 className='text-2xl md:text-5xl text-center font-bold text-[#227B94] mt-16'>Tracks</h1>
-      <div className="flex flex-col items-center border-2 border-[#227B94] m-16 mx-32 py-8 p-16">
+      <div className="flex flex-col items-center border-2 border-[#227B94] p-10 m-4 md:m-16 md:mx-32 md:py-8 md:p-16">
         <div className="flex flex-col w-full ">
           {tracks.map((track) => (
             <div key={track.id} >
               <button
                 onClick={() => handleClick(track)}
-                className="m-2 bg-[#FFDC7F] hover:bg-blue-700 hover:text-white font-bold py-2 px-4 rounded min-w-full"
+                className="m-2 bg-[#FFDC7F] text-xs md:text-xl hover:bg-blue-700 hover:text-white font-bold py-2 px-4 rounded min-w-full"
               >
                 {track.title}
               </button>
@@ -194,7 +194,7 @@ const Schedule = () => {
               {/* Display track details if this track is selected */}
               {selectedTrack && selectedTrack.id === track.id && (
                 <div className="mt-4 w-full flex flex-col items-center">
-                  <h2 className="text-xl font-bold mb-4">{selectedTrack.title}</h2>
+                  <h2 className="text-xs md:text-xl font-bold mb-4">{selectedTrack.title}</h2>
                   <div className="overflow-x-auto w-full flex justify-center">
                     <table className="text-left table-auto border-collapse border-2 border-[#4F709C]">
                       <thead>
