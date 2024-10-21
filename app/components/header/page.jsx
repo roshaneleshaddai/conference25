@@ -45,7 +45,7 @@ const Header = () => {
 
   return (
   // <div className="relative w-full h-full">
-    <header className={`fixed md:w-full top-0 z-50 h-30 transition-all duration-300 ease-in-out  bg-[#78B7D0] ${isScrolled ? 'py-0 md:py-2' : 'py-2 md:py-4'}`}>
+    <header className={`fixed md:w-full mx-auto top-0 z-50 h-30 transition-all duration-300 ease-in-out  bg-[#78B7D0] ${isScrolled ? 'py-0 md:py-2' : 'py-2 md:py-4'}`}>
     {/* <video
       
       loop
