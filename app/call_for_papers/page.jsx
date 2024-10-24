@@ -115,19 +115,19 @@ const call_for_papers = () => {
 
       <div className='lg:hidden bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-16 px-8 py-5 m-8'>
       <h1 className='md:text-3xl text-2xl font-bold pb-2'>Theme of the conference</h1>
-      <p className='md:text-xl text-md'>The objective of ICICC 2024 is to provide a platform for academicians, researchers, scientists, professionals, and students to share their knowledge and expertise in the field of Intelligent Computing, Communication, and Convergence, as well as to address a variety of issues in order to raise awareness of technological innovations and to identify challenges and opportunities for the development of smart cities using multidisciplinary approaches. The aim of this conference is to provide a unified forum for advanced, multi-disciplinary research on smart computing and informatics design. On a larger scale, the theme focuses on numerous innovation paradigms in system knowledge, intelligence, and sustainability that can be used to deliver practical solutions to a wide range of challenges in society, the environment, and industry.
+      <p className='md:text-xl text-md'>The objective of ICICC 2025 is to provide a platform for academicians, researchers, scientists, professionals, and students to share their knowledge and expertise in the field of Intelligent Computing, Communication, and Convergence, as well as to address a variety of issues in order to raise awareness of technological innovations and to identify challenges and opportunities for the development of smart cities using multidisciplinary approaches. The aim of this conference is to provide a unified forum for advanced, multi-disciplinary research on smart computing and informatics design. On a larger scale, the theme focuses on numerous innovation paradigms in system knowledge, intelligence, and sustainability that can be used to deliver practical solutions to a wide range of challenges in society, the environment, and industry.
       </p>
       </div>
 
       <div className='bg-white shadow-xl border-2 border-black/10  rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:mx-20 px-8 py-5 m-8'>
       <h1 className='md:text-3xl text-2xl font-bold pb-2'>Scope and Interests</h1>
-      <p className='md:text-xl text-md'>For its research track, ICICC-2024 invites original, high-quality papers addressing the following topics. All submissions will be subject to plagiarism check. We strongly encourage papers that report experimental work and results. Use of public data sets and repeatability of experiments, well-written papers high lighting the contributions, novel approaches for different computing platforms, are a few important parameters used for research quality assessment. Submissions of high-quality papers is expected in all areas of Data Engineering, Intelligent Computing, Computer Communication, Networking and IoT.
+      <p className='md:text-xl text-md'>For its research track, ICICC-2025 invites original, high-quality papers addressing the following topics. All submissions will be subject to plagiarism check. We strongly encourage papers that report experimental work and results. Use of public data sets and repeatability of experiments, well-written papers high lighting the contributions, novel approaches for different computing platforms, are a few important parameters used for research quality assessment. Submissions of high-quality papers is expected in all areas of Data Engineering, Intelligent Computing, Computer Communication, Networking and IoT.
       </p>
       <ul className="list-disc pl-5 pt-2 md:text-xl text-md">
         {Display_techs(list_of_tech)}
       </ul>
       <p className='md:text-xl text-md pt-5' id="paper_submission">
-      Submitted papers should neither be previously published nor under consideration for publication elsewhere. All papers will be refereed through a peer review process. The proceedings of ICICC-2024 will be published in the Springer Book series “Lecture Notes in Networks and Systems (LNNS)”, which will be Indexed by SCOPUS, INSPEC, WTI Frankfurt eG, zbMATH, SCImago. All books published in the series are submitted for consideration in Web of Science.
+      Submitted papers should neither be previously published nor under consideration for publication elsewhere. All papers will be refereed through a peer review process. The proceedings of ICICC-2025 will be published in the Springer Book series “Lecture Notes in Networks and Systems (LNNS)”, which will be Indexed by SCOPUS, INSPEC, WTI Frankfurt eG, zbMATH, SCImago. All books published in the series are submitted for consideration in Web of Science.
       <span id="call_for_reviewers"></span></p>
       </div>
 
@@ -139,7 +139,7 @@ const call_for_papers = () => {
 
       <div className='bg-white shadow-xl border-2 border-black/10  rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:mx-20 px-8 py-5 m-8'>
       <h1 className='md:text-3xl text-2xl font-bold pb-2' id='special_sessions'>Call for Reviewers</h1>
-      <p className='md:text-xl text-md'>Dear Professor, If you are interested to review papers at our conference ICICC 2024, please let us know.</p>
+      <p className='md:text-xl text-md'>Dear Professor, If you are interested to review papers at our conference ICICC 2025, please let us know.</p>
       <p className='md:text-xl text-md py-2'>You must have Microsoft CMT login, if not, <span className='underline cursor-pointer'>create it</span> and let us know by filling with your login email id and your name, affiliations etc. in the below google form</p>
       <p className='md:text-xl text-md p-5 m-2 underline cursor-pointer'>Google Form Link</p>
 
