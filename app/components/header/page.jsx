@@ -253,7 +253,7 @@ const Header = () => {
           href="/contact_us"
           className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-4' : 'text-base py-1 px-2'} hover:bg-[#FF6600]/10  hover:text-black hover:shadow-lg`}
         >
-         Conatct Us
+         Contact Us
         </Link>
       </nav>
     </header>
