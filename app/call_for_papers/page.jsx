@@ -106,7 +106,7 @@ const call_for_papers = () => {
   
   <div className='hidden lg:block lg:w-4/5 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-14 px-8 py-5 m-8'>
       <h1 className='md:text-3xl text-2xl font-bold pb-2'>Theme of the conference</h1>
-      <p className='md:text-xl text-md'>The objective of ICICC 2024 is to provide a platform for academicians, researchers, scientists, professionals, and students to share their knowledge and expertise in the field of Intelligent Computing, Communication, and Convergence, as well as to address a variety of issues in order to raise awareness of technological innovations and to identify challenges and opportunities for the development of smart cities using multidisciplinary approaches. The aim of this conference is to provide a unified forum for advanced, multi-disciplinary research on smart computing and informatics design. On a larger scale, the theme focuses on numerous innovation paradigms in system knowledge, intelligence, and sustainability that can be used to deliver practical solutions to a wide range of challenges in society, the environment, and industry.
+      <p className='md:text-xl text-md'>The objective of ICICC 2025 is to provide a platform for academicians, researchers, scientists, professionals, and students to share their knowledge and expertise in the field of Intelligent Computing, Communication, and Convergence, as well as to address a variety of issues in order to raise awareness of technological innovations and to identify challenges and opportunities for the development of smart cities using multidisciplinary approaches. The aim of this conference is to provide a unified forum for advanced, multi-disciplinary research on smart computing and informatics design. On a larger scale, the theme focuses on numerous innovation paradigms in system knowledge, intelligence, and sustainability that can be used to deliver practical solutions to a wide range of challenges in society, the environment, and industry.
       </p>
       </div>
 
@@ -163,7 +163,7 @@ const call_for_papers = () => {
     </ul>
     <h1 className='md:text-xl text-lg font-bold py-2 mt-4'>Proposal Submission:</h1>
     <ul className="list-disc pl-5 pt-1 md:text-xl text-md">
-      <li>Researchers or experts interested in organizing a special session submit proposals to the conference committee by email at <span className='underline cursor-pointer underline-offset-8 hover:underline hover:decoration-4'>icicc2024@cmrtc.ac.in.</span></li>
+      <li>Researchers or experts interested in organizing a special session submit proposals to the conference committee by email at <span className='underline cursor-pointer underline-offset-8 hover:underline hover:decoration-4'>icicc2025@vrsiddartha.ac.in.</span></li>
       <li>Proposals should typically include a session title, abstract, objectives, and potential contributors.</li>
     </ul>
     
