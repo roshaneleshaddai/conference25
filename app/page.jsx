@@ -333,7 +333,7 @@ const Travel=()=>{
     <Partners/>
     <Editions_News/>
     <About_vrsec/>
-    <Travel/>
+{/*     <Travel/> */}
     <Dates/>
    </>
   );
