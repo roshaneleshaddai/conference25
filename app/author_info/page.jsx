@@ -234,7 +234,7 @@ const author_info = () => {
           objectFit="cover"
           className=''
           /></div>
-      <div className='md:text-xl text-md p-2'>The proceedings of ICICC-2024 will be published in the Springer Book series “Lecture Notes in Networks and Systems (LNNS)”, which will be Indexed by SCOPUS, INSPEC, WTI Frankfurt eG, zbMATH, SCImago. All books published in the series are submitted for consideration in Web of Science.</div>
+      <div className='md:text-xl text-md p-2'>The proceedings of ICICC-2025 will be published in the Springer Book series “Lecture Notes in Networks and Systems (LNNS)”, which will be Indexed by SCOPUS, INSPEC, WTI Frankfurt eG, zbMATH, SCImago. All books published in the series are submitted for consideration in Web of Science.</div>
       </div>
       </div> */}
 
