@@ -179,7 +179,7 @@ const author_info = () => {
           objectFit="cover"
           className=''
           /></div>
-      <div className='md:text-xl text-md p-2'>The proceedings of ICICC-2024 will be published in the Springer Book series “Lecture Notes in Networks and Systems (LNNS)”, which will be Indexed by SCOPUS, INSPEC, WTI Frankfurt eG, zbMATH, SCImago. All books published in the series are submitted for consideration in Web of Science.</div>
+      <div className='md:text-xl text-md p-2'>The proceedings of ICICC-2025 will be published in the Springer Book series “Lecture Notes in Networks and Systems (LNNS)”, which will be Indexed by SCOPUS, INSPEC, WTI Frankfurt eG, zbMATH, SCImago. All books published in the series are submitted for consideration in Web of Science.</div>
       </div>
 
       <h1 className='md:text-2xl text-xl font-bold pb-2 text-center'>Paper Submission: <span> </span>
@@ -203,7 +203,7 @@ const author_info = () => {
         href="#"
         className='text-[#FF6600] cursor-pointer underline underline-offset-8 decoration-indigo-500 hover:underline hover:decoration-4'>click here to read the Springer publication ethics and guidelines.
       </Link></span></p>
-      <p id='registration_id' className='py-2'>Paper Submission Deadline: 15th July 2024</p>
+      <p id='registration_id' className='py-2'>Paper Submission Deadline: 15th July 2025</p>
       </div>
       </div>
 
