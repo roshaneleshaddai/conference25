@@ -185,7 +185,7 @@ const author_info = () => {
       <h1 className='md:text-2xl text-xl font-bold pb-2 text-center'>Paper Submission: <span> </span>
         <span >
         <Link
-        href="#"
+        href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F"
         className='text-[#FF6600] cursor-pointer underline underline-offset-8 decoration-indigo-500 hover:underline hover:decoration-4'>Click here
         </Link>
         </span></h1>
