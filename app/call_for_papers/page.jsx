@@ -140,7 +140,7 @@ const call_for_papers = () => {
       <h1 className='md:text-3xl text-2xl font-bold pb-2' id='special_sessions'>Call for Reviewers</h1>
       <p className='md:text-xl text-md'>Dear Professor, If you are interested to review papers at our conference ICICC 2025, please let us know.</p>
       <p className='md:text-xl text-md py-2'>You must have Microsoft CMT login, if not, <Link href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F" className='underline cursor-pointer'>create it</Link> and let us know by filling with your login email id and your name, affiliations etc. in the below google form</p>
-      <Link href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F" className='md:text-xl text-md p-5 m-2 underline cursor-pointer'>Google Form Link</Link>
+      <Link href="googleform" className='md:text-xl text-md p-5 m-2 underline cursor-pointer'>Google Form Link</Link>
     
       <p className='md:text-xl text-md pt-2'>Only CSE, IT and ECE Professors</p>
 
