@@ -47,8 +47,8 @@ export default function Home() {
         </div>
         <div className=" md: font-medium md:w-2/3  text-xl md:text-2xl">
             <p className="text-justify">
-      The objective of this Scopus indexed 7th International Conference on Intelligent
-      Computing and Communication (ICICC - 2024) is to present a unified platform
+      The objective of this Scopus indexed 8th International Conference on Intelligent
+      Computing and Communication (ICICC - 2025) is to present a unified platform
       for advanced and multi-disciplinary research towards design of smart
       computing, information systems, electronic systems. The theme focuses on
       various innovation paradigms in system knowledge, intelligence and
