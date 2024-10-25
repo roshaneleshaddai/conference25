@@ -133,21 +133,21 @@ const call_for_papers = () => {
 
       <div className='flex flex-col items-center'>
       <div className='w-1/2 bg-[#FFDC7F] rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-20 px-8 py-5 m-8'>
-      <h1 className='md:text-3xl text-2xl font-bold pb-2 text-center'>Paper Submission: <Link href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F" className='text-[#FF6600] cursor-pointer underline underline-offset-8 decoration-indigo-500 hover:underline hover:decoration-4'>Click Here</span></h1>
+      <h1 className='md:text-3xl text-2xl font-bold pb-2 text-center'>Paper Submission: <span className='text-[#FF6600] cursor-pointer underline underline-offset-8 decoration-indigo-500 hover:underline hover:decoration-4'>Click Here</span></h1>
       </div>
       </div>
 
       <div className='bg-white shadow-xl border-2 border-black/10  rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:mx-20 px-8 py-5 m-8'>
       <h1 className='md:text-3xl text-2xl font-bold pb-2' id='special_sessions'>Call for Reviewers</h1>
       <p className='md:text-xl text-md'>Dear Professor, If you are interested to review papers at our conference ICICC 2025, please let us know.</p>
-      <p className='md:text-xl text-md py-2'>You must have Microsoft CMT login, if not, <Link href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F" className='underline cursor-pointer'>create it</Link> and let us know by filling with your login email id and your name, affiliations etc. in the below google form</p>
-      <Link href="www.google.com" className='md:text-xl text-md p-5 m-2 underline cursor-pointer'>Google Form Link</Link>
+      <p className='md:text-xl text-md py-2'>You must have Microsoft CMT login, if not, <span className='underline cursor-pointer'>create it</span> and let us know by filling with your login email id and your name, affiliations etc. in the below google form</p>
+      <p className='md:text-xl text-md p-5 m-2 underline cursor-pointer'>Google Form Link</p>
 
       <p className='md:text-xl text-md'>Only CSE, IT and ECE Professors</p>
 
-      <p className='md:text-xl text-md pt-5'>For more details Contact </p>
-      <p className='md:text-xl text-md pt-2'>Dr. Jaya Prakash S - 7989929663</p>
-      <p className='md:text-xl text-md pt-2'>Dr. Gargi M - 7569051878</p>
+      <p className='md:text-xl text-md pt-5'>For more details Contact</p>
+      <p className='md:text-xl text-md pt-2'>Dr. K. Srujan Raju - 7989929663</p>
+      <p className='md:text-xl text-md pt-2'>Dr. V. Naresh Kumar - 7569051878</p>
       </div>
 
       <div className='bg-white shadow-xl border-2 border-black/10  rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:mx-20 md:my-20 px-8 py-5 m-8'>
