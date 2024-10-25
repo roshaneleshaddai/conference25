@@ -145,7 +145,7 @@ const call_for_papers = () => {
 
       <p className='md:text-xl text-md'>Only CSE, IT and ECE Professors</p>
 
-      <p className='md:text-xl text-md pt-5'>For more details Contact</p>
+      <p className='md:text-xl text-md pt-5'>For more details Contact </p>
       <p className='md:text-xl text-md pt-2'>Dr. Jaya Prakash S - 7989929663</p>
       <p className='md:text-xl text-md pt-2'>Dr. Gargi M - 7569051878</p>
       </div>
