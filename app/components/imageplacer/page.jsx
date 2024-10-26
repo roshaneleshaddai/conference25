@@ -4,7 +4,7 @@ const Imageplacer = ({name}) => {
   return (
     <div className="md:min-h-screen">
         <div
-    className="absolute  w-full h-[50vh] md:h-[100vh] bg-cover bg-center z-0 sm:block md:block lg:block"
+    className="absolute  w-full h-[50vh] md:h-[80vh] bg-cover bg-center z-0 sm:block md:block lg:block"
     style={{
         backgroundImage: `url('images/vrsec1.jpeg')`, 
     }}>
