@@ -41,9 +41,9 @@ export default function Home() {
         <div className=" flex flex-col justify-around  md:flex-row">
 
         <div className="text-3xl md:w-1/3 font-bold text-[#227B94] underline-offset-8 md:ml-10">
-          <h1 className="text-7xl">About<br></br> ICICC-2025</h1>
+          <h1 className="lg:text-7xl text-5xl">About<br></br>ICICC-2025</h1>
           <hr className="h-1 my-4 bg-[#227B94] border-0  w-1/3" />
-          <h1 className="text-4xl text-[#10375C]">It is our great pleasure to warmly <br />welcome you to <div className="text-[#F3C623]">ICICC-2025.</div></h1>
+          <h1 className="lg:text-4xl text-3xl text-[#10375C]">It is our great pleasure to warmly <br />welcome you to <div className="text-[#F3C623]">ICICC-2025.</div></h1>
         </div>
         <div className=" md: font-medium md:w-2/3  text-xl md:text-2xl">
             <p className="text-justify">
@@ -195,7 +195,7 @@ const About_vrsec = () => {
   }, []);
 
   return (
-    <section id="about-section" className="min-h-screen flex justify-center items-center p-10">
+    <section id="about-section" className="overflow-hidden min-h-screen flex justify-center items-center p-10">
       <div className="flex flex-col md:flex-row justify-between ">
         {/* Left Half: About VRSEC */}
         <div
@@ -295,32 +295,32 @@ const Travel=()=>{
         <h1 className="text-2xl md:text-5xl font-bold text-center pb-8 text-[#227B94]">ICICC 2025 - Travel Reimbursement for Authors</h1>
   
       {/* table of journals */}
-  <div className="overflow-x-auto flex justify-center">
-    <table className=" text-left table-auto border-collapse border-2 border-[#4F709C]">
+  <div className="overflow-x-auto">
+  <div className="min-w-[500px] flex justify-center">
+    <table className="text-left table-auto border-collapse border-2 border-[#4F709C] min-w-full">
       <thead>
         <tr>
-          <th className="px-4 py-2 border  text-[#16325B] bg-[#FFDC7F] text-bold text-xs md:text-xl border-[#4F709C]">S.No.</th>
-          <th className="px-4 py-2 border  text-[#16325B] bg-[#FFDC7F] text-bold text-xs md:text-xl border-[#4F709C]">Paper Id </th>
-          <th className="px-4 py-2 border  text-[#16325B] bg-[#FFDC7F] text-bold text-xs md:text-xl border-[#4F709C]">Corresponding Author</th>
-          <th className="px-4 py-2 border  text-[#16325B] bg-[#FFDC7F] text-bold text-xs md:text-xl border-[#4F709C]">Title</th>
-          <th className="px-4 py-2 border  text-[#16325B] bg-[#FFDC7F] text-bold text-xs md:text-xl border-[#4F709C]">Total Amount</th>
-          {/* <th className="px-4 py-2 border border-[#4F709C]">APC</th> */}
+          <th className="px-4 py-2 border text-[#16325B] bg-[#FFDC7F] font-bold text-xs md:text-xl border-[#4F709C]">S.No.</th>
+          <th className="px-4 py-2 border text-[#16325B] bg-[#FFDC7F] font-bold text-xs md:text-xl border-[#4F709C]">Paper Id</th>
+          <th className="px-4 py-2 border text-[#16325B] bg-[#FFDC7F] font-bold text-xs md:text-xl border-[#4F709C]">Corresponding Author</th>
+          <th className="px-4 py-2 border text-[#16325B] bg-[#FFDC7F] font-bold text-xs md:text-xl border-[#4F709C]">Title</th>
+          <th className="px-4 py-2 border text-[#16325B] bg-[#FFDC7F] font-bold text-xs md:text-xl border-[#4F709C]">Total Amount</th>
         </tr>
       </thead>
       <tbody>
         {paperDetails.map((paper) => (
           <tr key={paper.sNo}>
-            <td className="px-4 py-2 border text-xs md:text-lg  border-[#4F709C]">{paper.serialNo}</td>
-            <td className="px-4 py-2 border text-xs md:text-lg  border-[#4F709C]">{paper.paperId}</td>
-            <td className="px-4 py-2 border text-xs md:text-lg  border-[#4F709C]">{paper.correspondingAuthor}</td>
-            <td className="px-4 py-2 border text-xs md:text-lg  border-[#4F709C]">{paper.title}</td>
-            <td className="px-4 py-2 border text-xs md:text-lg  border-[#4F709C]">{paper.totalAmount}</td>
-            {/* <td className="px-4 py-2 border border-[#4F709C]">{journal.apc}</td> */}
+            <td className="px-4 py-2 border text-xs md:text-lg border-[#4F709C]">{paper.serialNo}</td>
+            <td className="px-4 py-2 border text-xs md:text-lg border-[#4F709C]">{paper.paperId}</td>
+            <td className="px-4 py-2 border text-xs md:text-lg border-[#4F709C]">{paper.correspondingAuthor}</td>
+            <td className="px-4 py-2 border text-xs md:text-lg border-[#4F709C]">{paper.title}</td>
+            <td className="px-4 py-2 border text-xs md:text-lg border-[#4F709C]">{paper.totalAmount}</td>
           </tr>
         ))}
       </tbody>
     </table>
   </div>
+</div>
 </div>
      </section>
   );
