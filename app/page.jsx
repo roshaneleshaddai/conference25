@@ -86,14 +86,28 @@ export default function Home() {
           <Image
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGnicMMBfXdQJrZy9RvzmnhzvVw1bgLTs_qA&s"
               alt="Computer Society Of India"
-              width={200} 
+              width={150} 
               height={200}
               className="p-4"
             />
             <Image
-              src="https://meghaengg.ac.in/wp-content/uploads/2022/01/Iste.png"
+              src=" https://yt3.googleusercontent.com/ytc/AIdro_kM2RdhNshkPWatAF8zPJHmpU03bs3mst_gMBaf_ETPvA=s900-c-k-c0x00ffffff-no-rj"
               alt="Computer Society Of India"
-              width={200} 
+              width={150} 
+              height={200}
+              className="p-4"
+            />
+            <Image
+              src="https://d23qowwaqkh3fj.cloudfront.net/wp-content/uploads/2024/06/q-768x230.jpg"
+              alt="Computer Society Of India"
+              width={150} 
+              height={200}
+              className="p-4"
+            />
+             <Image
+              src="https://yt3.googleusercontent.com/ytc/AIdro_l3FuOt4ZYJ7dFFXpaWxjMcuAybjzTLtHqCrYMnMKnjjLn4=s900-c-k-c0x00ffffff-no-rj"
+              alt="Computer Society Of India"
+              width={150} 
               height={200}
               className="p-4"
             />
