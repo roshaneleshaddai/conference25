@@ -91,7 +91,7 @@ export default function Home() {
               className="p-4"
             />
             <Image
-              src=" https://yt3.googleusercontent.com/ytc/AIdro_kM2RdhNshkPWatAF8zPJHmpU03bs3mst_gMBaf_ETPvA=s900-c-k-c0x00ffffff-no-rj"
+              src="https://cis.ieee.org/images/files/Branding/logos/color/IEEE_CIS_logo_RGB_72ppi.jpg"
               alt="Computer Society Of India"
               width={150} 
               height={200}
