@@ -11,7 +11,8 @@ const nextConfig = {
         "meghaengg.ac.in",
         "rdconclave25.org",
         "yt3.googleusercontent.com",
-        "d23qowwaqkh3fj.cloudfront.net"
+        "d23qowwaqkh3fj.cloudfront.net",
+          "cis.ieee.org"
       ],
     },
   };
