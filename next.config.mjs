@@ -9,7 +9,9 @@ const nextConfig = {
         "encrypted-tbn0.gstatic.com",
         "cdn.dnaindia.com",
         "meghaengg.ac.in",
-        "rdconclave25.org"
+        "rdconclave25.org",
+        "yt3.googleusercontent.com",
+        "d23qowwaqkh3fj.cloudfront.net"
       ],
     },
   };
