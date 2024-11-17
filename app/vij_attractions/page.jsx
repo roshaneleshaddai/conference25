@@ -40,7 +40,7 @@ const Attractions = () => {
       <div className="mt-44 md:mt-96"></div>
       <div className="p-6">
         <div className="flex flex-col gap-12 md:m-24">
-          <h1 className="text-5xl font-bold mb-6">Vijayawada Attractions</h1>
+          <h1 className="md:text-5xl text-xl font-bold mb-6">Vijayawada Attractions</h1>
           {attractions.map((attraction, index) => (
             <div
               key={index}
