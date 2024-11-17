@@ -8,167 +8,152 @@ const Schedule = () => {
   const tracks = [
     {
       id: 1,
-      title: "Day-1: DATE : 30 AUGUST 2024 / Time : 12:30 PM - 01:30 PM, TRACK- 1: Artificial Intelligence and Machine Learning",
+      title: "Day-1: DATE : 25TH JULY 2024 / Time : 12:30 PM - 01:30 PM, TRACK- 1: Artificial Intelligence and Machine Learning",
       details: [
-        { sno: 1, paperid: 8, title: "Paper Title: A Novel Approach to AI and ML" },
-        { sno: 2, paperid: 9, title: "Paper Title: AI and ML in Healthcare" },
-        { sno: 3, paperid: 10, title: "Paper Title: AI and ML in Finance" },
+        { sno: 1, paperid: 1, title: "" },
+        { sno: 2, paperid: 2, title: "" },
+        { sno: 3, paperid: 3, title: "" },
+        { sno: 4, paperid: 4, title: "" },
+        { sno: 5, paperid: 5, title: "" },
+        { sno: 6, paperid: 6, title: "" },
+        { sno: 7, paperid: 7, title: "" },
+        { sno: 8, paperid: 8, title: "" },
+        { sno: 9, paperid: 9, title: "" },
+        { sno: 10, paperid: 10, title: "" },
       ],
     },
     {
       id: 2,
-      title: "Day-1: DATE : 30 AUGUST 2024 / Time : 12:30 PM - 01:30 PM, TRACK- 2: Machine Intelligence",
+      title: "Day-1: DATE : 25TH JULY 2024 / Time : 12:30 PM - 01:30 PM, TRACK- 2: Machine Intelligence",
       details: [
-        { sno: 1, paperid: 11, title: "Paper Title: Machine Intelligence in Autonomous Vehicles" },
-        { sno: 2, paperid: 12, title: "Paper Title: Advanced Algorithms in Machine Intelligence" },
-        { sno: 3, paperid: 13, title: "Paper Title: Machine Intelligence for Robotics" },
+        { sno: 1, paperid: 11, title: "" },
+        { sno: 2, paperid: 12, title: "" },
+        { sno: 3, paperid: 13, title: "" },
+        { sno: 4, paperid: 14, title: "" },
+        { sno: 5, paperid: 15, title: "" },
+        { sno: 6, paperid: 16, title: "" },
+        { sno: 7, paperid: 17, title: "" },
+        { sno: 8, paperid: 18, title: "" },
+        { sno: 9, paperid: 19, title: "" },
+        { sno: 10, paperid: 20, title: "" },
+       
       ],
     },
     {
       id: 3,
-      title: "Day-1: DATE : 30 AUGUST 2024 / Time : 02:00 PM - 04:00 PM, TRACK- 3: Internet of Things (IoT), Agriculture and Smart Systems",
+      title: "Day-1: DATE : 25TH JULY 2024 / Time : 02:00 PM - 04:00 PM, TRACK- 3: Internet of Things (IoT), Agriculture and Smart Systems",
       details: [
-        {
-          sno: 1,
-          paperid: 14,
-          title: "Paper Title: IoT in Precision Agriculture",
-        },
-        {
-          sno: 2,
-          paperid: 15,
-          title: "Paper Title: Smart Systems for Crop Monitoring",
-        },
-        {
-          sno: 3,
-          paperid: 16,
-          title: "Paper Title: IoT for Smart Homes and Cities",
-        },
-      ],
+        { sno: 1, paperid: 21, title: "" },
+        { sno: 2, paperid: 22, title: "" },
+        { sno: 3, paperid: 23, title: "" },
+        { sno: 4, paperid: 24, title: "" },
+        { sno: 5, paperid: 25, title: "" },
+        { sno: 6, paperid: 26, title: "" },
+        { sno: 7, paperid: 27, title: "" },
+        { sno: 8, paperid: 28, title: "" },
+        { sno: 9, paperid: 29, title: "" },
+        { sno: 10, paperid: 30, title: "" },
+            ],
     },
     {
       id: 4,
-      title: "Day-1: DATE : 30 AUGUST 2024 / Time : 02:00 PM - 04:00 PM, TRACK- 4: Bio-Technology",
+      title: "Day-1: DATE : 25TH JULY 2024 / Time : 02:00 PM - 04:00 PM, TRACK- 4: Bio-Technology",
       details: [
-        {
-          sno: 1,
-          paperid: 17,
-          title: "Paper Title: CRISPR and Genetic Engineering",
-        },
-        {
-          sno: 2,
-          paperid: 18,
-          title: "Paper Title: Biotechnology in Drug Development",
-        },
-        {
-          sno: 3,
-          paperid: 19,
-          title: "Paper Title: Bioinformatics and Its Applications",
-        },
+        { sno: 1, paperid: 31, title: "" },
+        { sno: 2, paperid: 32, title: "" },
+        { sno: 3, paperid: 33, title: "" },
+        { sno: 4, paperid: 34, title: "" },
+        { sno: 5, paperid: 35, title: "" },
+        { sno: 6, paperid: 36, title: "" },
+        { sno: 7, paperid: 37, title: "" },
+        { sno: 8, paperid: 38, title: "" },
+        { sno: 9, paperid: 39, title: "" },
+        { sno: 10, paperid: 40, title: "" },
+        
       ],
     },
     {
       id: 5,
-      title: "Day-2: DATE : 31 AUGUST 2024 / Time: 10:00 AM - 01:30 PM, TRACK- 5: Healthcare Evaluation",
+      title: "Day-2: DATE : 26TH JULY 2024 / Time: 10:00 AM - 01:30 PM, TRACK- 5: Healthcare Evaluation",
       details: [
-        {
-          sno: 1,
-          paperid: 20,
-          title: "Paper Title: Evaluating AI in Healthcare Diagnosis",
-        },
-        {
-          sno: 2,
-          paperid: 21,
-          title: "Paper Title: Health Data Analytics for Patient Care",
-        },
-        {
-          sno: 3,
-          paperid: 22,
-          title: "Paper Title: Wearable Technology for Health Monitoring",
-        },
+        { sno: 1, paperid: 41, title: "" },
+        { sno: 2, paperid: 42, title: "" },
+        { sno: 3, paperid: 43, title: "" },
+        { sno: 4, paperid: 44, title: "" },
+        { sno: 5, paperid: 45, title: "" },
+        { sno: 6, paperid: 46, title: "" },
+        { sno: 7, paperid: 47, title: "" },
+        { sno: 8, paperid: 48, title: "" },
+        { sno: 9, paperid: 49, title: "" },
+        { sno: 10, paperid: 50, title: "" },
+        
       ],
     },
     {
       id: 6,
-      title: "Day-2: DATE : 31 AUGUST 2024 / Time: 10:00 AM - 01:30 PM, TRACK- 6: Process Automation, Innovation and Mobile Communication",
+      title: "Day-2: DATE : 26TH JULY 2024 / Time: 10:00 AM - 01:30 PM, TRACK- 6: Process Automation, Innovation and Mobile Communication",
       details: [
-        {
-          sno: 1,
-          paperid: 23,
-          title: "Paper Title: Automation in Manufacturing Processes",
-        },
-        {
-          sno: 2,
-          paperid: 24,
-          title: "Paper Title: Innovations in 5G Mobile Communication",
-        },
-        {
-          sno: 3,
-          paperid: 25,
-          title: "Paper Title: The Future of Mobile-Based Automation",
-        },
+        { sno: 1, paperid: 51, title: "" },
+        { sno: 2, paperid: 52, title: "" },
+        { sno: 3, paperid: 53, title: "" },
+        { sno: 4, paperid: 54, title: "" },
+        { sno: 5, paperid: 55, title: "" },
+        { sno: 6, paperid: 56, title: "" },
+        { sno: 7, paperid: 57, title: "" },
+        { sno: 8, paperid: 58, title: "" },
+        { sno: 9, paperid: 59, title: "" },
+        { sno: 10, paperid: 60, title: "" },
+       
       ],
     },
     {
       id: 7,
-      title: "Day-2: DATE : 31 AUGUST 2024 / Time: 10:00 AM - 01:30 PM, TRACK- 7: Cybersecurity and Privacy",
+      title: "Day-2: DATE : 26TH JULY 2024 / Time: 10:00 AM - 01:30 PM, TRACK- 7: Cybersecurity and Privacy",
       details: [
-        {
-          sno: 1,
-          paperid: 26,
-          title: "Paper Title: Cybersecurity Threats in the Digital Age",
-        },
-        {
-          sno: 2,
-          paperid: 27,
-          title: "Paper Title: Privacy Concerns in IoT Devices",
-        },
-        {
-          sno: 3,
-          paperid: 28,
-          title: "Paper Title: Blockchain for Enhanced Data Security",
-        },
+        { sno: 1, paperid: 61, title: "" },
+        { sno: 2, paperid: 62, title: "" },
+        { sno: 3, paperid: 63, title: "" },
+        { sno: 4, paperid: 64, title: "" },
+        { sno: 5, paperid: 65, title: "" },
+        { sno: 6, paperid: 66, title: "" },
+        { sno: 7, paperid: 67, title: "" },
+        { sno: 8, paperid: 68, title: "" },
+        { sno: 9, paperid: 69, title: "" },
+        { sno: 10, paperid: 70, title: "" },
+
       ],
     },
     {
       id: 8,
-      title: "Day-2: DATE : 31 AUGUST 2024 / Time : 01:30 PM - 03:00 PM, TRACK- 8: Communication and Advancement",
+      title: "Day-2: DATE : 26TH JULY 2024 / Time : 01:30 PM - 03:00 PM, TRACK- 8: Communication and Advancement",
       details: [
-        {
-          sno: 1,
-          paperid: 29,
-          title: "Paper Title: Advances in Wireless Communication",
-        },
-        {
-          sno: 2,
-          paperid: 30,
-          title: "Paper Title: Next-Gen Communication Networks",
-        },
-        {
-          sno: 3,
-          paperid: 31,
-          title: "Paper Title: Communication Technologies in Remote Areas",
-        },
+        { sno: 1, paperid: 71, title: "" },
+        { sno: 2, paperid: 72, title: "" },
+        { sno: 3, paperid: 73, title: "" },
+        { sno: 4, paperid: 74, title: "" },
+        { sno: 5, paperid: 75, title: "" },
+        { sno: 6, paperid: 76, title: "" },
+        { sno: 7, paperid: 77, title: "" },
+        { sno: 8, paperid: 78, title: "" },
+        { sno: 9, paperid: 79, title: "" },
+        { sno: 10, paperid: 80, title: "" },
+      
       ],
     },
     {
       id: 9,
-      title: "Day-2: DATE : 31 AUGUST 2024 / Time: 01:30 PM - 03:00 PM, TRACK- 9: Technologies for Logic and Computing",
+      title: "Day-2: DATE : 26TH JULY 2024 / Time: 01:30 PM - 03:00 PM, TRACK- 9: Technologies for Logic and Computing",
       details: [
-        {
-          sno: 1,
-          paperid: 32,
-          title: "Paper Title: Quantum Computing and Logical Systems",
-        },
-        {
-          sno: 2,
-          paperid: 33,
-          title: "Paper Title: Advances in Logic-Based Algorithms",
-        },
-        {
-          sno: 3,
-          paperid: 34,
-          title: "Paper Title: Logic in High-Performance Computing",
-        },
+        { sno: 1, paperid: 81, title: "" },
+        { sno: 2, paperid: 82, title: "" },
+        { sno: 3, paperid: 83, title: "" },
+        { sno: 4, paperid: 84, title: "" },
+        { sno: 5, paperid: 85, title: "" },
+        { sno: 6, paperid: 86, title: "" },
+        { sno: 7, paperid: 87, title: "" },
+        { sno: 8, paperid: 88, title: "" },
+        { sno: 9, paperid: 89, title: "" },
+        { sno: 9, paperid: 90, title: "" },
       ],
     },
   ];
@@ -194,7 +179,7 @@ const Schedule = () => {
               {/* Display track details if this track is selected */}
               {selectedTrack && selectedTrack.id === track.id && (
                 <div className="mt-4 w-full flex flex-col items-center">
-                  <h2 className="text-xs md:text-xl font-bold mb-4">{selectedTrack.title}</h2>
+                  {/* <h2 className="text-xs md:text-xl font-bold mb-4">{selectedTrack.title}</h2> */}
                   <div className="overflow-x-auto w-full flex justify-center">
                     <table className="text-left table-auto border-collapse border-2 border-[#4F709C]">
                       <thead>
