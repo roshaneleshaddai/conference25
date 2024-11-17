@@ -12,7 +12,11 @@ const nextConfig = {
         "rdconclave25.org",
         "yt3.googleusercontent.com",
         "d23qowwaqkh3fj.cloudfront.net",
-          "cis.ieee.org"
+        "media.andhrajyothy.com",
+        "s7ap1.scene7.com",
+        "i.ytimg.com",
+        "upload.wikimedia.org",
+        "explorebyroad.blog",
       ],
     },
   };
