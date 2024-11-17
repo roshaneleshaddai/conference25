@@ -235,7 +235,7 @@ const Header = () => {
           Contact Us
         </Link></li>
         <li><Link
-          href="/contact_us"
+          href="/vij_attractions"
           className="" onClick={toggleMenu}>
           Vijayawada Attractions
         </Link></li>
@@ -295,7 +295,7 @@ const Header = () => {
         </Link>
         
         <Link
-          href="/contact_us"
+          href="/vij_attractions"
           className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-base py-1 px-4' : 'text-base py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
         >
          Vijayawada Attractions
