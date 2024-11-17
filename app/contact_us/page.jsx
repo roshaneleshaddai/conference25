@@ -13,16 +13,7 @@ const contact = () => {
       "name":"Dr. Gargi M",
       "ph":8886599444,
     },
-    {
-      "id": 3,
-      "name":"Eleshaddai Roshan",
-      "ph":9618227549,
-      },
-      {
-        "id": 4,
-        "name":"Neeraja G",
-        "ph":8341323299,
-        },
+    
   ]
   return (
     <>
