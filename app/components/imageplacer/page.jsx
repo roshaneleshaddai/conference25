@@ -2,8 +2,8 @@ import React from 'react';
 import Image from 'next/image';
 const Imageplacer = ({name}) => {
   return (
-    <div className="md:min-h-screen">
-        <div
+    <div className="">
+    <div
     className="absolute  w-full lg:h-full h-1/3 bg-cover bg-center z-0 sm:block md:block lg:block"
     style={{
         backgroundImage: `url('images/vrsec1.jpeg')`, 
