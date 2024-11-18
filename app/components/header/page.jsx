@@ -65,7 +65,7 @@ const Header = () => {
               className="rounded-full  object-contain transition-all duration-300"
               loading="lazy"
           />
-          <div className={`md:block md:text-center transition-all duration-300 ease-in-out ${isScrolled ? 'text-base md:text-3xl ' : 'text-xl md:text-4xl'}`}>
+          <div className={`md:block md:text-center transition-all duration-300 ease-in-out ${isScrolled ? 'text-base md:text-3xl ' : 'text-xl md:text-3xl'}`}>
 
             <h2 className={`font-bold ${isScrolled ? 'text-[#16325B] ' : 'text-[#16325B]'} `}>
               Velagapudi Ramakrishna<br></br>Siddhartha Engineering College
