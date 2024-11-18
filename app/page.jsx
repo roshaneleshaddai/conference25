@@ -45,7 +45,7 @@ export default function Home() {
           <hr className="h-1 my-4 bg-[#227B94] border-0  w-1/3" />
           <h1 className="lg:text-4xl text-3xl text-[#10375C]">It is our great pleasure to warmly <br />welcome you to <div className="text-[#F3C623]">ICICC-2025.</div></h1>
         </div>
-        <div className=" md: font-medium md:w-2/3  text-xl md:text-2xl">
+        <div className=" md: font-medium md:w-2/3  text-xl md:text-xl">
             <p className="text-justify">
       The objective of this Scopus indexed 8th International Conference on Intelligent
       Computing and Communication (ICICC - 2025) is to present a unified platform
@@ -78,7 +78,7 @@ export default function Home() {
       <section id="partners" className="">
         <div className="flex flex-col md:flex-row  justify-around">
           <div className="flex flex-col mx-16 md:w-1/2 ">
-            <div className="font-bold text-2xl md:text-5xl pb-4">
+            <div className="font-bold text-2xl md:text-3xl pb-4">
             Technical Partners
             <hr className="h-1 my-4 bg-[#227B94] border-0 " />
             </div>
@@ -91,7 +91,7 @@ export default function Home() {
               className="p-4"
             />
             <Image
-              src="https://cis.ieee.org/images/files/Branding/logos/color/IEEE_CIS_logo_RGB_72ppi.jpg"
+              src=" https://yt3.googleusercontent.com/ytc/AIdro_kM2RdhNshkPWatAF8zPJHmpU03bs3mst_gMBaf_ETPvA=s900-c-k-c0x00ffffff-no-rj"
               alt="Computer Society Of India"
               width={150} 
               height={200}
@@ -114,7 +114,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-col mx-16 md:w-1/2 ">
-          <div className="font-bold text-2xl md:text-5xl pb-4">
+          <div className="font-bold text-2xl md:text-3xl pb-4">
             Publishing  Partners
             <hr className="h-1 my-4 bg-[#227B94] border-0  " />
             </div>
@@ -141,12 +141,12 @@ const Editions_News =() =>{
     <section id="editions" className="">
       <div className="flex flex-col md:flex-row  justify-around">
         <div className="flex flex-col mx-16 md:w-1/2 ">
-          <div className="font-bold text-2xl md:text-5xl pb-4">
+          <div className="font-bold text-2xl md:text-3xl pb-4">
           Previous Editions
           <hr className="h-1 my-4 bg-[#227B94] border-0 " />
           </div>
           <div className="flex flex-col font-bold  md:flex-row">
-            <ul  className="md:text-4xl pl-10">
+            <ul  className="md:text-2xl pl-10">
             <li className=" py-4">
                 <Link href="https://link.springer.com/book/10.1007/978-981-99-1588-0">ICICC 2022 (7<sup>th</sup> Edition)</Link>
               </li>
@@ -172,7 +172,7 @@ const Editions_News =() =>{
           </div>
         </div>
         <div className="flex flex-col mx-16 md:w-1/2 ">
-        <div className="font-bold text-2xl md:text-5xl pb-4">
+        <div className="font-bold text-2xl md:text-3xl pb-4">
           News and Updates
           <hr className="h-1 my-4 bg-[#227B94] border-0  " />
           </div>
@@ -217,8 +217,8 @@ const About_vrsec = () => {
             isVisible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'
           }`}
         >
-          <h2 className="text-2xl md:text-7xl font-bold mb-4 text-[#227B94]">About VRSEC</h2>
-          <p className="text-sm md:text-2xl text-justify ">
+          <h2 className="text-2xl md:text-4xl font-bold mb-4 text-[#227B94]">About VRSEC</h2>
+          <p className="text-sm md:text-xl text-justify ">
           VRSEC has achieved significant recognition, ranked 141st in the NIRF 2022 and consistently below 200 for the past five years. It is NAAC accredited with an A+ grade and holds autonomous status extended to 2028. The institute has been NBA accredited since 1998 and follows outcome-based education (Tier I) since 2013. It has earned accolades such as the AICTE-CII IndPact award, platinum ratings, and ARIIA rankings, and is part of AICTE's MARGADARSHAN scheme. VRSEC is also recognized for its research contributions, NABL-accredited labs, and consultancy services. It collaborates with leading organizations and boasts strong placement records with top global companies.
           </p>
         </div>
@@ -229,12 +229,12 @@ const About_vrsec = () => {
             isVisible ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'
           }`}
         >
-          <h2 className="text-2xl md:text-5xl font-bold mb-4 text-[#227B94]">Scope</h2>
-          <p className="text-sm md:text-2xl text-justify ">
+          <h2 className="text-2xl md:text-4xl font-bold mb-4 text-[#227B94]">Scope</h2>
+          <p className="text-sm md:text-xl text-justify ">
             The scope of this conference has been kept wide, and the following are the topics covered (but not limited to):
           </p>
           <div className="flex flex-col md:flex-row">
-          <ul className=" text-sm md:text-2xl list-disc mt-10  ml-5">
+          <ul className=" text-sm md:text-xl list-disc mt-10  ml-5">
             <li className="p-2">Artificial Intelligence</li>
             <li className="p-2">Computational Intelligence</li>
             <li className="p-2">Cognitive Computing</li>
