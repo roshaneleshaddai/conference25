@@ -17,6 +17,7 @@ const nextConfig = {
         "i.ytimg.com",
         "upload.wikimedia.org",
         "explorebyroad.blog",
+          "sipnaengg.ac.in",
       ],
     },
   };
