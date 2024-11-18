@@ -157,7 +157,7 @@ const committees = () => {
     <>
       <div className="mt-44 md:mt-96"></div>
       <Imageplacer name="Committees" />
-      <div className="px-6 py-10 lg:mt-5 mt-0 bg-gray-100">
+      <div className="px-6 lg:py-10 py-5 lg:mt-5 mt-0 bg-white">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Left Column */}
           <div className="space-y-8">
@@ -166,10 +166,10 @@ const committees = () => {
                 key={index}
                 className="bg-white shadow-lg rounded-tr-[4rem] rounded-bl-[4rem] p-6 border-l-4 border-[#227B94] animate-swipeInLeft"
               >
-                <h2 className="text-2xl font-semibold text-black mb-4">
+                <h2 className="lg:text-2xl text-xl font-semibold text-black mb-4">
                   {committee.title}
                 </h2>
-                <ul className="list-disc list-inside space-y-2 pl-5 text-gray-900 text-lg">
+                <ul className="list-disc list-inside space-y-2 lg:pl-5 text-gray-900 lg:text-lg text-base">
                   {committee.members.map((member, idx) => (
                     <li key={idx}>{member}</li>
                   ))}
@@ -184,10 +184,10 @@ const committees = () => {
                 key={index}
                 className="bg-white shadow-lg rounded-tr-[4rem] rounded-bl-[4rem] p-6 border-l-4 border-[#227B94] animate-swipeInRight"
               >
-                <h2 className="text-2xl font-semibold text-black mb-4">
+                <h2 className="lg:text-2xl text-xl font-semibold text-black mb-4">
                   {committee.title}
                 </h2>
-                <ul className="list-disc list-inside space-y-2 pl-5 text-gray-900 text-lg">
+                <ul className="list-disc list-inside space-y-2 lg:pl-5 text-gray-900 lg:text-lg text-base">
                   {committee.members.map((member, idx) => (
                     <li key={idx}>{member}</li>
                   ))}
