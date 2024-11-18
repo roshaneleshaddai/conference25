@@ -157,7 +157,7 @@ const committees = () => {
     <>
       <div className="mt-44 md:mt-96"></div>
       <Imageplacer name="Committees" />
-      <div className="px-6 py-10 bg-gray-100">
+      <div className="px-6 py-10 lg:mt-5 mt-0 bg-gray-100">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Left Column */}
           <div className="space-y-8">
