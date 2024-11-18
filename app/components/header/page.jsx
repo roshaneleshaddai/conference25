@@ -65,12 +65,12 @@ const Header = () => {
               className="rounded-full  object-contain transition-all duration-300"
               loading="lazy"
           />
-          <div className={`lg:block lg:text-center transition-all duration-300 ease-in-out ${isScrolled ? 'text-base md:text-4xl ' : 'text-xl md:text-4xl'}`}>
+          <div className={`lg:block lg:text-center transition-all duration-300 ease-in-out ${isScrolled ? 'text-base lg:text-4xl ' : 'text-xl lg:text-4xl'}`}>
 
             <h2 className={`font-bold ${isScrolled ? 'text-[#16325B] ' : 'text-[#16325B]'} `}>
               Velagapudi Ramakrishna<br></br>Siddhartha Engineering College
             </h2>
-            <h2 className={`text-sm font-normal ${isScrolled ? 'text-xs md:text-lg text-[#16325B] ' : 'text-lg md:text-xl text-[#16325B]'}`}>
+            <h2 className={`text-sm font-normal ${isScrolled ? 'text-xs lg:text-lg text-[#16325B] ' : 'text-lg lg:text-xl text-[#16325B]'}`}>
               (Deemed to be University)<br></br>
               Kanuru, Vijayawada, Andhra Pradesh, 520007.
             </h2>
