@@ -117,7 +117,7 @@ const Header = () => {
           </div>
           <div className="hidden md:block">
             <Image
-              src="naac-a.jpg"
+              src="/images/naac-a.jpg"
               alt="naac"
               width={isScrolled ? 140 : 140} 
               height={isScrolled ? 140 : 140}
