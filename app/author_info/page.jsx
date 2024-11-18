@@ -34,8 +34,7 @@ const Payment=()=>{
         className={`mt-1 w-full bg-white bg-opacity-50 md:p-8 pb-4 px-2 rounded-lg transition-opacity duration-1000 `}>
         <h1 className="md:text-2xl text-xl font-bold text-center pb-8 text-[#227B94]">Payment Details</h1>
   
-      {/* table of journals */}
-  <div className="overflow-x-auto px-2 flex justify-center">
+  <div className="overflow-x-auto flex justify-center">
     <table className=" text-left table-auto border-collapse border-2 border-[#4F709C]">
       <thead>
         <tr>
