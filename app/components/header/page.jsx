@@ -119,8 +119,8 @@ const Header = () => {
             <Image
               src="https://sipnaengg.ac.in/wp-content/uploads/2023/09/a-grade.jpg"
               alt="naac"
-              width={isScrolled ? 120 : 140} 
-              height={isScrolled ? 120 : 140}
+              width={isScrolled ? 140 : 140} 
+              height={isScrolled ? 140 : 140}
               className="bg-white/90 rounded-lg"
             />
           </div>
