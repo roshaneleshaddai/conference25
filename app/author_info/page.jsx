@@ -133,7 +133,7 @@ const author_info = () => {
         "\n  \n\nul, li{\n  list-style: none;\n  padding: 0;\n}\n\n.wrapper{\n  background: #eaf6ff;\n  padding: 2rem;\n  border-radius: 15px;\n}\nh1{\n  font-size: 1.1rem;\n  font-family: sans-serif;\n}\n.sessions{\n  margin-top: 2rem;\n  border-radius: 12px;\n  position: relative;\n}\nli{\n  padding-bottom: 1.5rem;\n  border-left: 1px solid #abaaed;\n  position: relative;\n  padding-left: 20px;\n  margin-left: 10px;\n  &:last-child{\n    border: 0px;\n    padding-bottom: 0;\n  }\n  &:before{\n    content: '';\n    width: 15px;\n    height: 15px;\n    background: white;\n    border: 1px solid #4e5ed3;\n    box-shadow: 3px 3px 0px #bab5f8;\n    border-radius: 50%;\n    position: absolute;\n    left: -10px;\n    top: 0px;\n  }\n}\n.time{\n  color: #2a2839;\n  font-family: 'Poppins', sans-serif;\n  font-weight: 500;\n}\np{\n  color: #4f4f4f;\n      font-family: sans-serif;\n  line-height: 1.5;\n  margin-top:0.4rem;\n}\n  "
     }}
   /> */}
-  <div id='submission_guidelines' className='lg:m-5 lg:ml-10 m-4 flex lg:flex-row flex-col items-center justify-center'>
+  <div id='submission_guidelines' className='lg:m-5 lg:ml-10 lg:m-4 flex lg:flex-row flex-col items-center justify-center'>
   <div className="bg-[#FFDC7F] p-8 rounded-[15px] lg:w-1/5">
     <h1 className='font-bold text-xl'> Contents of Author Info<br></br><span className='text-sm'> (click to navigate)</span> </h1>
     <ul className="mt-8 rounded-[12px] relative">
