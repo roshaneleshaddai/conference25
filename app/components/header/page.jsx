@@ -120,7 +120,7 @@ const Header = () => {
         alt="Springer"
         width={isScrolled ? 100 : 140}
         height={isScrolled ? 100 : 90}
-        className="bg-white/90 rounded-lg object-cover"
+        className="bg-white/90 rounded-lg object-fill"
       />
     </div>
     <div className="hidden lg:block">
@@ -129,7 +129,7 @@ const Header = () => {
         alt="NIRF"
         width={isScrolled ? 100 : 140}
         height={isScrolled ? 100 : 90}
-        className="bg-white/90 rounded-lg object-cover"
+        className="bg-white/90 rounded-lg object-fill"
       />
     </div>
   </div>
@@ -142,7 +142,7 @@ const Header = () => {
         alt="nba"
         width={isScrolled ? 100 : 140}
         height={isScrolled ? 100 : 90}
-        className="bg-white/90 rounded-lg object-cover"
+        className="bg-white/90 rounded-lg object-fill"
       />
     </div>
     <div className="hidden lg:block">
@@ -151,7 +151,7 @@ const Header = () => {
         alt="naac"
         width={isScrolled ? 100 : 140}
         height={isScrolled ? 100 : 90}
-        className="bg-white/90 rounded-lg object-cover"
+        className="bg-white/90 rounded-lg object-fill"
       />
     </div>
   </div>
