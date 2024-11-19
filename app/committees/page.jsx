@@ -73,10 +73,24 @@ const committees = () => {
       ]
     },
     {
-      title: "Publicity Committee",
-      members: [
-        "Dr. K. Suvarna Vani, Professor, CSE, VRSEC",
-      ],
+      "title": "Publicity Committee",
+      "members": [
+        "Dr. Jaya Prakash Sunkavalli, Assistant Professor, IT, VRSEC",
+        "Dr. Chavva Subba Reddy, Assistant Professor, IT, VRSEC",
+        "Dr. Gargi Madala, Assistant Professor, IT, VRSEC",
+        "Dr. Y. Sangeetha, Assistant Professor, IT, VRSEC",
+        "Dr. A. Srisaila, Assistant Professor, IT, VRSEC",
+        "Kalayan Chakravarti Yelavarti, Assistant Professor, IT, VRSEC",
+        "G. Geetha, Assistant Professor, IT, VRSEC",
+        "P. Rama Devi, Assistant Professor, IT, VRSEC",
+        "P. Madhavi Latha, Assistant Professor, IT, VRSEC",
+        "K. Pranathi, Assistant Professor, IT, VRSEC",
+        "S. Kranthi, Assistant Professor, IT, VRSEC",
+        "K. Raja Sravankumar, Assistant Professor, IT, VRSEC",
+        "T. Lakshmi Surekha, Assistant Professor, IT, VRSEC",
+        "K. Madhavi, Assistant Professor, IT, VRSEC",
+        "Cherukuri Nanda Krishna, Assistant Professor, IT, VRSEC"
+      ]
     },    
     {
       title: "Advisory Committee",
@@ -171,7 +185,7 @@ const committees = () => {
 
   return (
     <>
-      <div className="mt-44 md:mt-96"></div>
+      <div className="mt-44 lg:mt-96 text-justify"></div>
       <Imageplacer name="Committees" />
       <div className="px-6 lg:py-10 py-5 lg:mt-5 mt-0 bg-white">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
