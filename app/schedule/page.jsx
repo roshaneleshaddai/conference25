@@ -8,7 +8,7 @@ const Schedule = () => {
   const tracks = [
     {
       id: 1,
-      title: "Day-1: DATE : 25TH JULY 2024 / Time : 12:30 PM - 01:30 PM, TRACK- 1: Artificial Intelligence and Machine Learning",
+      title: "Day-1: DATE : 25TH JULY 2025 / Time : 12:30 PM - 01:30 PM, TRACK- 1: Artificial Intelligence and Machine Learning",
       details: [
         { sno: 1, paperid: 1, title: "" },
         { sno: 2, paperid: 2, title: "" },
@@ -24,7 +24,7 @@ const Schedule = () => {
     },
     {
       id: 2,
-      title: "Day-1: DATE : 25TH JULY 2024 / Time : 12:30 PM - 01:30 PM, TRACK- 2: Machine Intelligence",
+      title: "Day-1: DATE : 25TH JULY 2025 / Time : 12:30 PM - 01:30 PM, TRACK- 2: Data Science and Big Data Analytics",
       details: [
         { sno: 1, paperid: 11, title: "" },
         { sno: 2, paperid: 12, title: "" },
@@ -41,7 +41,7 @@ const Schedule = () => {
     },
     {
       id: 3,
-      title: "Day-1: DATE : 25TH JULY 2024 / Time : 02:00 PM - 04:00 PM, TRACK- 3: Internet of Things (IoT), Agriculture and Smart Systems",
+      title: "Day-1: DATE : 25TH JULY 2025 / Time : 02:00 PM - 04:00 PM, TRACK- 3: Internet of Things (IoT) and Smart Systems",
       details: [
         { sno: 1, paperid: 21, title: "" },
         { sno: 2, paperid: 22, title: "" },
@@ -57,7 +57,7 @@ const Schedule = () => {
     },
     {
       id: 4,
-      title: "Day-1: DATE : 25TH JULY 2024 / Time : 02:00 PM - 04:00 PM, TRACK- 4: Bio-Technology",
+      title: "Day-1: DATE : 25TH JULY 2024 / Time : 02:00 PM - 04:00 PM, TRACK- 4: Wireless Communication and Networking",
       details: [
         { sno: 1, paperid: 31, title: "" },
         { sno: 2, paperid: 32, title: "" },
@@ -74,7 +74,7 @@ const Schedule = () => {
     },
     {
       id: 5,
-      title: "Day-2: DATE : 26TH JULY 2024 / Time: 10:00 AM - 01:30 PM, TRACK- 5: Healthcare Evaluation",
+      title: "Day-2: DATE : 26TH JULY 2025 / Time: 10:00 AM - 01:30 PM, TRACK- 5: Cybersecurity and Cryptography",
       details: [
         { sno: 1, paperid: 41, title: "" },
         { sno: 2, paperid: 42, title: "" },
@@ -91,7 +91,7 @@ const Schedule = () => {
     },
     {
       id: 6,
-      title: "Day-2: DATE : 26TH JULY 2024 / Time: 10:00 AM - 01:30 PM, TRACK- 6: Process Automation, Innovation and Mobile Communication",
+      title: "Day-2: DATE : 26TH JULY 2025 / Time: 10:00 AM - 01:30 PM, TRACK- 6: Robotics and Autonomous Systems",
       details: [
         { sno: 1, paperid: 51, title: "" },
         { sno: 2, paperid: 52, title: "" },
@@ -108,7 +108,7 @@ const Schedule = () => {
     },
     {
       id: 7,
-      title: "Day-2: DATE : 26TH JULY 2024 / Time: 10:00 AM - 01:30 PM, TRACK- 7: Cybersecurity and Privacy",
+      title: "Day-2: DATE : 26TH JULY 2025 / Time: 10:00 AM - 01:30 PM, TRACK- 7: Cloud, Edge, and High-Performance Computing",
       details: [
         { sno: 1, paperid: 61, title: "" },
         { sno: 2, paperid: 62, title: "" },
@@ -123,39 +123,39 @@ const Schedule = () => {
 
       ],
     },
-    {
-      id: 8,
-      title: "Day-2: DATE : 26TH JULY 2024 / Time : 01:30 PM - 03:00 PM, TRACK- 8: Communication and Advancement",
-      details: [
-        { sno: 1, paperid: 71, title: "" },
-        { sno: 2, paperid: 72, title: "" },
-        { sno: 3, paperid: 73, title: "" },
-        { sno: 4, paperid: 74, title: "" },
-        { sno: 5, paperid: 75, title: "" },
-        { sno: 6, paperid: 76, title: "" },
-        { sno: 7, paperid: 77, title: "" },
-        { sno: 8, paperid: 78, title: "" },
-        { sno: 9, paperid: 79, title: "" },
-        { sno: 10, paperid: 80, title: "" },
+    // {
+    //   id: 8,
+    //   title: "Day-2: DATE : 26TH JULY 2025 / Time : 01:30 PM - 03:00 PM, TRACK- 8: Communication and Advancement",
+    //   details: [
+    //     { sno: 1, paperid: 71, title: "" },
+    //     { sno: 2, paperid: 72, title: "" },
+    //     { sno: 3, paperid: 73, title: "" },
+    //     { sno: 4, paperid: 74, title: "" },
+    //     { sno: 5, paperid: 75, title: "" },
+    //     { sno: 6, paperid: 76, title: "" },
+    //     { sno: 7, paperid: 77, title: "" },
+    //     { sno: 8, paperid: 78, title: "" },
+    //     { sno: 9, paperid: 79, title: "" },
+    //     { sno: 10, paperid: 80, title: "" },
       
-      ],
-    },
-    {
-      id: 9,
-      title: "Day-2: DATE : 26TH JULY 2024 / Time: 01:30 PM - 03:00 PM, TRACK- 9: Technologies for Logic and Computing",
-      details: [
-        { sno: 1, paperid: 81, title: "" },
-        { sno: 2, paperid: 82, title: "" },
-        { sno: 3, paperid: 83, title: "" },
-        { sno: 4, paperid: 84, title: "" },
-        { sno: 5, paperid: 85, title: "" },
-        { sno: 6, paperid: 86, title: "" },
-        { sno: 7, paperid: 87, title: "" },
-        { sno: 8, paperid: 88, title: "" },
-        { sno: 9, paperid: 89, title: "" },
-        { sno: 9, paperid: 90, title: "" },
-      ],
-    },
+    //   ],
+    // },
+    // {
+    //   id: 9,
+    //   title: "Day-2: DATE : 26TH JULY 2025 / Time: 01:30 PM - 03:00 PM, TRACK- 9: Technologies for Logic and Computing",
+    //   details: [
+    //     { sno: 1, paperid: 81, title: "" },
+    //     { sno: 2, paperid: 82, title: "" },
+    //     { sno: 3, paperid: 83, title: "" },
+    //     { sno: 4, paperid: 84, title: "" },
+    //     { sno: 5, paperid: 85, title: "" },
+    //     { sno: 6, paperid: 86, title: "" },
+    //     { sno: 7, paperid: 87, title: "" },
+    //     { sno: 8, paperid: 88, title: "" },
+    //     { sno: 9, paperid: 89, title: "" },
+    //     { sno: 9, paperid: 90, title: "" },
+    //   ],
+    // },
   ];
 
   const handleClick = (t) => setSelectedTrack(t);
