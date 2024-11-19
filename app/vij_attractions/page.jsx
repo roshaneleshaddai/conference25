@@ -37,25 +37,25 @@ const attractions = [
 const Attractions = () => {
   return (
     <>
-      <div className="mt-44 md:mt-96"></div>
+      <div className="mt-44 lg:mt-96"></div>
       <div className="p-6">
-        <div className="flex flex-col gap-12 md:m-24">
-          <h1 className="md:text-5xl text-xl font-bold mb-6">Vijayawada Attractions</h1>
+        <div className="flex flex-col gap-12 lg:m-24">
+          <h1 className="lg:text-5xl text-xl font-bold mb-6">Vijayawada Attractions</h1>
           {attractions.map((attraction, index) => (
             <div
               key={index}
-              className={`flex flex-col md:flex-row ${
-                index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
+              className={`flex flex-col lg:flex-row ${
+                index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'
               } items-center gap-4 border border-gray-300 rounded-lg p-4 shadow-sm`}
             >
               <img
                 src={attraction.image}
                 alt={attraction.name}
-                className="md:w-96 md:h-96 w-52 h-52 rounded-md object-cover"
+                className="lg:w-96 lg:h-96 w-52 h-52 rounded-md object-cover"
               />
-              <div className="text-center md:text-left">
-                <h2 className="md:text-4xl text-lg font-semibold mb-2">{attraction.name}</h2>
-                <p className="text-gray-600 md:text-xl text-xs text-justify ">{attraction.description}</p>
+              <div className="text-center lg:text-left">
+                <h2 className="lg:text-4xl text-lg font-semibold mb-2">{attraction.name}</h2>
+                <p className="text-gray-600 lg:text-xl text-xs text-justify ">{attraction.description}</p>
               </div>
             </div>
           ))}
