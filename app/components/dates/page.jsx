@@ -11,7 +11,7 @@ const Dates = () => {
           <ul className="text-sm md:text-xl  space-y-4">
              <li className="flex items-center">
                <FaRegCalendarAlt className="mr-2" />
-               <span>2nd July 2025 - Paper Submission Last Date</span>
+               <span>2nd June 2025 - Paper Submission Last Date</span>
              </li>
              <li className="flex items-center">
                <FaRegCalendarAlt className="mr-2" />
