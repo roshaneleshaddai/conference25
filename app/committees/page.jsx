@@ -57,17 +57,20 @@ const committees = () => {
       ],
     },
     {
-      title: "Editorial Committee",
-      members: [
-        "Dr. K. Suvarna Vani, Professor, CSE, VRSEC",
-        "Dr. Kalyani Gadupudi, Associate Professor, IT, VRSEC",
+      "title": "Editorial Committee",
+      "members": [
+        "Dr. K. Suvarna Vani, Professor, CSE, VRSEC, India",
+        "Dr. M. Suneetha, Professor & Dean – Research, Technology Development & IQAC, VRSEC, India",
+        "Dr. Naif Almakayeel, Associate Professor, Industrial Engineering, King Khalid University",
+        "Dr. E. Laxmi Lydia, Professor, IT, VRSEC, India",
+        "Dr. Kalyani Gadupudi, Associate Professor, IT, VRSEC, India",
+        "Dr. Elvir Munirovich Akhmetshin, Department of Economics and Management, Elabuga Institute, Kazan Federal University, Kazan, Russia",
         "Dr. Cheng Cheng, Professor, Computer Science, Swansea University, UK",
         "Dr. Rabia Emhamed Al Mamlook, Department of Business Administration, Trine University, USA",
         "Abeer Aljohani, Department of Computer Science, Applied College, Taibah University, Medina 42353, Saudi Arabia",
-        "Dr. K. Srinivas, Professor, VRSEC",
         "Ming Yang, Ph.D., Professor, Department of Information Technology, College of Computing and Software Engineering, Kennesaw State University - Marietta Campus",
-        "Dr. V. Radhesyam, Senior Assistant Professor, IT, VRSEC",
-      ],
+        "Dr. V. Radhesyam, Senior Assistant Professor, IT, VRSEC, India"
+      ]
     },
     {
       title: "Publicity Committee",
@@ -157,7 +160,7 @@ const committees = () => {
     <>
       <div className="mt-44 md:mt-96"></div>
       <Imageplacer name="Committees" />
-      <div className="px-6 lg:py-10 pb-5 lg:mt-5 mt-0 bg-white">
+      <div className="px-6 lg:py-10 py-5 lg:mt-5 mt-0 bg-white">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Left Column */}
           <div className="space-y-8">
