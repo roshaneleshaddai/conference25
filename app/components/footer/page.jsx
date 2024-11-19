@@ -21,7 +21,7 @@ const Footer = () => {
           </div>
         
           {/* Address Section */}
-          <div className="flex-col justify-around p-2 md:p-20 md:gap-10">
+          <div className="flex-col justify-around p-2 md:py-20 md:gap-10">
             <div className="md:flex gap-10">
           <div className="mb-6 md:mb-0">
             <h2 className="text-lg font-semibold mb-2">College Address</h2>
