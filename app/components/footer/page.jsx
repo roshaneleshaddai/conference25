@@ -6,15 +6,15 @@ const Footer = () => {
     <footer className="bg-[#F5F5F5] text-black py-3">
       <div className="container mx-auto px-4">
         {/* Contact Info Section */}
-        <div className="md:flex justify-between">
+        <div className="lg:flex justify-between">
           {/* Address Section */}
-          <div className="mb-6 md:mb-0">
+          <div className="mb-6 lg:mb-0">
             <h2 className="text-lg font-semibold mb-2">College Address</h2>
             <p>Velagapudi Ramakrishna Siddhartha Engineering College,<br></br> Chalasani Nagar,<br></br> Kanuru,<br></br> Vijayawada, Andhra Pradesh 520007</p>
           </div>
 
           {/* Phone Numbers */}
-          <div className="mb-6 md:mb-0">
+          <div className="mb-6 lg:mb-0">
             <h2 className="text-lg font-semibold mb-2">Contact Numbers</h2>
             <p><FaPhoneAlt className="inline mr-2" /> Dr. Jaya Prakash S - 9848143200, Dr. Gargi M - 8886599444</p>
             <p><FaPhoneAlt className="inline mr-2" /> Student coordinators</p>
