@@ -1,4 +1,4 @@
-'use client';  // Ensure this is at the very top of the file
+'use client'; // Ensure this is at the very top of the file
 
 import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa"; // Import close icon
@@ -8,7 +8,9 @@ import Image from 'next/image';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false); // State to track scrolling
+  const [isScrolled, setIsScrolled] = useState(false); // Tracks scroll position
+  const [isVisible, setIsVisible] = useState(true); // Controls header visibility
+  const [lastScrollPos, setLastScrollPos] = useState(0); // Tracks the last scroll position
   const router = useRouter();
 
   // Toggle the mobile menu
@@ -25,14 +27,23 @@ const Header = () => {
     }
   };
 
-  // Add event listener to detect scroll
+  // Handle scroll behavior
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 100) {
-        setIsScrolled(true);  // When scrolled past 100px, set to true
+      const currentScrollPos = window.scrollY;
+
+      if (currentScrollPos === 0) {
+        setIsScrolled(false); // Reset to default when at the top
+        setIsVisible(true);
+      } else if (currentScrollPos > lastScrollPos) {
+        setIsScrolled(true); // Scrolled down
+        setIsVisible(false); // Hide header when scrolling down
       } else {
-        setIsScrolled(false); // Otherwise, set to false
+        setIsScrolled(true); // Scrolled up but not to the top
+        setIsVisible(true); // Show header when scrolling up
       }
+
+      setLastScrollPos(currentScrollPos); // Update the last scroll position
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -41,57 +52,62 @@ const Header = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [lastScrollPos]);
 
   return (
   // <div className="relative w-full h-full">
-    <header className={`fixed w-full m-auto top-0 z-50 h-30 transition-all duration-300 ease-in-out  bg-[#78B7D0] ${isScrolled ? 'py-0 md:py-2' : 'py-2 md:py-4'}`}>
-    {/* <video
-      
-      loop
-      muted
-      className="absolute inset-0 w-full h-full object-cover z-[-1]"
+  <header
+  className={`fixed w-full m-auto top-0 z-50 transition-transform duration-300 ease-in-out ${
+    isScrolled ? 'py-0 md:py-2 bg-[#78B7D0]' : 'py-2 md:py-4 bg-[#78B7D0]'
+  } ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}
+>
+  <div className="flex items-center justify-around">
+    {/* Logo Section */}
+    <Image
+      src="/images/vrseclogo.png"
+      alt="VRSEC Logo"
+      width={isScrolled ? 130 : 140}
+      height={isScrolled ? 130 : 140}
+      className="rounded-full object-contain transition-all duration-300"
+      loading="lazy"
+    />
+    <div
+      className={`md:block md:text-center transition-all duration-300 ease-in-out ${
+        isScrolled ? 'text-base md:text-2xl' : 'text-xl md:text-3xl'
+      }`}
     >
-      <source src="/images/bg.mp4" type="video/mp4" />
-    </video> */}
-      <div className="flex items-center justify-around">
-        {/* Logo Section */}
-        {/* <div className="flex items-center justify-around space-x-0 md:space-x-4"> */}
-          <Image
-              src="/images/vrseclogo.png"
-              alt="VRSEC Logo"
-              width={isScrolled ? 130 : 140}
-              height={isScrolled ? 130 : 140}
-              className="rounded-full  object-contain transition-all duration-300"
-              loading="lazy"
-          />
-          <div className={`md:block md:text-center transition-all duration-300 ease-in-out ${isScrolled ? 'text-base md:text-2xl ' : 'text-xl md:text-3xl'}`}>
+      <h2 className={`font-bold text-[#16325B]`}>
+        Velagapudi Ramakrishna<br />
+        Siddhartha Engineering College
+      </h2>
+      <h2
+        className={`text-sm font-normal ${
+          isScrolled ? 'text-xs md:text-lg text-[#16325B]' : 'text-lg md:text-xl text-[#16325B]'
+        }`}
+      >
+        (Deemed to be University)
+        <br />
+        Kanuru, Vijayawada, Andhra Pradesh, 520007.
+      </h2>
+    </div>
 
-            <h2 className={`font-bold ${isScrolled ? 'text-[#16325B] ' : 'text-[#16325B]'} `}>
-              Velagapudi Ramakrishna<br></br>Siddhartha Engineering College
-            </h2>
-            <h2 className={`text-sm font-normal ${isScrolled ? 'text-xs md:text-lg text-[#16325B] ' : 'text-lg md:text-xl text-[#16325B]'}`}>
-              (Deemed to be University)<br></br>
-              Kanuru, Vijayawada, Andhra Pradesh, 520007.
-            </h2>
-          </div>
+    {isScrolled && isVisible && (
+      <div className="hidden items-center justify-center gap-16 md:flex my-2">
+        <div className="items-center text-center flex-col">
+          <h2 className="font-bold text-white text-xs md:text-2xl">
+            8<sup>th</sup> International Conference on Intelligent Computing and
+            <br />
+            Communication ICICC-2025
+          </h2>
+          <h2 className="text-sm text-[#112D32] font-bold text-xs md:text-base">
+            25<sup>th</sup> & 26<sup>th</sup> July - 2025
+            <br />
+            Organized by: Department of Information Technology
+          </h2>
+        </div>
+      </div>
+    )}
 
-          {isScrolled && (
-            <div className="hidden items-center justify-center gap-16 md:flex my-2">
-              <div className="items-center text-center flex-col">
-                <h2 className="font-bold text-3xl text-white text-xs md:text-2xl">
-                  8<sup>th</sup> International Conference on Intelligence Computing and
-                  <br />
-                  Communication ICICC-2025
-                </h2>
-                <h2 className="text-sm text-[#112D32] font-bold text-xs md:text-base">
-                  25<sup>th</sup> & 26<sup>th</sup> July - 2025
-                  <br />
-                  Organized by: Department of Information Technology
-                </h2>
-              </div>
-            </div>
-          )}
 
 
           <div
