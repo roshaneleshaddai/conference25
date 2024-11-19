@@ -31,23 +31,23 @@ const Payment=()=>{
   return (
      <section>
        <div
-        className={`mt-1 w-full bg-white bg-opacity-50 md:p-8 pb-4 px-2 rounded-lg transition-opacity duration-1000 `}>
-        <h1 className="md:text-2xl text-xl font-bold text-center pb-8 text-[#227B94]">Payment Details</h1>
+        className={`mt-1 w-full bg-white bg-opacity-50 lg:p-8 pb-4 px-2 rounded-lg transition-opacity duration-1000 `}>
+        <h1 className="lg:text-2xl text-xl font-bold text-center pb-8 text-[#227B94]">Payment Details</h1>
   
       {/* table of journals */}
   <div className="overflow-x-auto px-2 flex justify-center">
     <table className=" text-left table-auto border-collapse border-2 border-[#4F709C]">
       <thead>
         <tr>
-          <th className="px-4 py-2 border  text-[#16325B] bg-[#FFDC7F] text-bold text-xs md:text-xl border-[#4F709C]">Fee Payment Details</th>
-          <th className="px-4 py-2 border  text-[#16325B] bg-[#FFDC7F] text-bold text-xs md:text-xl border-[#4F709C]">Authors/Delegates may pay the conference registration fee to given below:</th>
+          <th className="px-4 py-2 border  text-[#16325B] bg-[#FFDC7F] text-bold text-xs lg:text-xl border-[#4F709C]">Fee Payment Details</th>
+          <th className="px-4 py-2 border  text-[#16325B] bg-[#FFDC7F] text-bold text-xs lg:text-xl border-[#4F709C]">Authors/Delegates may pay the conference registration fee to given below:</th>
         </tr>
       </thead>
       <tbody id='visa_guidelines'>
         {paymentDetails.map((payment) => (
           <tr key={payment.sNo}>
-            <td className="px-4 py-2 border text-xs md:text-lg  border-[#4F709C]">{payment.correspondingColumn}</td>
-            <td className="px-4 py-2 border text-xs md:text-lg  border-[#4F709C]">{payment.value}</td>
+            <td className="px-4 py-2 border text-xs lg:text-lg  border-[#4F709C]">{payment.correspondingColumn}</td>
+            <td className="px-4 py-2 border text-xs lg:text-lg  border-[#4F709C]">{payment.value}</td>
           </tr>
         ))}
       </tbody>
@@ -87,27 +87,27 @@ const Registration_fees=()=>{
   return (
      <section>
        <div
-        className={`mt-1 w-full bg-white bg-opacity-50 md:p-8 pb-4 px-2 rounded-lg transition-opacity duration-1000 `}>
-        <h1 className="md:text-2xl text-xl font-bold text-center pb-8 text-[#227B94]">Registration Fee</h1>
+        className={`mt-1 w-full bg-white bg-opacity-50 lg:p-8 pb-4 px-2 rounded-lg transition-opacity duration-1000 `}>
+        <h1 className="lg:text-2xl text-xl font-bold text-center pb-8 text-[#227B94]">Registration Fee</h1>
   
       {/* table of journals */}
   <div className="overflow-x-auto flex justify-center">
     <table className=" text-left table-auto border-collapse border-2 border-[#4F709C]">
       {/* <thead> */}
         {/* <tr> */}
-          {/* <th className="px-4 py-2 border  text-[#16325B] bg-[#FFDC7F] text-bold text-xs md:text-xl border-[#4F709C]">S.No.</th>
-          <th className="px-4 py-2 border  text-[#16325B] bg-[#FFDC7F] text-bold text-xs md:text-xl border-[#4F709C]">Paper Id </th>
-          <th className="px-4 py-2 border  text-[#16325B] bg-[#FFDC7F] text-bold text-xs md:text-xl border-[#4F709C]">Corresponding Author</th> */}
-          {/* <th className="px-4 py-2 border  text-[#16325B] bg-[#FFDC7F] text-bold text-xs md:text-xl border-[#4F709C]">Title</th>
-          <th className="px-4 py-2 border  text-[#16325B] bg-[#FFDC7F] text-bold text-xs md:text-xl border-[#4F709C]">Total Amount</th> */}
+          {/* <th className="px-4 py-2 border  text-[#16325B] bg-[#FFDC7F] text-bold text-xs lg:text-xl border-[#4F709C]">S.No.</th>
+          <th className="px-4 py-2 border  text-[#16325B] bg-[#FFDC7F] text-bold text-xs lg:text-xl border-[#4F709C]">Paper Id </th>
+          <th className="px-4 py-2 border  text-[#16325B] bg-[#FFDC7F] text-bold text-xs lg:text-xl border-[#4F709C]">Corresponding Author</th> */}
+          {/* <th className="px-4 py-2 border  text-[#16325B] bg-[#FFDC7F] text-bold text-xs lg:text-xl border-[#4F709C]">Title</th>
+          <th className="px-4 py-2 border  text-[#16325B] bg-[#FFDC7F] text-bold text-xs lg:text-xl border-[#4F709C]">Total Amount</th> */}
           {/* <th className="px-4 py-2 border border-[#4F709C]">APC</th> */}
         {/* </tr> */}
       {/* </thead> */}
       <tbody>
         {registrationDetails.map((registration) => (
           <tr key={registration.sNo}>
-            <td className="px-4 py-2 border text-xs md:text-lg  border-[#4F709C]">{registration.title}</td>
-            <td className="px-4 py-2 border text-xs md:text-lg  border-[#4F709C]">{registration.totalAmount}</td>
+            <td className="px-4 py-2 border text-xs lg:text-lg  border-[#4F709C]">{registration.title}</td>
+            <td className="px-4 py-2 border text-xs lg:text-lg  border-[#4F709C]">{registration.totalAmount}</td>
             {/* <td className="px-4 py-2 border border-[#4F709C]">{journal.apc}</td> */}
           </tr>
         ))}
@@ -121,7 +121,7 @@ const Registration_fees=()=>{
 
 const author_info = () => {
   return (
-    <div className="md:mt-96 mt-44">
+    <div className="lg:mt-96 mt-44">
       <Imageplacer name="Author Info" />
 {/* <p className="p-5 font-bold text-center text-black bg-[url('https://img.freepik.com/free-vector/medical-tech-background-with-hexagon-pattern_107791-30275.jpg?t=st=1728633368~exp=1728636968~hmac=cc61870f5b73b9658f533c2c416a8ea48ba36cc9240850a2ac53f2d998d5d902&w=1380')] bg-opacity-25 text-4xl">
       AUTHOR INFO
@@ -165,9 +165,9 @@ const author_info = () => {
     </ul>
   </div>
   
-  <div className='lg:w-4/5 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-14 px-8 py-5 m-8'>
-      <h1 className='md:text-3xl text-2xl font-bold pb-2'>Submission Guidelines</h1>
-      <p className='md:text-xl text-md'>Submissions prepared as per Springer template should be submitted to the following link.
+  <div className='lg:w-4/5 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] lg:px-20 lg:py-10 lg:m-14 px-8 py-5 m-8'>
+      <h1 className='lg:text-3xl text-2xl font-bold pb-2'>Submission Guidelines</h1>
+      <p className='lg:text-xl text-md'>Submissions prepared as per Springer template should be submitted to the following link.
       </p>
       <div className='flex lg:flex-row flex-col py-2 items-center'>
       <div className='py-5 lg:pr-5'>
@@ -179,10 +179,10 @@ const author_info = () => {
           objectFit="cover"
           className=''
           /></div>
-      <div className='md:text-xl text-md p-2'>The proceedings of ICICC-2025 will be published in the Springer Book series “Lecture Notes in Networks and Systems (LNNS)”, which will be Indexed by SCOPUS, INSPEC, WTI Frankfurt eG, zbMATH, SCImago. All books published in the series are submitted for consideration in Web of Science.</div>
+      <div className='lg:text-xl text-md p-2'>The proceedings of ICICC-2025 will be published in the Springer Book series “Lecture Notes in Networks and Systems (LNNS)”, which will be Indexed by SCOPUS, INSPEC, WTI Frankfurt eG, zbMATH, SCImago. All books published in the series are submitted for consideration in Web of Science.</div>
       </div>
 
-      <h1 className='md:text-2xl text-xl font-bold pb-2 text-center'>Paper Submission: <span> </span>
+      <h1 className='lg:text-2xl text-xl font-bold pb-2 text-center'>Paper Submission: <span> </span>
         <span >
         <Link
         href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F"
@@ -190,7 +190,7 @@ const author_info = () => {
         </Link>
         </span></h1>
 
-      <div className='md:text-xl text-md p-2'><p>All submissions must comply with the Springer Policy : Click below to download</p>
+      <div className='lg:text-xl text-md p-2'><p>All submissions must comply with the Springer Policy : Click below to download</p>
       <p className='p-2'><Link
         href="/wordTemplateSpringer.zip"
         className='text-[#FF6600] cursor-pointer underline underline-offset-8 decoration-indigo-500 hover:underline hover:decoration-4'>Microsoft Word Format
@@ -210,8 +210,8 @@ const author_info = () => {
   </div>
 
   {/* <div className='flex flex-col items-center'>
-      <div className='w-1/2 bg-[#FFDC7F] rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-5 px-8 py-5 m-2'>
-      <h1 className='md:text-3xl text-2xl font-bold pb-2 text-center'>Paper Submission: <span> </span>
+      <div className='w-1/2 bg-[#FFDC7F] rounded-tr-[4rem] rounded-bl-[4rem] lg:px-20 lg:py-10 lg:m-5 px-8 py-5 m-2'>
+      <h1 className='lg:text-3xl text-2xl font-bold pb-2 text-center'>Paper Submission: <span> </span>
         <span >
         <Link
         href="#"
@@ -221,9 +221,9 @@ const author_info = () => {
       </div>
       </div> */}
 
-      {/* <div className='lg:hidden bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-20 px-8 py-5 m-8'>
-       <h1 className='md:text-3xl text-2xl font-bold pb-2'>Theme of the conference</h1> 
-      <p className='md:text-xl text-md'>Submissions prepared as per Springer template should be submitted to the following link.
+      {/* <div className='lg:hidden bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] lg:px-20 lg:py-10 lg:m-20 px-8 py-5 m-8'>
+       <h1 className='lg:text-3xl text-2xl font-bold pb-2'>Theme of the conference</h1> 
+      <p className='lg:text-xl text-md'>Submissions prepared as per Springer template should be submitted to the following link.
       </p>
       <div className='flex flex-col py-2 items-center'>
       <div className='py-5 lg:pr-5'><Image
@@ -234,13 +234,13 @@ const author_info = () => {
           objectFit="cover"
           className=''
           /></div>
-      <div className='md:text-xl text-md p-2'>The proceedings of ICICC-2025 will be published in the Springer Book series “Lecture Notes in Networks and Systems (LNNS)”, which will be Indexed by SCOPUS, INSPEC, WTI Frankfurt eG, zbMATH, SCImago. All books published in the series are submitted for consideration in Web of Science.</div>
+      <div className='lg:text-xl text-md p-2'>The proceedings of ICICC-2025 will be published in the Springer Book series “Lecture Notes in Networks and Systems (LNNS)”, which will be Indexed by SCOPUS, INSPEC, WTI Frankfurt eG, zbMATH, SCImago. All books published in the series are submitted for consideration in Web of Science.</div>
       </div>
       </div> */}
 
-      {/* <div className='bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-20 px-8 py-5 m-8'> */}
-      {/* <h1 className='md:text-3xl text-2xl font-bold pb-2'>Scope and Interests</h1> */}
-      {/* <div className='md:text-xl text-md p-2'><p>All submissions must comply with the Springer Policy : Click below to download</p>
+      {/* <div className='bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] lg:px-20 lg:py-10 lg:m-20 px-8 py-5 m-8'> */}
+      {/* <h1 className='lg:text-3xl text-2xl font-bold pb-2'>Scope and Interests</h1> */}
+      {/* <div className='lg:text-xl text-md p-2'><p>All submissions must comply with the Springer Policy : Click below to download</p>
       <p className='p-4'><Link
         href="#"
         className='text-[#FF6600] cursor-pointer underline underline-offset-8 decoration-indigo-500 hover:underline hover:decoration-4'>Microsoft Word Format
@@ -257,20 +257,20 @@ const author_info = () => {
       </div>
       </div> */}
       
-      <div className='bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-20 md:mt-0 px-8 py-5 m-8'>
-      <h1 className='md:text-3xl text-2xl font-bold pb-2'>Registration</h1>
+      <div className='bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] lg:px-20 lg:py-10 lg:m-20 lg:mt-0 px-8 py-5 m-8'>
+      <h1 className='lg:text-3xl text-2xl font-bold pb-2'>Registration</h1>
         <Registration_fees/>
         <Payment/>
       </div>
 
-      <div className='bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-20 px-8 py-5 m-8'>
-      <h1 className='md:text-3xl text-2xl font-bold pb-2'>Visa Guidelines</h1>
-      <p className='md:text-xl text-md py-2'>A conference visa is a type of travel permit issued by the government of the country where you want to travel to attend conferences. It allows foreign nationals to enter and stay within their country for a limited time period to participate in conferences, seminars, workshops, or similar events.</p>
-        <p className='md:text-xl text-md py-2'>Conference VISA guidelines for India can be accessed using the official link of Government of India</p>
+      <div className='bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] lg:px-20 lg:py-10 lg:m-20 px-8 py-5 m-8'>
+      <h1 className='lg:text-3xl text-2xl font-bold pb-2'>Visa Guidelines</h1>
+      <p className='lg:text-xl text-md py-2'>A conference visa is a type of travel permit issued by the government of the country where you want to travel to attend conferences. It allows foreign nationals to enter and stay within their country for a limited time period to participate in conferences, seminars, workshops, or similar events.</p>
+        <p className='lg:text-xl text-md py-2'>Conference VISA guidelines for India can be accessed using the official link of Government of India</p>
         <p className='py-10'>
         <Link
         href="#"
-        className='md:text-xl text-md text-[#FF6600] cursor-pointer underline underline-offset-8 decoration-indigo-500 hover:underline hover:decoration-4'>Click here to visit the official website
+        className='lg:text-xl text-md text-[#FF6600] cursor-pointer underline underline-offset-8 decoration-indigo-500 hover:underline hover:decoration-4'>Click here to visit the official website
         </Link>
         </p>
       </div>
