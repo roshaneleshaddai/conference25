@@ -11,9 +11,9 @@ const Imageplacer = ({name}) => {
     
     <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent opacity-90"></div>
    </div>
-    <div  className='relative flex flex-col justify-center min-h-72 md:min-h-screen '>
+    <div  className='relative flex flex-col justify-center min-h-72 lg:min-h-screen '>
         <div>
-    <h1 className="text-2xl md:text-7xl  font-extrabold  text-center text-white">{name} </h1>
+    <h1 className="text-2xl lg:text-7xl  font-extrabold  text-center text-white">{name} </h1>
     </div>
     </div>
     
