@@ -59,9 +59,9 @@ const committees = () => {
     {
       "title": "Editorial Committee",
       "members": [
-        "Dr. K. Suvarna Vani, Professor, CSE, VRSEC, India",
         "Dr. M. Suneetha, Professor & Dean – Research, Technology Development & IQAC, VRSEC, India",
         "Dr. Naif Almakayeel, Associate Professor, Industrial Engineering, King Khalid University",
+        "Dr. K. Suvarna Vani, Professor, CSE, VRSEC, India",
         "Dr. E. Laxmi Lydia, Professor, IT, VRSEC, India",
         "Dr. Kalyani Gadupudi, Associate Professor, IT, VRSEC, India",
         "Dr. Elvir Munirovich Akhmetshin, Department of Economics and Management, Elabuga Institute, Kazan Federal University, Kazan, Russia",
