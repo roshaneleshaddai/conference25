@@ -5,7 +5,7 @@ import Imageplacer from '../components/imageplacer/page';
 const ImportantDates = () => {
   return (
     <>
-      <div className="mt-44 md:mt-96"></div>
+      <div className="mt-44 lg:mt-96"></div>
       <Imageplacer name="Important Dates" />
       <Dates />
     </>
