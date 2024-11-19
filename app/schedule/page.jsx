@@ -162,16 +162,16 @@ const Schedule = () => {
 
   return (
     <>
-      <div className="mt-44 md:mt-96"></div>
+      <div className="mt-44 lg:mt-96"></div>
       <Imageplacer name="Schedule" />
-      <h1 className='text-2xl md:text-5xl text-center font-bold text-[#227B94] mt-16'>Tracks</h1>
-      <div className="flex flex-col items-center border-2 border-[#227B94] p-10 m-4 md:m-16 md:mx-32 md:py-8 md:p-16">
+      <h1 className='text-2xl lg:text-5xl text-center font-bold text-[#227B94] mt-16'>Tracks</h1>
+      <div className="flex flex-col items-center border-2 border-[#227B94] p-10 m-4 lg:m-16 lg:mx-32 lg:py-8 lg:p-16">
         <div className="flex flex-col w-full ">
           {tracks.map((track) => (
             <div key={track.id} >
               <button
                 onClick={() => handleClick(track)}
-                className="m-2 bg-[#FFDC7F] text-xs md:text-xl hover:bg-blue-700 hover:text-white font-bold py-2 px-4 rounded min-w-full"
+                className="m-2 bg-[#FFDC7F] text-xs lg:text-xl hover:bg-blue-700 hover:text-white font-bold py-2 px-4 rounded min-w-full"
               >
                 {track.title}
               </button>
@@ -179,22 +179,22 @@ const Schedule = () => {
               {/* Display track details if this track is selected */}
               {selectedTrack && selectedTrack.id === track.id && (
                 <div className="mt-4 w-full flex flex-col items-center">
-                  {/* <h2 className="text-xs md:text-xl font-bold mb-4">{selectedTrack.title}</h2> */}
+                  {/* <h2 className="text-xs lg:text-xl font-bold mb-4">{selectedTrack.title}</h2> */}
                   <div className="overflow-x-auto w-full flex justify-center">
                     <table className="text-left table-auto border-collapse border-2 border-[#4F709C]">
                       <thead>
                         <tr>
-                          <th className="px-4 py-2 border text-[#16325B] bg-[#FFDC7F] text-bold text-xs md:text-xl border-[#4F709C]">S.No.</th>
-                          <th className="px-4 py-2 border text-[#16325B] bg-[#FFDC7F] text-bold text-xs md:text-xl border-[#4F709C]">Paper Id</th>
-                          <th className="px-4 py-2 border text-[#16325B] bg-[#FFDC7F] text-bold text-xs md:text-xl border-[#4F709C]">Title</th>
+                          <th className="px-4 py-2 border text-[#16325B] bg-[#FFDC7F] text-bold text-xs lg:text-xl border-[#4F709C]">S.No.</th>
+                          <th className="px-4 py-2 border text-[#16325B] bg-[#FFDC7F] text-bold text-xs lg:text-xl border-[#4F709C]">Paper Id</th>
+                          <th className="px-4 py-2 border text-[#16325B] bg-[#FFDC7F] text-bold text-xs lg:text-xl border-[#4F709C]">Title</th>
                         </tr>
                       </thead>
                       <tbody>
                         {selectedTrack.details.map((paper) => (
                           <tr key={paper.sno}>
-                            <td className="px-4 py-2 border text-xs md:text-lg border-[#4F709C]">{paper.sno}</td>
-                            <td className="px-4 py-2 border text-xs md:text-lg border-[#4F709C]">{paper.paperid}</td>
-                            <td className="px-4 py-2 border text-xs md:text-lg border-[#4F709C]">{paper.title}</td>
+                            <td className="px-4 py-2 border text-xs lg:text-lg border-[#4F709C]">{paper.sno}</td>
+                            <td className="px-4 py-2 border text-xs lg:text-lg border-[#4F709C]">{paper.paperid}</td>
+                            <td className="px-4 py-2 border text-xs lg:text-lg border-[#4F709C]">{paper.title}</td>
                           </tr>
                         ))}
                       </tbody>
