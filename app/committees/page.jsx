@@ -129,7 +129,20 @@ const committees = () => {
     {
       title: "National Advisory Committee",
       members: [
-        "",
+"Shri Chelikani V T E V Prasad Rao ,Delivery Head (QA, Niche technologies – API,Integration (Boomi, Mulesoft), RPA, Bigdata, AMS )",
+"Shri Rakesh Prudhvi Kasthuri,Technical Lead, Google ",
+"Dr. R.Padmavathy,Associate Professor, Dept. of CSE,NIT Warangal, Telangana.",
+"Dr. Srilatha Chebrolu,Assistant Professor, Department of Computer Science and Engineering,National Institute of Technology Andhra Pradesh, Tadepallegudem",
+"Sireesh Chigurupati, Principal System Engineer- Cloud Operations National",
+"Prof Siba K Udgata, School of Computers and Information Science,University of Hyderabad.", 
+"Dr Girish S Pujar,Scientist SG & Head, Land Use and Cover Monitoring Division (LU&CMD),National Remote Sensing Centre (ISRO), Hyderabad", 
+"Dr T Ramakrishnudu,Associate Professor, Department of Computer Science and Engineering,National Institute of Technology,Warangal",
+"Shri Subramaniam, TCS",
+"Ms.Hiranmai Chamarthi, Application Developer, IBM",
+"Mrs.Dedeepya Anagani, Senior Consultant, Deloitte",
+"Ms.Satyavathi, senior software engineer, cloudera pvt limited ",
+"Mr.S.SaiRaghavendra Krishna Kiriti, Associate Consultant, Microsoft", 
+"Mr.V.N.V.Srikanth, Dev Ops Engineer, Amazon Development Centre",
       ],
     },
     {
