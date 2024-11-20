@@ -174,7 +174,7 @@ const Header = () => {
             </h2>
             <h2 className={`text-sm text-[#112D32] font-bold ${isScrolled ? 'text-xs lg:text-base' : 'text-lg lg:text-xl'}`}>
             25<sup>th</sup> & 26<sup>th</sup> July - 2025<br></br>
-            Organized by: Department of Information Technology
+            Organized by: Department of Information Technology & Computer Science Engineering
           </h2>
         </div>
       </div>
