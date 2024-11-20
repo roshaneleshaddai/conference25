@@ -163,6 +163,102 @@ const Schedule = () => {
     <>
       <div className="mt-44 md:mt-96"></div>
       <Imageplacer name="Schedule" />
+      <div className="mt-10 overflow-x-auto flex justify-center">
+  <table className="table-auto border-collapse border border-gray-400 ">
+    <thead>
+      <tr className="bg-gray-200">
+        <th className="border border-gray-400 px-4 py-2 text-left">Topic</th>
+        <th className="border border-gray-400 px-4 py-2 text-left">Subtopics</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td className="border border-gray-400 px-4 py-2 font-bold">1. Artificial Intelligence and Machine Learning</td>
+        <td className="border border-gray-400 px-4 py-2">
+          <ul className="list-disc ml-5">
+            <li>Deep Learning and Neural Networks</li>
+            <li>Natural Language Processing</li>
+            <li>Explainable AI and Ethics in AI</li>
+            <li>Reinforcement Learning and Optimization</li>
+            <li>AI in Healthcare and Industry Applications</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td className="border border-gray-400 px-4 py-2 font-bold">2. Data Science and Big Data Analytics</td>
+        <td className="border border-gray-400 px-4 py-2">
+          <ul className="list-disc ml-5">
+            <li>Data Mining and Predictive Analytics</li>
+            <li>Big Data Infrastructure and Frameworks</li>
+            <li>Visualization Techniques and Tools</li>
+            <li>Real-Time Data Processing</li>
+            <li>Privacy and Security in Data Analytics</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td className="border border-gray-400 px-4 py-2 font-bold">3. Internet of Things (IoT) and Smart Systems</td>
+        <td className="border border-gray-400 px-4 py-2">
+          <ul className="list-disc ml-5">
+            <li>IoT Architectures and Protocols</li>
+            <li>Smart Cities and Smart Grids</li>
+            <li>Wearable and Embedded Systems</li>
+            <li>Edge and Fog Computing in IoT</li>
+            <li>IoT Security and Privacy</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td className="border border-gray-400 px-4 py-2 font-bold">4. Wireless Communication and Networking</td>
+        <td className="border border-gray-400 px-4 py-2">
+          <ul className="list-disc ml-5">
+            <li>5G/6G Networks and Beyond</li>
+            <li>Cognitive and Software-Defined Radios</li>
+            <li>Network Optimization and Traffic Management</li>
+            <li>Wireless Sensor Networks and Ad Hoc Networks</li>
+            <li>Security Challenges in Wireless Communication</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td className="border border-gray-400 px-4 py-2 font-bold">5. Cybersecurity and Cryptography</td>
+        <td className="border border-gray-400 px-4 py-2">
+          <ul className="list-disc ml-5">
+            <li>Network Security and Privacy</li>
+            <li>Blockchain and Distributed Ledger Technologies</li>
+            <li>Post-Quantum Cryptography</li>
+            <li>Intrusion Detection and Prevention Systems</li>
+            <li>AI and ML Applications in Cybersecurity</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td className="border border-gray-400 px-4 py-2 font-bold">6. Robotics and Autonomous Systems</td>
+        <td className="border border-gray-400 px-4 py-2">
+          <ul className="list-disc ml-5">
+            <li>Swarm Robotics and Multi-Agent Systems</li>
+            <li>Human-Robot Interaction</li>
+            <li>Autonomous Vehicles and Drones</li>
+            <li>Navigation and Mapping</li>
+            <li>AI for Robotics</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td className="border border-gray-400 px-4 py-2 font-bold">7. Cloud, Edge, and High-Performance Computing</td>
+        <td className="border border-gray-400 px-4 py-2">
+          <ul className="list-disc ml-5">
+            <li>Distributed and Cloud Computing</li>
+            <li>Virtualization and Containerization</li>
+            <li>Edge Computing Applications</li>
+            <li>Green and Sustainable Computing</li>
+            <li>High-Performance Computing Architectures</li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
       <h1 className='text-2xl md:text-5xl text-center font-bold text-[#87A2FF] mt-16'>Tracks</h1>
       <div className="flex flex-col items-center border-2 border-[#87A2FF] p-10 m-4 md:m-16 md:mx-32 md:py-8 md:p-16">
         <div className="flex flex-col w-full ">
