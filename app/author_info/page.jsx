@@ -3,60 +3,6 @@ import Link from 'next/link';
 import Image from "next/image";
 import Imageplacer from '../components/imageplacer/page';
 
-const Payment=()=>{
-  
-  const paymentDetails = [
-    {
-      correspondingColumn: "Account Name",
-      value: "CMR Technical Campus",
-    },
-    {
-      correspondingColumn: "Bank Name",
-      value: "HDFC",
-    },
-    {
-      correspondingColumn: "Account Number",
-      value: "50100197609222",
-    },
-    {
-      correspondingColumn: "IFSC Code",
-      value: "HDFC0001640",
-    },
-    {
-      correspondingColumn: "Address",
-      value: "Medchal, Hyderabad, Telangana, India - 501401",
-    }
-  ];
-  
-  return (
-     <section>
-       <div
-        className={`mt-1 w-full bg-white bg-opacity-50 md:p-8 pb-4 px-2 rounded-lg transition-opacity duration-1000 `}>
-        <h1 className="md:text-2xl text-xl font-bold text-center pb-8 text-[#87A2FF]">Payment Details</h1>
-  
-      {/* table of journals */}
-  <div className="overflow-x-auto flex justify-center">
-    <table className=" text-left table-auto border-collapse border-2 border-[#4F709C]">
-      <thead>
-        <tr>
-          <th className="px-4 py-2 border  text-[#16325B] bg-[#FFF4B5] text-bold text-xs md:text-xl border-[#4F709C]">Fee Payment Details</th>
-          <th className="px-4 py-2 border  text-[#16325B] bg-[#FFF4B5] text-bold text-xs md:text-xl border-[#4F709C]">Authors/Delegates may pay the conference registration fee to given below:</th>
-        </tr>
-      </thead>
-      <tbody id='visa_guidelines'>
-        {paymentDetails.map((payment) => (
-          <tr key={payment.sNo}>
-            <td className="px-4 py-2 border text-xs md:text-lg  border-[#4F709C]">{payment.correspondingColumn}</td>
-            <td className="px-4 py-2 border text-xs md:text-lg  border-[#4F709C]">{payment.value}</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
-  </div>
-</div>
-     </section>
-  );
-}
 
 const Regi = () => {
   const bankDetails = [
@@ -75,7 +21,7 @@ const Regi = () => {
   ];
 
   return (
-    <div className="relative font-SUSE min-h-screen w-screen mt-44 md:mt-56 flex-col items-center justify-center p-4">
+    <div className="relative font-SUSE  flex-col items-center justify-center p-4">
         <h2 className="lg:text-3xl text-2xl font-bold mb-4 text-center">For Payment</h2>
       <div className="bg-white shadow-lg rounded-lg p-6 bg-gray w-full">
         <div className="flex flex-col lg:flex-row items-center justify-evenly mb-6">
@@ -251,7 +197,6 @@ const author_info = () => {
       <div className='bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-20 md:mt-0 px-8 py-5 m-8'>
       <h1 className='md:text-3xl text-2xl font-bold pb-2'>Registration</h1>
         <Regi/>
-        <Payment/>
       </div>
 
       <div className='bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-20 px-8 py-5 m-8'>
