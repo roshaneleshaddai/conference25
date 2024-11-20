@@ -165,7 +165,7 @@ const Schedule = () => {
       <Imageplacer name="Tracks & Schedule" />
       
         <h1 className='text-2xl md:text-5xl text-center font-bold text-[#87A2FF] mt-16'>Tracks</h1>
-      <div className="mt-10 overflow-x-auto flex justify-center">
+      <div className="mt-10 overflow-x-auto flex justify-center p-4">
   <table className="table-auto border-collapse border border-gray-400 ">
     <thead>
       <tr className="bg-gray-200">
