@@ -5,13 +5,13 @@ import imageplacer from '../imageplacer/page';
 const Dates = () => {
   return (
     <div>
-        <div className="px-10 lg:px-20 lg:pb-20">
-          <h1 className="text-2xl lg:text-5xl text-[#227B94] px-4 pt-4 font-bold">Important Dates</h1>
-          <hr className="h-1 my-4 bg-[#227B94] border-0 " />
-          <ul className="text-sm lg:text-xl  space-y-4">
+        <div className="p-10 md:p-32">
+          <h1 className="text-2xl md:text-5xl text-[#87A2FF] p-4 font-bold">Important Dates</h1>
+          <hr className="h-1 my-4 bg-[#87A2FF] border-0 " />
+          <ul className="text-sm md:text-2xl  space-y-4">
              <li className="flex items-center">
                <FaRegCalendarAlt className="mr-2" />
-               <span>2nd June 2025 - Deadline for Submission</span>
+               <span>2nd July 2025 - Paper Submission Last Date</span>
              </li>
              <li className="flex items-center">
                <FaRegCalendarAlt className="mr-2" />
