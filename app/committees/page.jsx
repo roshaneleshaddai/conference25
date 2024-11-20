@@ -185,7 +185,7 @@ const committees = () => {
 
   return (
     <>
-      <div className="mt-44 lg:mt-96 text-justify"></div>
+      <div className="mt-44 lg:mt-92 text-justify"></div>
       <Imageplacer name="Committees" />
       <div className="px-6 lg:py-10 py-5 lg:mt-5 mt-0 bg-white">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
