@@ -18,6 +18,7 @@ const nextConfig = {
         "upload.wikimedia.org",
         "explorebyroad.blog",
           "sipnaengg.ac.in",
+          "cis.ieee.org",
       ],
     },
   };
