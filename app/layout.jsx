@@ -23,6 +23,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
+      <meta name="google-site-verification" content="HZS-90V6zGclkAU55oLXVGKUJ4F5yVraTuWqhZES81A" />
       <body >
         {showStartPage ? (
           <StartPage onLaunch={handleLaunch} />
