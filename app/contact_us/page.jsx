@@ -27,7 +27,7 @@ const contact = () => {
   ]
   return (
     <>
-    <div className="mt-44 lg:mt-96"></div>
+    <div className="mt-44 lg:mt-92"></div>
 
     <Imageplacer name="Contact Us"/>
     <div className='flex felx-col lg:flex-row justify-center gap-10 m-32 '>
