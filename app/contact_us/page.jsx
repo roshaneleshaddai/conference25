@@ -5,11 +5,21 @@ const contact = () => {
   const contact1 =[
     {
       "id": 1,
+      "name":"Dr .G .Kalyani",
+      "ph": 8465930550,
+    },
+     {
+      "id": 2,
+      "name":"Dr .Y .Sandeep",
+      "ph": 9491757787,
+    },
+    {
+      "id": 3,
       "name":"Dr. Jaya Prakash S",
       "ph": 9848143200,
     },
     {
-      "id": 2,
+      "id": 4,
       "name":"Dr. Gargi M",
       "ph":8886599444,
     },
