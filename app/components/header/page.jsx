@@ -59,7 +59,7 @@ const Header = () => {
   <header
   className={`fixed w-full m-auto top-0 z-50 transition-transform duration-300 ease-in-out ${
     isScrolled ? 'py-0 lg:py-2 bg-[#78B7D0]' : 'py-2 lg:py-4 bg-[#78B7D0]'
-  } ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}
+  } `}
 >
   <div className="flex items-center justify-around">
     {/* Logo Section */}
@@ -91,7 +91,7 @@ const Header = () => {
       </h2>
     </div>
 
-    {isScrolled && isVisible && (
+    {isScrolled  && (
       <div className="hidden items-center justify-center gap-16 lg:flex my-2">
         <div className="items-center text-center flex-col">
           <h2 className="font-bold text-white text-xs lg:text-2xl">
