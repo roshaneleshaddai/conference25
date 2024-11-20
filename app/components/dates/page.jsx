@@ -11,7 +11,7 @@ const Dates = () => {
           <ul className="text-sm md:text-2xl  space-y-4">
              <li className="flex items-center">
                <FaRegCalendarAlt className="mr-2" />
-               <span>2nd July 2025 - Paper Submission Last Date</span>
+               <span>2nd June 2025 - Deadline for Submission </span>
              </li>
              <li className="flex items-center">
                <FaRegCalendarAlt className="mr-2" />
@@ -19,7 +19,7 @@ const Dates = () => {
              </li>
              <li className="flex items-center">
                <FaRegCalendarAlt className="mr-2" />
-               <span>30th June 2025 - Start of Registration with Final Paper Submission</span>
+               <span>30th June 2025 -  Registration & Final Paper Submission</span>
              </li>
            </ul>
 
