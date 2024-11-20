@@ -161,7 +161,7 @@ const Schedule = () => {
 
   return (
     <>
-      <div className="mt-44 md:mt-96"></div>
+      <div className="mt-44 md:mt-92"></div>
       <Imageplacer name="Tracks & Schedule" />
       
         <h1 className='text-2xl md:text-5xl text-center font-bold text-[#87A2FF] mt-16'>Tracks</h1>
