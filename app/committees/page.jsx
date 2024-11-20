@@ -194,7 +194,7 @@ const committees = () => {
             {leftColumn.map((committee, index) => (
               <div
                 key={index}
-                className="bg-white shadow-lg rounded-tr-[4rem] rounded-bl-[4rem] p-6 border-l-4 border-[#227B94] animate-swipeInLeft"
+                className="bg-white shadow-lg rounded-tr-[4rem] rounded-bl-[4rem] p-6 border-l-4 border-[#87A2FF] animate-swipeInLeft"
               >
                 <h2 className="lg:text-2xl text-xl font-semibold text-black mb-4">
                   {committee.title}
@@ -212,7 +212,7 @@ const committees = () => {
             {rightColumn.map((committee, index) => (
               <div
                 key={index}
-                className="bg-white shadow-lg rounded-tr-[4rem] rounded-bl-[4rem] p-6 border-l-4 border-[#227B94] animate-swipeInRight"
+                className="bg-white shadow-lg rounded-tr-[4rem] rounded-bl-[4rem] p-6 border-l-4 border-[#87A2FF] animate-swipeInRight"
               >
                 <h2 className="lg:text-2xl text-xl font-semibold text-black mb-4">
                   {committee.title}
