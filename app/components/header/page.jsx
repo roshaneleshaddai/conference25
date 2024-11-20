@@ -216,7 +216,7 @@ const Header = () => {
         <li><Link
           href="/schedule"
           className="" onClick={toggleMenu}>
-          Schedule
+          Tracks & Schedule
         </Link></li>
         <li><Link
           href="/speakers"
@@ -273,7 +273,7 @@ const Header = () => {
           href="/schedule"
           className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-4' : 'text-base py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
         >
-          Schedule
+        Tracks & Schedule
         </Link>
         <Link
           href="/speakers"
