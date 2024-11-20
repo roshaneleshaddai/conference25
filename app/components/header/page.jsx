@@ -240,57 +240,57 @@ const Header = () => {
       <nav className={`hidden lg:flex justify-evenly px-24 ${isScrolled ? 'lg:mt-0 ' : 'lg:mt-4 '} bg-[#FFF4B5]`}>
       <Link
         href="/#home"
-        className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-2' : 'text-base py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
+        className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-2' : 'text-sm py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
         >
       Home
       </Link>
       <Link
       href="/call_for_papers"
-      className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-2' : 'text-base py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
+      className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-2' : 'text-sm py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
         >
         Call for Papers
         </Link>
 
         <Link
           href="/important_dates"
-          className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-2' : 'text-base py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
+          className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-2' : 'text-sm py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
         >
           Important Dates
         </Link>
         <Link
           href="/committees"
-          className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-2' : 'text-base py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
+          className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-2' : 'text-sm py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
         >
           Committees
         </Link>
         <Link
           href="/author_info"
-          className={`cursor-pointer m-0.5    border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-2' : 'text-base py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
+          className={`cursor-pointer m-0.5    border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-2' : 'text-sm py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
         >
           Author Info
         </Link>
         <Link
           href="/schedule"
-          className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-4' : 'text-base py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
+          className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-4' : 'text-sm py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
         >
         Tracks & Schedule
         </Link>
         <Link
           href="/speakers"
-          className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-2' : 'text-base py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
+          className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-2' : 'text-sm py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
         >
          Guests & Speakers
         </Link>
         <Link
           href="/contact_us"
-          className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-2' : 'text-base py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
+          className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-2' : 'text-sm py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
         >
          Contact Us
         </Link>
         
         <Link
           href="/vij_attractions"
-          className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-2' : 'text-base py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
+          className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-2' : 'text-sm py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
         >
          Vijayawada Attractions
         </Link>
