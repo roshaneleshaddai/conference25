@@ -205,7 +205,7 @@ const author_info = () => {
         <p className='md:text-xl text-md py-2'>Conference VISA guidelines for India can be accessed using the official link of Government of India</p>
         <p className='py-10'>
         <Link
-        href="#"
+        href="https://www.springer.com/de/authors-editors/editors/publishing-ethics-for-journals/4176"
         className='md:text-xl text-md text-[#FF6600] cursor-pointer underline underline-offset-8 decoration-indigo-500 hover:underline hover:decoration-4'>Click here to visit the official website
         </Link>
         </p>
