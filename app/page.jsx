@@ -122,9 +122,9 @@ export default function Home() {
           <Image
               src="/images/springer.png"
               alt="springer"
-              width={400} 
-              height={400}
-              className="p-4"
+              width={300} 
+              height={300}
+              className=""
             />
             
             </div>
