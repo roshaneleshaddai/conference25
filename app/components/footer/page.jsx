@@ -37,8 +37,10 @@ const Footer = () => {
           <div className="mb-6 md:mb-0 flex-col">
             <h2 className="text-lg font-semibold mb-2">Contact Numbers</h2>
             <p>
+              <FaPhoneAlt className="inline mr-2" /> Dr .G .Kalyani - 8465930550 <br />
+              <FaPhoneAlt className="inline mr-2" /> Dr .Y .Sandeep - 9491757787 <br />
               <FaPhoneAlt className="inline mr-2" /> Dr. Jaya Prakash S - 9848143200 <br />
-              <FaPhoneAlt className="inline mr-2" /> Dr. Gargi M - 8886599444
+              <FaPhoneAlt className="inline mr-2" /> Dr. Gargi M - 8886599444 <br/>
             </p>
             <p>
               <FaPhoneAlt className="inline mr-2" /> Student coordinators
