@@ -58,66 +58,57 @@ const Payment=()=>{
   );
 }
 
-const Registration_fees=()=>{
-  
-  const registrationDetails = [
-    {
-      title: "Foreign Authors",
-      totalAmount: '$150'
-    },
-    {
-      title: "Industry Experts",
-      totalAmount: '₹10,000.00'
-    },
-    {
-      title: "Students & Academicians (from India)",
-      totalAmount: '₹9,000.00 (Upto 8 Pages)'
-    },
-    {
-      title: "Additional Page Charges(After Eight pages for every additional page)",
-      totalAmount: '₹1,000.00'
-    }, 
-    {
-      title: "Listeners",
-      totalAmount: '₹1,000.00'
-    }
-    
+const Regi = () => {
+  const bankDetails = [
+    { label: "Name of the Bank", value: "CANARA BANK" },
+    { label: "Name of the Account Holder", value: "Principal, V.R.Siddhartha Engineering College" },
+    { label: "Account Type", value: "Savings Bank" },
+    { label: "Account Number", value: "33672200004978" },
+    { label: "Bank Branch IFSC Code", value: "CNRB0013367" },
+    { label: "MICR No.", value: "520015027" },
+    { label: "Bank Branch Address", value: "VRS ENGG COLLEGE, KANURU, VIJAYAWADA - 520007" },
+    { label: "SWIFT CODE", value: "CNRBINBBBFD" },
+    { label: "COLLEGE PAN", value: "AABTS1271J" },
+    { label: "COLLEGE GST NO.", value: "37AABTS1271J4ZA" },
+    { label: "Institution Permanent ID", value: "1-10213343" },
+    { label: "PFMS Unique code", value: "VRSEC" },
   ];
-  
+
   return (
-     <section>
-       <div
-        className={`mt-1 w-full bg-white bg-opacity-50 md:p-8 pb-4 px-2 rounded-lg transition-opacity duration-1000 `}>
-        <h1 className="md:text-2xl text-xl font-bold text-center pb-8 text-[#87A2FF]">Registration Fee</h1>
-  
-      {/* table of journals */}
-  <div className="overflow-x-auto flex justify-center">
-    <table className=" text-left table-auto border-collapse border-2 border-[#4F709C]">
-      {/* <thead> */}
-        {/* <tr> */}
-          {/* <th className="px-4 py-2 border  text-[#16325B] bg-[#FFF4B5] text-bold text-xs md:text-xl border-[#4F709C]">S.No.</th>
-          <th className="px-4 py-2 border  text-[#16325B] bg-[#FFF4B5] text-bold text-xs md:text-xl border-[#4F709C]">Paper Id </th>
-          <th className="px-4 py-2 border  text-[#16325B] bg-[#FFF4B5] text-bold text-xs md:text-xl border-[#4F709C]">Corresponding Author</th> */}
-          {/* <th className="px-4 py-2 border  text-[#16325B] bg-[#FFF4B5] text-bold text-xs md:text-xl border-[#4F709C]">Title</th>
-          <th className="px-4 py-2 border  text-[#16325B] bg-[#FFF4B5] text-bold text-xs md:text-xl border-[#4F709C]">Total Amount</th> */}
-          {/* <th className="px-4 py-2 border border-[#4F709C]">APC</th> */}
-        {/* </tr> */}
-      {/* </thead> */}
-      <tbody>
-        {registrationDetails.map((registration) => (
-          <tr key={registration.sNo}>
-            <td className="px-4 py-2 border text-xs md:text-lg  border-[#4F709C]">{registration.title}</td>
-            <td className="px-4 py-2 border text-xs md:text-lg  border-[#4F709C]">{registration.totalAmount}</td>
-            {/* <td className="px-4 py-2 border border-[#4F709C]">{journal.apc}</td> */}
-          </tr>
-        ))}
-      </tbody>
-    </table>
-  </div>
-</div>
-     </section>
+    <div className="relative font-SUSE min-h-screen w-screen mt-44 md:mt-56 flex-col items-center justify-center p-4">
+        <h2 className="lg:text-3xl text-2xl font-bold mb-4 text-center">For Payment</h2>
+      <div className="bg-white shadow-lg rounded-lg p-6 bg-gray w-full">
+        <div className="flex flex-col lg:flex-row items-center justify-evenly mb-6">
+          <div><Image
+            src="/images/1.png"
+            width={300}
+            height={300}
+            alt="registration QR code"
+            className="mb-4 md:mb-0 md:mr-6"
+          /></div>
+          <div className="overflow-x-auto">
+            <table className="min-w-full border-2 ">
+              <thead>
+                <tr>
+                  <th className="px-4 py-2 border-b-2 border-gray-300 text-left">Detail</th>
+                  <th className="px-4 py-2 border-b-2 border-gray-300 text-left">Information</th>
+                </tr>
+              </thead>
+              <tbody>
+                {bankDetails.map((item, index) => (
+                  <tr key={index} className={index % 2 === 0 ? 'bg-gray-100' : 'bg-white'}>
+                    <td className="px-4 py-2 border-b border-gray-200 font-semibold">{item.label}</td>
+                    <td className="px-4 py-2 border-b border-gray-200">{item.value}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
   );
-}
+};
 
 const author_info = () => {
   return (
@@ -259,7 +250,7 @@ const author_info = () => {
       
       <div className='bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-20 md:mt-0 px-8 py-5 m-8'>
       <h1 className='md:text-3xl text-2xl font-bold pb-2'>Registration</h1>
-        <Registration_fees/>
+        <Regi/>
         <Payment/>
       </div>
 
