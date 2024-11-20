@@ -176,7 +176,7 @@ const Editions_News =() =>{
           <div className="flex flex-col items-center lg:flex-row">
           <ol className="font-bold text-xl">
          <li>
-           Poster Launched on 23rd November 2024  
+           Poster Launched on 23rd November 2024 &nbsp;   
             <span className="bg-red-600 rounded text-white p-2 animation-blink">new</span>
            </li>
           </ol>
