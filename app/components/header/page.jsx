@@ -57,8 +57,8 @@ const Header = () => {
   return (
   // <div className="relative w-full h-full">
   <header
-  className={`fixed w-full m-auto top-0 z-50 transition-transform duration-300 ease-in-out ${
-    isScrolled ? 'py-0 lg:py-2 bg-[#78B7D0]' : 'py-2 lg:py-4 bg-[#78B7D0]'
+  className={`fixed w-full m-auto top-0 z-50 transition-transform duration-300 bg-[#87A2FF] ease-in-out ${
+    isScrolled ? 'py-0 lg:py-2' : 'py-2 lg:py-4 '
   } `}
 >
   <div className="flex items-center justify-around">
@@ -237,7 +237,7 @@ const Header = () => {
       </nav>
 
       {/* Desktop Navigation Menu */}
-      <nav className={`hidden lg:flex justify-evenly px-24 ${isScrolled ? 'lg:mt-0 ' : 'lg:mt-4 '} bg-[#FFDC7F]`}>
+      <nav className={`hidden lg:flex justify-evenly px-24 ${isScrolled ? 'lg:mt-0 ' : 'lg:mt-4 '} bg-[#FFF4B5]`}>
       <Link
         href="/#home"
         className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-2' : 'text-base py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
