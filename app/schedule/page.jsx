@@ -163,7 +163,9 @@ const Schedule = () => {
     <>
       <div className="mt-44 md:mt-96"></div>
       <Imageplacer name="Schedule" />
+      
       <div className="mt-10 overflow-x-auto flex justify-center">
+        <h1 className='text-2xl md:text-5xl text-center font-bold text-[#87A2FF] mt-16'>Tracks</h1>
   <table className="table-auto border-collapse border border-gray-400 ">
     <thead>
       <tr className="bg-gray-200">
@@ -259,7 +261,7 @@ const Schedule = () => {
     </tbody>
   </table>
 </div>
-      <h1 className='text-2xl md:text-5xl text-center font-bold text-[#87A2FF] mt-16'>Tracks</h1>
+      <h1 className='text-2xl md:text-5xl text-center font-bold text-[#87A2FF] mt-16'>Schedule</h1>
       <div className="flex flex-col items-center border-2 border-[#87A2FF] p-10 m-4 md:m-16 md:mx-32 md:py-8 md:p-16">
         <div className="flex flex-col w-full ">
           {tracks.map((track) => (
