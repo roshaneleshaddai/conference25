@@ -8,7 +8,7 @@ const Schedule = () => {
   const tracks = [
     {
       id: 1,
-      title: "Day-1: DATE : 25TH JULY 2025 / Time : 12:30 PM - 01:30 PM, TRACK- 1: Artificial Intelligence and Machine Learning",
+      title: "Day-1: DATE : 25TH JULY 2024 / Time : 12:30 PM - 01:30 PM, TRACK- 1: Artificial Intelligence and Machine Learning",
       details: [
         { sno: 1, paperid: 1, title: "" },
         { sno: 2, paperid: 2, title: "" },
@@ -24,7 +24,7 @@ const Schedule = () => {
     },
     {
       id: 2,
-      title: "Day-1: DATE : 25TH JULY 2025 / Time : 12:30 PM - 01:30 PM, TRACK- 2: Data Science and Big Data Analytics",
+      title: "Day-1: DATE : 25TH JULY 2024 / Time : 12:30 PM - 01:30 PM, TRACK- 2: Machine Intelligence",
       details: [
         { sno: 1, paperid: 11, title: "" },
         { sno: 2, paperid: 12, title: "" },
@@ -41,7 +41,7 @@ const Schedule = () => {
     },
     {
       id: 3,
-      title: "Day-1: DATE : 25TH JULY 2025 / Time : 02:00 PM - 04:00 PM, TRACK- 3: Internet of Things (IoT) and Smart Systems",
+      title: "Day-1: DATE : 25TH JULY 2024 / Time : 02:00 PM - 04:00 PM, TRACK- 3: Internet of Things (IoT), Agriculture and Smart Systems",
       details: [
         { sno: 1, paperid: 21, title: "" },
         { sno: 2, paperid: 22, title: "" },
@@ -57,7 +57,7 @@ const Schedule = () => {
     },
     {
       id: 4,
-      title: "Day-1: DATE : 25TH JULY 2024 / Time : 02:00 PM - 04:00 PM, TRACK- 4: Wireless Communication and Networking",
+      title: "Day-1: DATE : 25TH JULY 2024 / Time : 02:00 PM - 04:00 PM, TRACK- 4: Bio-Technology",
       details: [
         { sno: 1, paperid: 31, title: "" },
         { sno: 2, paperid: 32, title: "" },
@@ -74,7 +74,7 @@ const Schedule = () => {
     },
     {
       id: 5,
-      title: "Day-2: DATE : 26TH JULY 2025 / Time: 10:00 AM - 01:30 PM, TRACK- 5: Cybersecurity and Cryptography",
+      title: "Day-2: DATE : 26TH JULY 2024 / Time: 10:00 AM - 01:30 PM, TRACK- 5: Healthcare Evaluation",
       details: [
         { sno: 1, paperid: 41, title: "" },
         { sno: 2, paperid: 42, title: "" },
@@ -91,7 +91,7 @@ const Schedule = () => {
     },
     {
       id: 6,
-      title: "Day-2: DATE : 26TH JULY 2025 / Time: 10:00 AM - 01:30 PM, TRACK- 6: Robotics and Autonomous Systems",
+      title: "Day-2: DATE : 26TH JULY 2024 / Time: 10:00 AM - 01:30 PM, TRACK- 6: Process Automation, Innovation and Mobile Communication",
       details: [
         { sno: 1, paperid: 51, title: "" },
         { sno: 2, paperid: 52, title: "" },
@@ -108,7 +108,7 @@ const Schedule = () => {
     },
     {
       id: 7,
-      title: "Day-2: DATE : 26TH JULY 2025 / Time: 10:00 AM - 01:30 PM, TRACK- 7: Cloud, Edge, and High-Performance Computing",
+      title: "Day-2: DATE : 26TH JULY 2024 / Time: 10:00 AM - 01:30 PM, TRACK- 7: Cybersecurity and Privacy",
       details: [
         { sno: 1, paperid: 61, title: "" },
         { sno: 2, paperid: 62, title: "" },
@@ -123,55 +123,55 @@ const Schedule = () => {
 
       ],
     },
-    // {
-    //   id: 8,
-    //   title: "Day-2: DATE : 26TH JULY 2025 / Time : 01:30 PM - 03:00 PM, TRACK- 8: Communication and Advancement",
-    //   details: [
-    //     { sno: 1, paperid: 71, title: "" },
-    //     { sno: 2, paperid: 72, title: "" },
-    //     { sno: 3, paperid: 73, title: "" },
-    //     { sno: 4, paperid: 74, title: "" },
-    //     { sno: 5, paperid: 75, title: "" },
-    //     { sno: 6, paperid: 76, title: "" },
-    //     { sno: 7, paperid: 77, title: "" },
-    //     { sno: 8, paperid: 78, title: "" },
-    //     { sno: 9, paperid: 79, title: "" },
-    //     { sno: 10, paperid: 80, title: "" },
+    {
+      id: 8,
+      title: "Day-2: DATE : 26TH JULY 2024 / Time : 01:30 PM - 03:00 PM, TRACK- 8: Communication and Advancement",
+      details: [
+        { sno: 1, paperid: 71, title: "" },
+        { sno: 2, paperid: 72, title: "" },
+        { sno: 3, paperid: 73, title: "" },
+        { sno: 4, paperid: 74, title: "" },
+        { sno: 5, paperid: 75, title: "" },
+        { sno: 6, paperid: 76, title: "" },
+        { sno: 7, paperid: 77, title: "" },
+        { sno: 8, paperid: 78, title: "" },
+        { sno: 9, paperid: 79, title: "" },
+        { sno: 10, paperid: 80, title: "" },
       
-    //   ],
-    // },
-    // {
-    //   id: 9,
-    //   title: "Day-2: DATE : 26TH JULY 2025 / Time: 01:30 PM - 03:00 PM, TRACK- 9: Technologies for Logic and Computing",
-    //   details: [
-    //     { sno: 1, paperid: 81, title: "" },
-    //     { sno: 2, paperid: 82, title: "" },
-    //     { sno: 3, paperid: 83, title: "" },
-    //     { sno: 4, paperid: 84, title: "" },
-    //     { sno: 5, paperid: 85, title: "" },
-    //     { sno: 6, paperid: 86, title: "" },
-    //     { sno: 7, paperid: 87, title: "" },
-    //     { sno: 8, paperid: 88, title: "" },
-    //     { sno: 9, paperid: 89, title: "" },
-    //     { sno: 9, paperid: 90, title: "" },
-    //   ],
-    // },
+      ],
+    },
+    {
+      id: 9,
+      title: "Day-2: DATE : 26TH JULY 2024 / Time: 01:30 PM - 03:00 PM, TRACK- 9: Technologies for Logic and Computing",
+      details: [
+        { sno: 1, paperid: 81, title: "" },
+        { sno: 2, paperid: 82, title: "" },
+        { sno: 3, paperid: 83, title: "" },
+        { sno: 4, paperid: 84, title: "" },
+        { sno: 5, paperid: 85, title: "" },
+        { sno: 6, paperid: 86, title: "" },
+        { sno: 7, paperid: 87, title: "" },
+        { sno: 8, paperid: 88, title: "" },
+        { sno: 9, paperid: 89, title: "" },
+        { sno: 9, paperid: 90, title: "" },
+      ],
+    },
   ];
 
   const handleClick = (t) => setSelectedTrack(t);
 
   return (
     <>
-      <div className="mt-44 lg:mt-96"></div>
+      <div className="mt-44 md:mt-96"></div>
       <Imageplacer name="Schedule" />
-      <h1 className='text-2xl lg:text-5xl text-center font-bold text-[#227B94] mt-16'>Tracks</h1>
-      <div className="flex flex-col items-center border-2 border-[#227B94] p-10 m-4 lg:m-16 lg:mx-32 lg:py-8 lg:p-16">
+      <h1 className='text-2xl md:text-5xl text-center font-bold text-[#87A2FF] mt-16'>Tracks</h1>
+      <div className="flex flex-col items-center border-2 border-[#87A2FF] p-10 m-4 md:m-16 md:mx-32 md:py-8 md:p-16">
         <div className="flex flex-col w-full ">
           {tracks.map((track) => (
             <div key={track.id} >
               <button
                 onClick={() => handleClick(track)}
-                className="m-2 bg-[#FFDC7F] text-xs lg:text-xl hover:bg-blue-700 hover:text-white font-bold py-2 px-4 rounded min-w-full"
+                className="m-2 bg-[#FFF4B5] text-xs md:text-xl hover:bg-[#87A2FF] hover:text-white font-bold py-2 px-4 rounded min-w-full"
               >
                 {track.title}
               </button>
@@ -179,22 +179,22 @@ const Schedule = () => {
               {/* Display track details if this track is selected */}
               {selectedTrack && selectedTrack.id === track.id && (
                 <div className="mt-4 w-full flex flex-col items-center">
-                  {/* <h2 className="text-xs lg:text-xl font-bold mb-4">{selectedTrack.title}</h2> */}
+                  {/* <h2 className="text-xs md:text-xl font-bold mb-4">{selectedTrack.title}</h2> */}
                   <div className="overflow-x-auto w-full flex justify-center">
                     <table className="text-left table-auto border-collapse border-2 border-[#4F709C]">
                       <thead>
                         <tr>
-                          <th className="px-4 py-2 border text-[#16325B] bg-[#FFDC7F] text-bold text-xs lg:text-xl border-[#4F709C]">S.No.</th>
-                          <th className="px-4 py-2 border text-[#16325B] bg-[#FFDC7F] text-bold text-xs lg:text-xl border-[#4F709C]">Paper Id</th>
-                          <th className="px-4 py-2 border text-[#16325B] bg-[#FFDC7F] text-bold text-xs lg:text-xl border-[#4F709C]">Title</th>
+                          <th className="px-4 py-2 border text-[#16325B] bg-[#FFF4B5] text-bold text-xs md:text-xl border-[#4F709C]">S.No.</th>
+                          <th className="px-4 py-2 border text-[#16325B] bg-[#FFF4B5] text-bold text-xs md:text-xl border-[#4F709C]">Paper Id</th>
+                          <th className="px-4 py-2 border text-[#16325B] bg-[#FFF4B5] text-bold text-xs md:text-xl border-[#4F709C]">Title</th>
                         </tr>
                       </thead>
                       <tbody>
                         {selectedTrack.details.map((paper) => (
                           <tr key={paper.sno}>
-                            <td className="px-4 py-2 border text-xs lg:text-lg border-[#4F709C]">{paper.sno}</td>
-                            <td className="px-4 py-2 border text-xs lg:text-lg border-[#4F709C]">{paper.paperid}</td>
-                            <td className="px-4 py-2 border text-xs lg:text-lg border-[#4F709C]">{paper.title}</td>
+                            <td className="px-4 py-2 border text-xs md:text-lg border-[#4F709C]">{paper.sno}</td>
+                            <td className="px-4 py-2 border text-xs md:text-lg border-[#4F709C]">{paper.paperid}</td>
+                            <td className="px-4 py-2 border text-xs md:text-lg border-[#4F709C]">{paper.title}</td>
                           </tr>
                         ))}
                       </tbody>
