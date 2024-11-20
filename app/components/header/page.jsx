@@ -102,7 +102,7 @@ const Header = () => {
           <h2 className="text-sm text-[#112D32] font-bold text-xs lg:text-base">
             25<sup>th</sup> & 26<sup>th</sup> July - 2025
             <br />
-            Organized by: Department of Information Technology
+            Organized by: Department of Information Technology & Computer Science Engineering
           </h2>
         </div>
       </div>
