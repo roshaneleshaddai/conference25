@@ -37,9 +37,9 @@ export default function Home() {
         
         <div className=" flex flex-col justify-around  lg:flex-row">
 
-        <div className="text-3xl lg:w-1/3 font-bold text-[#227B94] underline-offset-8 lg:ml-10">
+        <div className="text-3xl lg:w-1/3 font-bold text-[#87A2FF] underline-offset-8 lg:ml-10">
           <h1 className="lg:text-7xl text-5xl">About<br></br>ICICC-2025</h1>
-          <hr className="h-1 my-4 bg-[#227B94] border-0  w-1/3" />
+          <hr className="h-1 my-4 bg-[#87A2FF] border-0  w-1/3" />
           <h1 className="lg:text-4xl text-3xl text-[#10375C]">It is our great pleasure to warmly <br />welcome you to <div className="text-[#F3C623]">ICICC-2025.</div></h1>
         </div>
         <div className=" lg: font-medium lg:w-2/3  text-xl lg:text-xl">
@@ -77,7 +77,7 @@ export default function Home() {
           <div className="flex flex-col mx-16 lg:w-1/2 ">
             <div className="font-bold text-2xl lg:text-3xl pb-4">
             Technical Partners
-            <hr className="h-1 my-4 bg-[#227B94] border-0 " />
+            <hr className="h-1 my-4 bg-[#87A2FF] border-0 " />
             </div>
             <div className="flex flex-col  lg:flex-row">
           <Image
@@ -113,15 +113,15 @@ export default function Home() {
           <div className="flex flex-col mx-16 lg:w-1/2 ">
           <div className="font-bold text-2xl lg:text-3xl pb-4">
             Publishing  Partners
-            <hr className="h-1 my-4 bg-[#227B94] border-0  " />
+            <hr className="h-1 my-4 bg-[#87A2FF] border-0  " />
             </div>
             <div className="flex flex-col items-center lg:flex-row">
           <Image
               src="/images/springer.png"
               alt="springer"
-              width={400} 
-              height={400}
-              className="p-4"
+              width={300} 
+              height={300}
+              className=""
             />
             
             </div>
@@ -140,7 +140,7 @@ const Editions_News =() =>{
         <div className="flex flex-col mx-16 lg:w-1/2 ">
           <div className="font-bold text-2xl lg:text-3xl pb-4">
           Previous Editions
-          <hr className="h-1 my-4 bg-[#227B94] border-0 " />
+          <hr className="h-1 my-4 bg-[#87A2FF] border-0 " />
           </div>
           <div className="flex flex-col font-bold  lg:flex-row">
             <ul  className="lg:text-2xl pl-10">
@@ -171,7 +171,7 @@ const Editions_News =() =>{
         <div className="flex flex-col mx-16 lg:w-1/2 ">
         <div className="font-bold text-2xl lg:text-3xl pb-4">
           News and Updates
-          <hr className="h-1 my-4 bg-[#227B94] border-0  " />
+          <hr className="h-1 my-4 bg-[#87A2FF] border-0  " />
           </div>
           <div className="flex flex-col items-center lg:flex-row">
 
@@ -214,7 +214,7 @@ const About_vrsec = () => {
             isVisible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'
           }`}
         >
-          <h2 className="text-2xl lg:text-4xl font-bold mb-4 text-[#227B94]">About VRSEC</h2>
+          <h2 className="text-2xl lg:text-4xl font-bold mb-4 text-[#87A2FF]">About VRSEC</h2>
           <p className="text-sm lg:text-xl text-justify ">
           VRSEC has achieved significant recognition, ranked 141st in the NIRF 2022 and consistently below 200 for the past five years. It is NAAC accredited with an A+ grade and holds autonomous status extended to 2028. The institute has been NBA accredited since 1998 and follows outcome-based education (Tier I) since 2013. It has earned accolades such as the AICTE-CII IndPact award, platinum ratings, and ARIIA rankings, and is part of AICTE's MARGADARSHAN scheme. VRSEC is also recognized for its research contributions, NABL-accredited labs, and consultancy services. It collaborates with leading organizations and boasts strong placement records with top global companies.
           </p>
@@ -226,7 +226,7 @@ const About_vrsec = () => {
             isVisible ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'
           }`}
         >
-          <h2 className="text-2xl lg:text-4xl font-bold mb-4 text-[#227B94]">Scope</h2>
+          <h2 className="text-2xl lg:text-4xl font-bold mb-4 text-[#87A2FF]">Scope</h2>
           <p className="text-sm lg:text-xl text-justify ">
             The scope of this conference has been kept wide, and the following are the topics covered (but not limited to):
           </p>
@@ -366,7 +366,7 @@ const Travel=()=>{
      <section>
        <div
         className={`mt-1 w-full bg-white bg-opacity-50 p-8 rounded-lg transition-opacity duration-1000 `}>
-        <h1 className="text-2xl lg:text-5xl font-bold text-center pb-8 text-[#227B94]">ICICC 2025 - Travel Reimbursement for Authors</h1>
+        <h1 className="text-2xl lg:text-5xl font-bold text-center pb-8 text-[#87A2FF]">ICICC 2025 - Travel Reimbursement for Authors</h1>
   
       {/* table of journals */}
   <div className="overflow-x-auto">
