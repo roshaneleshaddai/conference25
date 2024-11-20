@@ -273,10 +273,10 @@ const Schedule = () => {
                 {track.title}
               </button>
 
-              {/* Display track details if this track is selected */}
+              
               {selectedTrack && selectedTrack.id === track.id && (
                 <div className="mt-4 w-full flex flex-col items-center">
-                  {/* <h2 className="text-xs md:text-xl font-bold mb-4">{selectedTrack.title}</h2> */}
+                 
                   <div className="overflow-x-auto w-full flex justify-center">
                     <table className="text-left table-auto border-collapse border-2 border-[#4F709C]">
                       <thead>
