@@ -9,6 +9,9 @@ import Dates from "./components/dates/page";
 
 export default function Home() {
   const About = () => {
+    
+    
+  
     const [visibleLines, setVisibleLines] = useState([]);
   
     const handleScroll = () => {
@@ -35,14 +38,14 @@ export default function Home() {
     return (
       <section id="about" className="p-10  mt-5">
         
-        <div className=" flex flex-col justify-around  lg:flex-row">
+        <div className=" flex flex-col justify-around  md:flex-row">
 
-        <div className="text-3xl lg:w-1/3 font-bold text-[#227B94] underline-offset-8 lg:ml-10">
+        <div className="text-3xl md:w-1/3 font-bold text-[#87A2FF] underline-offset-8 md:ml-10">
           <h1 className="lg:text-7xl text-5xl">About<br></br>ICICC-2025</h1>
-          <hr className="h-1 my-4 bg-[#227B94] border-0  w-1/3" />
+          <hr className="h-1 my-4 bg-[#87A2FF] border-0  w-1/3" />
           <h1 className="lg:text-4xl text-3xl text-[#10375C]">It is our great pleasure to warmly <br />welcome you to <div className="text-[#F3C623]">ICICC-2025.</div></h1>
         </div>
-        <div className=" lg: font-medium lg:w-2/3  text-xl lg:text-xl">
+        <div className=" md: font-medium md:w-2/3  text-xl md:text-xl">
             <p className="text-justify">
       The objective of this Scopus indexed 8th International Conference on Intelligent
       Computing and Communication (ICICC - 2025) is to present a unified platform
@@ -73,13 +76,13 @@ export default function Home() {
 
     return (
       <section id="partners" className="">
-        <div className="flex flex-col lg:flex-row  justify-around">
-          <div className="flex flex-col mx-16 lg:w-1/2 ">
-            <div className="font-bold text-2xl lg:text-3xl pb-4">
+        <div className="flex flex-col md:flex-row  justify-around">
+          <div className="flex flex-col mx-16 md:w-1/2 ">
+            <div className="font-bold text-2xl md:text-3xl pb-4">
             Technical Partners
-            <hr className="h-1 my-4 bg-[#227B94] border-0 " />
+            <hr className="h-1 my-4 bg-[#87A2FF] border-0 " />
             </div>
-            <div className="flex flex-col  lg:flex-row">
+            <div className="flex flex-col  md:flex-row">
           <Image
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGnicMMBfXdQJrZy9RvzmnhzvVw1bgLTs_qA&s"
               alt="Computer Society Of India"
@@ -110,12 +113,12 @@ export default function Home() {
             />
             </div>
           </div>
-          <div className="flex flex-col mx-16 lg:w-1/2 ">
-          <div className="font-bold text-2xl lg:text-3xl pb-4">
+          <div className="flex flex-col mx-16 md:w-1/2 ">
+          <div className="font-bold text-2xl md:text-3xl pb-4">
             Publishing  Partners
-            <hr className="h-1 my-4 bg-[#227B94] border-0  " />
+            <hr className="h-1 my-4 bg-[#87A2FF] border-0  " />
             </div>
-            <div className="flex flex-col items-center lg:flex-row">
+            <div className="flex flex-col items-center md:flex-row">
           <Image
               src="/images/springer.png"
               alt="springer"
@@ -136,14 +139,14 @@ const Editions_News =() =>{
 
   return (
     <section id="editions" className="">
-      <div className="flex flex-col lg:flex-row  justify-around">
-        <div className="flex flex-col mx-16 lg:w-1/2 ">
-          <div className="font-bold text-2xl lg:text-3xl pb-4">
+      <div className="flex flex-col md:flex-row  justify-around">
+        <div className="flex flex-col mx-16 md:w-1/2 ">
+          <div className="font-bold text-2xl md:text-3xl pb-4">
           Previous Editions
-          <hr className="h-1 my-4 bg-[#227B94] border-0 " />
+          <hr className="h-1 my-4 bg-[#87A2FF] border-0 " />
           </div>
-          <div className="flex flex-col font-bold  lg:flex-row">
-            <ul  className="lg:text-2xl pl-10">
+          <div className="flex flex-col font-bold  md:flex-row">
+            <ul  className="md:text-2xl pl-10">
             <li className=" py-4">
                 <Link href="https://link.springer.com/book/10.1007/978-981-99-1588-0">ICICC 2022 (7<sup>th</sup> Edition)</Link>
               </li>
@@ -168,12 +171,12 @@ const Editions_News =() =>{
             </ul>
           </div>
         </div>
-        <div className="flex flex-col mx-16 lg:w-1/2 ">
-        <div className="font-bold text-2xl lg:text-3xl pb-4">
+        <div className="flex flex-col mx-16 md:w-1/2 ">
+        <div className="font-bold text-2xl md:text-3xl pb-4">
           News and Updates
-          <hr className="h-1 my-4 bg-[#227B94] border-0  " />
+          <hr className="h-1 my-4 bg-[#87A2FF] border-0  " />
           </div>
-          <div className="flex flex-col items-center lg:flex-row">
+          <div className="flex flex-col items-center md:flex-row">
 
           </div>
         </div>
@@ -207,120 +210,57 @@ const About_vrsec = () => {
 
   return (
     <section id="about-section" className="overflow-hidden min-h-screen flex justify-center items-center p-10">
-      <div className="flex flex-col justify-between ">
+      <div className="flex flex-col md:flex-row justify-between ">
         {/* Left Half: About VRSEC */}
         <div
-          className={`p-5 transition-transform duration-700 ease-in-out ${
+          className={`md:w-1/2 p-5 transition-transform duration-700 ease-in-out ${
             isVisible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'
           }`}
         >
-          <h2 className="text-2xl lg:text-4xl font-bold mb-4 text-[#227B94]">About VRSEC</h2>
-          <p className="text-sm lg:text-xl text-justify ">
+          <h2 className="text-2xl md:text-4xl font-bold mb-4 text-[#87A2FF]">About VRSEC</h2>
+          <p className="text-sm md:text-xl text-justify ">
           VRSEC has achieved significant recognition, ranked 141st in the NIRF 2022 and consistently below 200 for the past five years. It is NAAC accredited with an A+ grade and holds autonomous status extended to 2028. The institute has been NBA accredited since 1998 and follows outcome-based education (Tier I) since 2013. It has earned accolades such as the AICTE-CII IndPact award, platinum ratings, and ARIIA rankings, and is part of AICTE's MARGADARSHAN scheme. VRSEC is also recognized for its research contributions, NABL-accredited labs, and consultancy services. It collaborates with leading organizations and boasts strong placement records with top global companies.
           </p>
         </div>
 
         {/* Right Half: Scope */}
         <div
-          className={`p-5 w-full transition-transform duration-700 ease-in-out ${
+          className={`md:w-1/2 p-5 transition-transform duration-700 ease-in-out ${
             isVisible ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0'
           }`}
         >
-          <h2 className="text-2xl lg:text-4xl font-bold mb-4 text-[#227B94]">Scope</h2>
-          <p className="text-sm lg:text-xl text-justify ">
+          <h2 className="text-2xl md:text-4xl font-bold mb-4 text-[#87A2FF]">Scope</h2>
+          <p className="text-sm md:text-xl text-justify ">
             The scope of this conference has been kept wide, and the following are the topics covered (but not limited to):
           </p>
-          <div className="flex flex-col lg:flex-row">
-          <div className="mt-10 flex lg:flex-row flex-col lg:gap-40">
-            <div className="lg:w-1/2">
-            {/* Artificial Intelligence and Machine Learning */}
-            <div className="mb-6">
-              <h2 className="text-lg lg:text-2xl font-bold">1. Artificial Intelligence and Machine Learning</h2>
-              <ul className="list-disc ml-5 text-sm lg:text-xl">
-                <li className="p-2">Deep Learning and Neural Networks</li>
-                <li className="p-2">Natural Language Processing</li>
-                <li className="p-2">Explainable AI and Ethics in AI</li>
-                <li className="p-2">Reinforcement Learning and Optimization</li>
-                <li className="p-2">AI in Healthcare and Industry Applications</li>
-              </ul>
-            </div>
-
-            {/* Data Science and Big Data Analytics */}
-            <div className="mb-6">
-              <h2 className="text-lg lg:text-2xl font-bold">2. Data Science and Big Data Analytics</h2>
-              <ul className="list-disc ml-5 text-sm lg:text-xl">
-                <li className="p-2">Data Mining and Predictive Analytics</li>
-                <li className="p-2">Big Data Infrastructure and Frameworks</li>
-                <li className="p-2">Visualization Techniques and Tools</li>
-                <li className="p-2">Real-Time Data Processing</li>
-                <li className="p-2">Privacy and Security in Data Analytics</li>
-              </ul>
-            </div>
-
-            {/* Internet of Things (IoT) and Smart Systems */}
-            <div className="mb-6">
-              <h2 className="text-lg lg:text-2xl font-bold">3. Internet of Things (IoT) and Smart Systems</h2>
-              <ul className="list-disc ml-5 text-sm lg:text-xl">
-                <li className="p-2">IoT Architectures and Protocols</li>
-                <li className="p-2">Smart Cities and Smart Grids</li>
-                <li className="p-2">Wearable and Embedded Systems</li>
-                <li className="p-2">Edge and Fog Computing in IoT</li>
-                <li className="p-2">IoT Security and Privacy</li>
-              </ul>
-            </div>
-
-            {/* Wireless Communication and Networking */}
-            <div className="mb-6">
-              <h2 className="text-lg lg:text-2xl font-bold">4. Wireless Communication and Networking</h2>
-              <ul className="list-disc ml-5 text-sm lg:text-xl">
-                <li className="p-2">5G/6G Networks and Beyond</li>
-                <li className="p-2">Cognitive and Software-Defined Radios</li>
-                <li className="p-2">Network Optimization and Traffic Management</li>
-                <li className="p-2">Wireless Sensor Networks and Ad Hoc Networks</li>
-                <li className="p-2">Security Challenges in Wireless Communication</li>
-              </ul>
-            </div>
-            </div>
-
-            <div className="lg:w-1/2">
-            {/* Cybersecurity and Cryptography */}
-            <div className="mb-6">
-              <h2 className="text-lg lg:text-2xl font-bold">5. Cybersecurity and Cryptography</h2>
-              <ul className="list-disc ml-5 text-sm lg:text-xl">
-                <li className="p-2">Network Security and Privacy</li>
-                <li className="p-2">Blockchain and Distributed Ledger Technologies</li>
-                <li className="p-2">Post-Quantum Cryptography</li>
-                <li className="p-2">Intrusion Detection and Prevention Systems</li>
-                <li className="p-2">AI and ML Applications in Cybersecurity</li>
-              </ul>
-            </div>
-
-            {/* Robotics and Autonomous Systems */}
-            <div className="mb-6">
-              <h2 className="text-lg lg:text-2xl font-bold">6. Robotics and Autonomous Systems</h2>
-              <ul className="list-disc ml-5 text-sm lg:text-xl">
-                <li className="p-2">Swarm Robotics and Multi-Agent Systems</li>
-                <li className="p-2">Human-Robot Interaction</li>
-                <li className="p-2">Autonomous Vehicles and Drones</li>
-                <li className="p-2">Navigation and Mapping</li>
-                <li className="p-2">AI for Robotics</li>
-              </ul>
-            </div>
-
-            {/* Cloud, Edge, and High-Performance Computing */}
-            <div className="">
-              <h2 className="text-lg lg:text-2xl font-bold">7. Cloud, Edge, and High-Performance Computing</h2>
-              <ul className="list-disc ml-5 text-sm lg:text-xl">
-                <li className="p-2">Distributed and Cloud Computing</li>
-                <li className="p-2">Virtualization and Containerization</li>
-                <li className="p-2">Edge Computing Applications</li>
-                <li className="p-2">Green and Sustainable Computing</li>
-                <li className="p-2">High-Performance Computing Architectures</li>
-              </ul>
-            </div>
-            </div>
-          </div>
-
+          <div className="flex flex-col md:flex-row">
+          <ul className=" text-sm md:text-xl list-disc mt-10  ml-5">
+            <li className="p-2">Artificial Intelligence</li>
+            <li className="p-2">Computational Intelligence</li>
+            <li className="p-2">Cognitive Computing</li>
+            <li className="p-2">Cloud & Fog Computing</li>
+            <li className="p-2">Deep Learning</li>
+            <li className="p-2">Intelligent Control Agents</li>
+            <li className="p-2">Internet of Things</li>
+            <li className="p-2">Machine Learning</li>
+            <li className="p-2">Big Data Tools & Technologies</li>
+            <li className="p-2">Search Engines & IR</li>
+            <li className="p-2">Optimization Algorithms</li>
+            <li className="p-2">Cyber Security</li>
+            <li className="p-2">Mathematical Modelling</li>
+           
+          </ul>
+          <ul className="text-sm md:text-2xl list-disc mt-10  ml-5">
+          <li className="p-2">Image and Video Processing</li>
+            <li className="p-2">Satellite and Optical Communication</li>
+            <li className="p-2">Geographical Information Systems</li>
+            <li className="p-2">Bio Informatics</li>
+            <li className="p-2">Data Analysis and Visualization</li>
+            <li className="p-2">Real-Time Operating Systems</li>
+            <li className="p-2">Robotics</li>
+            <li className="p-2">Mobile Computing</li>
+            <li className="p-2">Other Topics Related to ICICC Theme</li>
+          </ul>
           </div>
         </div>
       </div>
@@ -366,7 +306,7 @@ const Travel=()=>{
      <section>
        <div
         className={`mt-1 w-full bg-white bg-opacity-50 p-8 rounded-lg transition-opacity duration-1000 `}>
-        <h1 className="text-2xl lg:text-5xl font-bold text-center pb-8 text-[#227B94]">ICICC 2025 - Travel Reimbursement for Authors</h1>
+        <h1 className="text-2xl md:text-5xl font-bold text-center pb-8 text-[#87A2FF]">ICICC 2025 - Travel Reimbursement for Authors</h1>
   
       {/* table of journals */}
   <div className="overflow-x-auto">
@@ -374,21 +314,21 @@ const Travel=()=>{
     <table className="text-left table-auto border-collapse border-2 border-[#4F709C] min-w-full">
       <thead>
         <tr>
-          <th className="px-4 py-2 border text-[#16325B] bg-[#FFDC7F] font-bold text-xs lg:text-xl border-[#4F709C]">S.No.</th>
-          <th className="px-4 py-2 border text-[#16325B] bg-[#FFDC7F] font-bold text-xs lg:text-xl border-[#4F709C]">Paper Id</th>
-          <th className="px-4 py-2 border text-[#16325B] bg-[#FFDC7F] font-bold text-xs lg:text-xl border-[#4F709C]">Corresponding Author</th>
-          <th className="px-4 py-2 border text-[#16325B] bg-[#FFDC7F] font-bold text-xs lg:text-xl border-[#4F709C]">Title</th>
-          <th className="px-4 py-2 border text-[#16325B] bg-[#FFDC7F] font-bold text-xs lg:text-xl border-[#4F709C]">Total Amount</th>
+          <th className="px-4 py-2 border text-[#16325B] bg-[#FFDC7F] font-bold text-xs md:text-xl border-[#4F709C]">S.No.</th>
+          <th className="px-4 py-2 border text-[#16325B] bg-[#FFDC7F] font-bold text-xs md:text-xl border-[#4F709C]">Paper Id</th>
+          <th className="px-4 py-2 border text-[#16325B] bg-[#FFDC7F] font-bold text-xs md:text-xl border-[#4F709C]">Corresponding Author</th>
+          <th className="px-4 py-2 border text-[#16325B] bg-[#FFDC7F] font-bold text-xs md:text-xl border-[#4F709C]">Title</th>
+          <th className="px-4 py-2 border text-[#16325B] bg-[#FFDC7F] font-bold text-xs md:text-xl border-[#4F709C]">Total Amount</th>
         </tr>
       </thead>
       <tbody>
         {paperDetails.map((paper) => (
           <tr key={paper.sNo}>
-            <td className="px-4 py-2 border text-xs lg:text-lg border-[#4F709C]">{paper.serialNo}</td>
-            <td className="px-4 py-2 border text-xs lg:text-lg border-[#4F709C]">{paper.paperId}</td>
-            <td className="px-4 py-2 border text-xs lg:text-lg border-[#4F709C]">{paper.correspondingAuthor}</td>
-            <td className="px-4 py-2 border text-xs lg:text-lg border-[#4F709C]">{paper.title}</td>
-            <td className="px-4 py-2 border text-xs lg:text-lg border-[#4F709C]">{paper.totalAmount}</td>
+            <td className="px-4 py-2 border text-xs md:text-lg border-[#4F709C]">{paper.serialNo}</td>
+            <td className="px-4 py-2 border text-xs md:text-lg border-[#4F709C]">{paper.paperId}</td>
+            <td className="px-4 py-2 border text-xs md:text-lg border-[#4F709C]">{paper.correspondingAuthor}</td>
+            <td className="px-4 py-2 border text-xs md:text-lg border-[#4F709C]">{paper.title}</td>
+            <td className="px-4 py-2 border text-xs md:text-lg border-[#4F709C]">{paper.totalAmount}</td>
           </tr>
         ))}
       </tbody>
@@ -402,7 +342,7 @@ const Travel=()=>{
 
   return (
    <>
-   <div className="mt-44 lg:mt-96"></div>
+   <div className="mt-44 md:mt-96"></div>
     <About/>
     <Partners/>
     <Editions_News/>
