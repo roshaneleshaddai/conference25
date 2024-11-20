@@ -174,7 +174,13 @@ const Editions_News =() =>{
           <hr className="h-1 my-4 bg-[#87A2FF] border-0  " />
           </div>
           <div className="flex flex-col items-center lg:flex-row">
-
+          <ol className="font-bold text-xl">
+         <li>
+           Poster Launched on 23rd November 2024  
+            <span className="bg-red-600 rounded text-white p-2 animation-blink">new</span>
+           </li>
+          </ol>
+             
           </div>
         </div>
       </div>
