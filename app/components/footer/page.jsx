@@ -42,9 +42,7 @@ const Footer = () => {
               <FaPhoneAlt className="inline mr-2" /> Dr. Jaya Prakash S - 9848143200 <br />
               <FaPhoneAlt className="inline mr-2" /> Dr. Gargi M - 8886599444 <br/>
             </p>
-            <p>
-              <FaPhoneAlt className="inline mr-2" /> Student coordinators
-            </p>
+           
           </div>
           </div>
             {/* Social Media Links Section */}
