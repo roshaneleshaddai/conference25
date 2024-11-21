@@ -140,7 +140,7 @@ const author_info = () => {
         href="https://www.springer.com/de/authors-editors/editors/publishing-ethics-for-journals/4176"
         className='text-[#FF6600] cursor-pointer underline underline-offset-8 decoration-indigo-500 hover:underline hover:decoration-4'>click here to read the Springer publication ethics and guidelines.
       </Link></span></p>
-      <p id='registration_id' className='py-2'>Paper Submission Deadline: 15th July 2025</p>
+      <p id='registration_id' className='py-2'>Paper Submission Deadline: 2nd June 2025</p>
       </div>
       </div>
 
