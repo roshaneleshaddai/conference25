@@ -56,23 +56,31 @@ const Header = () => {
   return (
   // <div className="relative w-full h-full">
   <header
-  className={`fixed w-full m-auto top-0 z-50 transition-transform duration-300 bg-[#87A2FF] ease-in-out ${
-    isScrolled ? 'py-0 lg:py-2' : 'py-2 lg:py-4 '
-  } `}
+  className={`fixed w-full m-auto top-0 z-50 transition-transform duration-300 bg-[#87A2FF] ease-in-out py-2 lg:py-2 `}
 >
   <div className="flex items-center justify-around">
     {/* Logo Section */}
     <Image
-      src="/images/vrseclogo.png"
+      // src="/images/vrseclogo.png"
+      src="/images/vr_logo.png"
       alt="VRSEC Logo"
-      width={isScrolled ? 130 : 140}
-      height={isScrolled ? 130 : 140}
-      className="rounded-full object-contain transition-all duration-300"
+      width={isScrolled ? 120 : 140}
+      height={isScrolled ? 120 : 140}
+      className={`lg:block hidden rounded-full object-scale-down transition-all duration-300 lg:w-120 lg:h-140`}
+      loading="lazy"
+    />
+    <Image
+      // src="/images/vrseclogo.png"
+      src="/images/vr_logo.png"
+      alt="VRSEC Logo"
+      width={isScrolled ? 120 : 140}
+      height={isScrolled ? 120 : 140}
+      className={`lg:hidden block rounded-full object-scale-down transition-all duration-300 w-24 h-32 `}
       loading="lazy"
     />
     <div
       className={`lg:block lg:text-center transition-all duration-300 ease-in-out ${
-        isScrolled ? 'text-base lg:text-2xl' : 'text-xl lg:text-3xl'
+        isScrolled ? 'text-base lg:text-3xl' : 'text-xl lg:text-3xl'
       }`}
     >
       <h2 className={`font-bold text-[#16325B]`}>
@@ -80,28 +88,38 @@ const Header = () => {
         Siddhartha Engineering College
       </h2>
       <h2
-        className={`text-sm font-normal ${
-          isScrolled ? 'text-xs lg:text-lg text-[#16325B]' : 'text-lg lg:text-xl text-[#16325B]'
+        className={`font-normal text-[#16325B] ${
+          isScrolled ? 'lg:text-lg text-sm' : 'lg:text-xl text-base'
         }`}
       >
-        (Deemed to be University)
+        DEEMED TO BE <span className="font-semibold">UNIVERSITY</span>
         <br />
-        Kanuru, Vijayawada, Andhra Pradesh, 520007.
+        <span className="text-black lg:text-sm text-xs">(Under section 3 UGC Act, 1956)</span>
+        <br/>
+        <span className={`${isScrolled ? 'hidden': 'text-sm lg:text-base' }`}><span className="text-black">(Sponsored by <span className="font-semibold">Siddhartha Academy of General & Technical Education</span>), Vijayawada, A.P, India.</span></span>
+        <span className={`${isScrolled ? 'text-xs lg:text-sm' : 'hidden'}`}>
+  <span className="text-black text-sm lg:text-base">
+    (Sponsored by <span className="font-semibold">Siddhartha Academy of General & Technical Education</span>)
+    <span className="hidden lg:inline"><br /></span>
+    Vijayawada, A.P, India.
+  </span>
+</span>
+
       </h2>
     </div>
 
     {isScrolled  && (
-      <div className="hidden items-center justify-center gap-16 lg:flex my-2">
+      <div className="hidden items-center justify-center gap-16 lg:flex mt-2">
         <div className="items-center text-center flex-col">
           <h2 className="font-bold text-white text-xs lg:text-2xl">
-            8<sup>th</sup> International Conference on Intelligent Computing and
-            <br />
-            Communication ICICC-2025
+            8<sup>th</sup> International Conference on<br />Intelligent Computing and Communication<br />(ICICC-2025)
           </h2>
           <h2 className="text-sm text-[#112D32] font-bold text-xs lg:text-base">
             25<sup>th</sup> & 26<sup>th</sup> July - 2025
             <br />
-            Organized by: Department of Information Technology & Computer Science and Engineering
+            <span className={`${isScrolled ? 'hidden': '' }`}><span className="text-black text-base">Organized by: Department of Information Technology & Computer Science and Engineering</span></span>
+            <span className={`${isScrolled ? '': 'hidden' }`}><span className="text-black text-base">Organized by: Department of Information Technology <br></br>& Computer Science and Engineering</span></span>
+            {/* Organized by: Department of Information Technology & Computer Science and Engineering */}
           </h2>
         </div>
       </div>
@@ -166,10 +184,10 @@ const Header = () => {
         </div>
       </div>
 
-      <div className={`hidden item-center justify-center gap-16 lg:flex my-2`}>
+      <div className={`hidden item-center justify-center gap-16 lg:flex mt-2`}>
         <div className={` items-center text-center flex ${isScrolled ? 'hidden' : 'lg:block'}`}>
-          <h2 className={`font-bold text-3xl  text-white  ${isScrolled ? 'text-xs lg:text-2xl' : 'text-xl lg:text-4xl'}`}>
-            8<sup>th</sup>   International Conference on Intelligence Computing and <br />Communication ICICC-2025 
+          <h2 className={`font-bold text-white  ${isScrolled ? 'text-xs lg:text-2xl' : 'text-xl lg:text-4xl'}`}>
+            8<sup>th</sup>   International Conference on Intelligence Computing and Communication<br />(ICICC-2025) 
             </h2>
             <h2 className={`text-sm text-[#112D32] font-bold ${isScrolled ? 'text-xs lg:text-base' : 'text-lg lg:text-xl'}`}>
             25<sup>th</sup> & 26<sup>th</sup> July - 2025<br></br>
@@ -250,69 +268,69 @@ const Header = () => {
       <nav className={`hidden lg:flex justify-evenly px-24 ${isScrolled ? 'lg:mt-0 ' : 'lg:mt-4 '} bg-[#FFF4B5]`}>
       <Link
         href="/#home"
-        className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-1' : 'text-sm py-1 px-1'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
+        className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-base py-1 px-2' : 'text-base py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
         >
       Home
       </Link>
       <Link
         href="/about"
-        className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-1' : 'text-sm py-1 px-1'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
+        className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-base py-1 px-2' : 'text-base py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
         >
       About
       </Link>
       <Link
       href="/call_for_papers"
-      className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-1' : 'text-sm py-1 px-1'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
+      className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-base py-1 px-2' : 'text-base py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
         >
         Call for Papers
         </Link>
 
         <Link
           href="/important_dates"
-          className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-1' : 'text-sm py-1 px-1'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
+          className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-base py-1 px-2' : 'text-base py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
         >
           Important Dates
         </Link>
         <Link
           href="/committees"
-          className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-1' : 'text-sm py-1 px-1'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
+          className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-base py-1 px-2' : 'text-base py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
         >
           Committees
         </Link>
         <Link
           href="/author_info"
-          className={`cursor-pointer m-0.5    border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-1' : 'text-sm py-1 px-1'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
+          className={`cursor-pointer m-0.5    border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-base py-1 px-2' : 'text-base py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
         >
           Author Info
         </Link>
         <Link
           href="/schedule"
-          className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-1' : 'text-sm py-1 px-1'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
+          className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-base py-1 px-2' : 'text-base py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
         >
         Schedule
         </Link>
         <Link
           href="/speakers"
-          className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-1' : 'text-sm py-1 px-1'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
+          className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-base py-1 px-2' : 'text-base py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
         >
          Guests & Speakers
         </Link>
         <Link
           href="/contact_us"
-          className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-1' : 'text-sm py-1 px-1'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
+          className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-base py-1 px-2' : 'text-base py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
         >
          Contact Us
         </Link>
         
         <Link
           href="/vij_attractions"
-          className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-1' : 'text-sm py-1 px-1'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
+          className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-base py-1 px-2' : 'text-base py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
         >
          Vijayawada Attractions
         </Link>
         <Link
           href="/previous_editions"
-          className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-sm py-1 px-1' : 'text-sm py-1 px-1'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
+          className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-base py-1 px-2' : 'text-base py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
         >
          Previous Editions
         </Link>
