@@ -63,16 +63,16 @@ const committees = () => {
       "members": [
         "Dr. M. Suneetha, Professor & Dean – Research, Technology Development & IQAC, VRSEC, India",
         "Dr. Naif Almakayeel, Associate Professor, Industrial Engineering, King Khalid University",
-        "Dr. E. Laxmi Lydia, Professor, IT, VRSEC, India",
-        "Dr. G. Kalyani, Associate Professor, IT, VRSEC, India",
-        "Dr. V. Radhesyam, Senior Assistant Professor, IT, VRSEC, India"
-        "Dr. K. Srinivas, Professor, CSE, VRSEC, India",
         "Dr. K. Suvarna Vani, Professor, CSE, VRSEC, India",
+         "Dr. K. Srinivas, Professor, CSE, VRSEC, India",
+        "Dr. E. Laxmi Lydia, Professor, IT, VRSEC, India",
+        "Dr. G. Kalyani, Associate Professor, IT, VRSEC, India", 
         "Dr. Elvir Munirovich Akhmetshin, Department of Economics and Management, Elabuga Institute, Kazan Federal University, Kazan, Russia",
         "Dr. Cheng Cheng, Professor, Computer Science, Swansea University, UK",
         "Dr. Rabia Emhamed Al Mamlook, Department of Business Administration, Trine University, USA",
         "Abeer Aljohani, Department of Computer Science, Applied College, Taibah University, Medina 42353, Saudi Arabia",
         "Ming Yang, Ph.D., Professor, Department of Information Technology, College of Computing and Software Engineering, Kennesaw State University - Marietta Campus",
+         "Dr. V. Radhesyam, Senior Assistant Professor, IT, VRSEC, India"
       ]
     },
     {
