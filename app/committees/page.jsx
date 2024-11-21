@@ -10,7 +10,7 @@ const committees = () => {
     {
       title: "Patrons",
       members: [
-        "Sri C. Nageswara Rao, President, SAGTE",
+        "Dr. C. Nageswara Rao, President, SAGTE",
         "Sri P. Lakshmana Rao, Secretary, SAGTE",
         "Sri M. Rajaiah, Vice-President, SAGTE",
         "Prof. P. Venkateswara Rao, Vice Chancellor, VRSEC",
@@ -25,13 +25,13 @@ const committees = () => {
     },
     {
       title: "Conference Chair",
-      members: ["Dr. E. Laxmi Lydia, Professor, Department of Information Technology, VRSEC"],
+      members: ["Prof. E. Laxmi Lydia, Professor, Department of Information Technology, VRSEC"],
     },
     {
       title: "Program Chair",
       members: [
-        "Dr. M. Suneetha, Professor & DEAN – Research, Technology Development & IQAC, VRSEC",
-        "Dr. D. Rajeswara Rao, Professor & DEAN – Industry Relations, Training & Placements, VRSEC",
+        "Prof. M. Suneetha, Professor & DEAN – Research, Technology Development & IQAC, VRSEC",
+        "Prof. D. Rajeswara Rao, Professor & DEAN – Industry Relations, Training & Placements, VRSEC",
       ],
     },
     {
@@ -41,12 +41,12 @@ const committees = () => {
     {
       title: "Conveners",
       members: [
-        "Dr. T. Anuradha, Professor, IT, VRSEC",
-        "Dr. G. Kalyani, Associate Professor, IT, VRSEC",
-        "Dr. S. Suhasini, Associate Professor, IT, VRSEC",
+        "Prof. T. Anuradha, Professor, IT, VRSEC",
+        "Prof. K. Srinivas, Professor, CSE, VRSEC",
+        "Prof. K. Suvarna Vani, Professor, CSE, VRSEC",
         "Dr. K. Sita Kumari, Associate Professor, IT, VRSEC",
-        "Dr. K. Suvarna Vani, Professor, CSE, VRSEC",
-         "Dr. K. Srinivas, Professor, CSE, VRSEC",
+        "Dr. S. Suhasini, Associate Professor, IT, VRSEC",
+        "Dr. G. Kalyani, Associate Professor, IT, VRSEC",
       ],
     },
     {
@@ -54,44 +54,43 @@ const committees = () => {
       members: [
         "Dr. Y. Sandeep, Assistant Professor, IT, VRSEC",
         "Dr. M. Gargi, Assistant Professor, IT, VRSEC",
-        "Mr. S. Ravi Kishan, Associate Professor, CSE, VRSEC",
+        "Dr. P. Ravi Sankar, Sr. Assistant Professor, CSE, VRSEC",
         "Dr. N. Sravani, Assistant Professor, CSE, VRSEC",
       ],
     },
     {
       "title": "Editorial Committee",
       "members": [
-        "Dr. M. Suneetha, Professor & Dean – Research, Technology Development & IQAC, VRSEC, India",
+        "Prof. M. Suneetha, Professor & Dean – Research, Technology Development & IQAC, VRSEC, India",
         "Dr. Naif Almakayeel, Associate Professor, Industrial Engineering, King Khalid University",
-        "Dr. K. Suvarna Vani, Professor, CSE, VRSEC, India",
-         "Dr. K. Srinivas, Professor, CSE, VRSEC, India",
-        "Dr. E. Laxmi Lydia, Professor, IT, VRSEC, India",
-        "Dr. G. Kalyani, Associate Professor, IT, VRSEC, India", 
+        "Prof. K. Srinivas, Professor, CSE, VRSEC, India",
+        "Prof. K. Suvarna Vani, Professor, CSE, VRSEC, India",
+        "Prof. E. Laxmi Lydia, Professor, IT, VRSEC, India",
+        "Dr. G. Kalyani, Associate Professor, IT, VRSEC, India",
         "Dr. Elvir Munirovich Akhmetshin, Department of Economics and Management, Elabuga Institute, Kazan Federal University, Kazan, Russia",
         "Dr. Cheng Cheng, Professor, Computer Science, Swansea University, UK",
         "Dr. Rabia Emhamed Al Mamlook, Department of Business Administration, Trine University, USA",
         "Abeer Aljohani, Department of Computer Science, Applied College, Taibah University, Medina 42353, Saudi Arabia",
         "Ming Yang, Ph.D., Professor, Department of Information Technology, College of Computing and Software Engineering, Kennesaw State University - Marietta Campus",
-         "Dr. V. Radhesyam, Senior Assistant Professor, IT, VRSEC, India"
+        "Dr. V. Radhesyam, Senior Assistant Professor, IT, VRSEC, India"
       ]
     },
     {
       "title": "Publicity Committee",
       "members": [
+        "Mr. S. Ravi Kishan, Associate Professor, CSE, VRSEC",
+        "Dr. P. Ramesh Kumar, Associate Professor, CSE, VRSEC",
+        "Dr. K. Praveen Kumar, Associate Professor, CSE, VRSEC",
+        "Dr. G. Kranti Kumar, Sr. Assistant Professor, CSE, VRSEC",
+        "Mr. A. Raghuvira Pratap, Assistant Professor, CSE, VRSEC",
+        "Mr. Ch. Mukesh, Assistant Professor, CSE, VRSEC",
+        "Mr. N. Sunny, Assistant Professor, CSE, VRSEC",
         "Dr. Jaya Prakash Sunkavalli, Assistant Professor, IT, VRSEC",
         "Dr. Chavva Subba Reddy, Assistant Professor, IT, VRSEC",
-        "Dr. Gargi Madala, Assistant Professor, IT, VRSEC",
-        "Dr. Y. Sangeetha, Assistant Professor, IT, VRSEC",
-        "Dr. A. Srisaila, Assistant Professor, IT, VRSEC",
-        "Kalayan Chakravarti Yelavarti, Assistant Professor, IT, VRSEC",
+        "Kalyan Chakravarti Yelavarti, Assistant Professor, IT, VRSEC",
         "G. Geetha, Assistant Professor, IT, VRSEC",
-        "P. Rama Devi, Assistant Professor, IT, VRSEC",
         "P. Madhavi Latha, Assistant Professor, IT, VRSEC",
-        "K. Pranathi, Assistant Professor, IT, VRSEC",
         "S. Kranthi, Assistant Professor, IT, VRSEC",
-        "K. Raja Sravankumar, Assistant Professor, IT, VRSEC",
-        "T. Lakshmi Surekha, Assistant Professor, IT, VRSEC",
-        "K. Madhavi, Assistant Professor, IT, VRSEC",
         "Cherukuri Nanda Krishna, Assistant Professor, IT, VRSEC"
       ]
     },    
