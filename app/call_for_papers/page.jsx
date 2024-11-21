@@ -63,7 +63,7 @@ const call_for_papers = () => {
       
       {/* <Imageplacer name="Call for Papers" /> */}
       
-    <h1 className="text-2xl lg:text-5xl md:mt-96 pt-10 mt-44 lg:mb-0 mb-4 font-extrabold  text-center text-black">Call for Papers</h1>
+    <h1 className="text-2xl lg:text-5xl md:mt-96 lg:pt-10 pt-20 mt-44 lg:mb-0 mb-4 font-extrabold  text-center text-black">Call for Papers</h1>
 {/* <p className="p-5 font-bold text-center text-black bg-[url('https://img.freepik.com/free-vector/medical-tech-background-with-hexagon-pattern_107791-30275.jpg?t=st=1728633368~exp=1728636968~hmac=cc61870f5b73b9658f533c2c416a8ea48ba36cc9240850a2ac53f2d998d5d902&w=1380')] bg-opacity-25 text-4xl">
       CALL FOR PAPERS
       </p> */}
