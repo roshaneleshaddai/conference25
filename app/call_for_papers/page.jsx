@@ -123,9 +123,98 @@ const call_for_papers = () => {
       <h1 className='md:text-3xl text-2xl font-bold pb-2'>Scope and Interests</h1>
       <p className='md:text-xl text-md'>For its research track, ICICC-2025 invites original, high-quality papers addressing the following topics. All submissions will be subject to plagiarism check. We strongly encourage papers that report experimental work and results. Use of public data sets and repeatability of experiments, well-written papers high lighting the contributions, novel approaches for different computing platforms, are a few important parameters used for research quality assessment. Submissions of high-quality papers is expected in all areas of Data Engineering, Intelligent Computing, Computer Communication, Networking and IoT.
       </p>
-      <ul className="list-disc pl-5 pt-2 md:text-xl text-md">
-        {Display_techs(list_of_tech)}
-      </ul>
+      <div className="flex flex-col lg:flex-row">
+          <div className="mt-10 flex lg:flex-row flex-col lg:gap-40">
+            <div className="lg:w-1/2">
+            {/* Artificial Intelligence and Machine Learning */}
+            <div className="mb-6">
+              <h2 className="text-lg lg:text-2xl font-bold">1. Artificial Intelligence and Machine Learning</h2>
+              <ul className="list-disc ml-5 text-sm lg:text-xl">
+                <li className="p-2">Deep Learning and Neural Networks</li>
+                <li className="p-2">Natural Language Processing</li>
+                <li className="p-2">Explainable AI and Ethics in AI</li>
+                <li className="p-2">Reinforcement Learning and Optimization</li>
+                <li className="p-2">AI in Healthcare and Industry Applications</li>
+              </ul>
+            </div>
+
+            {/* Data Science and Big Data Analytics */}
+            <div className="mb-6">
+              <h2 className="text-lg lg:text-2xl font-bold">2. Data Science and Big Data Analytics</h2>
+              <ul className="list-disc ml-5 text-sm lg:text-xl">
+                <li className="p-2">Data Mining and Predictive Analytics</li>
+                <li className="p-2">Big Data Infrastructure and Frameworks</li>
+                <li className="p-2">Visualization Techniques and Tools</li>
+                <li className="p-2">Real-Time Data Processing</li>
+                <li className="p-2">Privacy and Security in Data Analytics</li>
+              </ul>
+            </div>
+
+            {/* Internet of Things (IoT) and Smart Systems */}
+            <div className="mb-6">
+              <h2 className="text-lg lg:text-2xl font-bold">3. Internet of Things (IoT) and Smart Systems</h2>
+              <ul className="list-disc ml-5 text-sm lg:text-xl">
+                <li className="p-2">IoT Architectures and Protocols</li>
+                <li className="p-2">Smart Cities and Smart Grids</li>
+                <li className="p-2">Wearable and Embedded Systems</li>
+                <li className="p-2">Edge and Fog Computing in IoT</li>
+                <li className="p-2">IoT Security and Privacy</li>
+              </ul>
+            </div>
+
+            {/* Wireless Communication and Networking */}
+            <div className="mb-6">
+              <h2 className="text-lg lg:text-2xl font-bold">4. Wireless Communication and Networking</h2>
+              <ul className="list-disc ml-5 text-sm lg:text-xl">
+                <li className="p-2">5G/6G Networks and Beyond</li>
+                <li className="p-2">Cognitive and Software-Defined Radios</li>
+                <li className="p-2">Network Optimization and Traffic Management</li>
+                <li className="p-2">Wireless Sensor Networks and Ad Hoc Networks</li>
+                <li className="p-2">Security Challenges in Wireless Communication</li>
+              </ul>
+            </div>
+            </div>
+
+            <div className="lg:w-1/2">
+            {/* Cybersecurity and Cryptography */}
+            <div className="mb-6">
+              <h2 className="text-lg lg:text-2xl font-bold">5. Cybersecurity and Cryptography</h2>
+              <ul className="list-disc ml-5 text-sm lg:text-xl">
+                <li className="p-2">Network Security and Privacy</li>
+                <li className="p-2">Blockchain and Distributed Ledger Technologies</li>
+                <li className="p-2">Post-Quantum Cryptography</li>
+                <li className="p-2">Intrusion Detection and Prevention Systems</li>
+                <li className="p-2">AI and ML Applications in Cybersecurity</li>
+              </ul>
+            </div>
+
+            {/* Robotics and Autonomous Systems */}
+            <div className="mb-6">
+              <h2 className="text-lg lg:text-2xl font-bold">6. Robotics and Autonomous Systems</h2>
+              <ul className="list-disc ml-5 text-sm lg:text-xl">
+                <li className="p-2">Swarm Robotics and Multi-Agent Systems</li>
+                <li className="p-2">Human-Robot Interaction</li>
+                <li className="p-2">Autonomous Vehicles and Drones</li>
+                <li className="p-2">Navigation and Mapping</li>
+                <li className="p-2">AI for Robotics</li>
+              </ul>
+            </div>
+
+            {/* Cloud, Edge, and High-Performance Computing */}
+            <div className="">
+              <h2 className="text-lg lg:text-2xl font-bold">7. Cloud, Edge, and High-Performance Computing</h2>
+              <ul className="list-disc ml-5 text-sm lg:text-xl">
+                <li className="p-2">Distributed and Cloud Computing</li>
+                <li className="p-2">Virtualization and Containerization</li>
+                <li className="p-2">Edge Computing Applications</li>
+                <li className="p-2">Green and Sustainable Computing</li>
+                <li className="p-2">High-Performance Computing Architectures</li>
+              </ul>
+            </div>
+            </div>
+          </div>
+          </div>
+
       <p className='md:text-xl text-md pt-5' id="paper_submission">
       Submitted papers should neither be previously published nor under consideration for publication elsewhere. All papers will be refereed through a peer review process. The proceedings of ICICC-2025 will be published in the Springer Book series “Lecture Notes in Networks and Systems (LNNS)”, which will be Indexed by SCOPUS, INSPEC, WTI Frankfurt eG, zbMATH, SCImago. All books published in the series are submitted for consideration in Web of Science.
       <span id="call_for_reviewers"></span></p>
