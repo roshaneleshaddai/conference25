@@ -163,8 +163,9 @@ const Schedule = () => {
   return (
     <>
       <div className="mt-44 md:mt-92"></div>
-      <Imageplacer name="Schedule" />
-        <h1 className='text-4xl text-center font-semibold p-20'>Will be Updated soon<span className='rounded text-black p-2 blink'>!</span></h1>
+      {/* <Imageplacer name="Schedule" /> */}
+      <h1 className="text-2xl lg:text-5xl md:mt-96 lg:pt-10 pt-20 mt-44 lg:mb-0 mb-4 font-extrabold  text-center text-black">Schedule</h1>
+        <h1 className='text-xl lg:text-4xl text-center font-semibold p-20'>Will be Updated soon<span className='rounded text-black p-2 blink'>!</span></h1>
         {/* <h1 className='text-2xl md:text-5xl text-center font-bold text-[#87A2FF] mt-16'>Tracks</h1>
       <div className="mt-10 overflow-x-auto flex justify-center p-4">
   <table className="table-auto border-collapse border border-gray-400 ">
