@@ -78,6 +78,13 @@ const committees = () => {
     {
       "title": "Publicity Committee",
       "members": [
+        "Dr. S. Jaya Prakash, Assistant Professor, IT, VRSEC",
+        "Dr. Ch. Subba Reddy, Assistant Professor, IT, VRSEC",
+        "Mr. Y. Kalyan Chakravarti, Assistant Professor, IT, VRSEC",
+        "Ms. G. Geetha, Assistant Professor, IT, VRSEC",
+        "Ms. K. Madhavi, Assistant Professor, IT, VRSEC",
+        "Ms. S. Kranthi, Assistant Professor, IT, VRSEC",
+        "Mr. Ch. Nanda Krishna, Assistant Professor, IT, VRSEC",
         "Mr. S. Ravi Kishan, Associate Professor, CSE, VRSEC",
         "Dr. P. Ramesh Kumar, Associate Professor, CSE, VRSEC",
         "Dr. K. Praveen Kumar, Associate Professor, CSE, VRSEC",
@@ -85,14 +92,7 @@ const committees = () => {
         "Mr. A. Raghuvira Pratap, Assistant Professor, CSE, VRSEC",
         "Mr. Ch. Mukesh, Assistant Professor, CSE, VRSEC",
         "Mr. N. Sunny, Assistant Professor, CSE, VRSEC",
-        "Dr. Jaya Prakash Sunkavalli, Assistant Professor, IT, VRSEC",
-        "Dr. Chavva Subba Reddy, Assistant Professor, IT, VRSEC",
-        "Kalyan Chakravarti Yelavarti, Assistant Professor, IT, VRSEC",
-        "G. Geetha, Assistant Professor, IT, VRSEC",
-        "P. Madhavi Latha, Assistant Professor, IT, VRSEC",
-        "S. Kranthi, Assistant Professor, IT, VRSEC",
-        "Cherukuri Nanda Krishna, Assistant Professor, IT, VRSEC"
-      ]
+        ]
     },    
     {
       title: "Advisory Committee",
