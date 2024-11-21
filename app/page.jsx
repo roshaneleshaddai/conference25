@@ -415,7 +415,7 @@ const Travel=()=>{
    <Imageplacer name="8th International Conference on Intelligent
       Computing and Communication (ICICC - 2025)"/>
         <div className="flex flex-col lg:flex-row mt-5 justify-evenly">
-      <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col mx-16 lg:w-1/2 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-20 px-8 py-5 m-8">
+      <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/2 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-20 px-8 py-5 md:mx-16 mx-8 md:my-8 my-4">
         <div className="font-bold text-2xl lg:text-3xl pb-4">
           Technical Partners
           <hr className="h-1 my-4 bg-[#87A2FF] border-0" />
@@ -459,7 +459,7 @@ const Travel=()=>{
       </div>
 
       {/* Publishing Partners */}
-      <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col mx-16 lg:w-1/2 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-20 px-8 py-5 m-8">
+      <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/2 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-20 px-8 py-5 md:mx-16 mx-8 md:my-8 my-4">
         <div className="font-bold text-2xl lg:text-3xl pb-4">
           Publishing Partners
           <hr className="h-1 my-4 bg-[#87A2FF] border-0" />
@@ -479,7 +479,7 @@ const Travel=()=>{
     </div>
 
     <div className="flex flex-col lg:flex-row justify-evenly">  
-      <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col mx-16 lg:w-1/2 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-20 px-8 py-5 m-8">
+      <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/2 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-20 px-8 py-5 md:mx-16 mx-8 md:my-8 my-4">
         {/* <div className="font-bold text-2xl lg:text-3xl pb-4">
           News and Updates
           <hr className="h-1 my-4 bg-[#87A2FF] border-0  " />
@@ -508,7 +508,7 @@ const Travel=()=>{
           </div>
         </div>
 
-        <div className='hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col mx-16 lg:w-1/2 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-20 md:m-20 px-8 py-5 m-8'>
+        <div className='hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/2 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-20 md:m-20 px-8 py-5 md:mx-16 mx-8 md:my-8 my-4'>
         <div className="flex flex-col items-center">
         <h1 className='md:text-3xl text-2xl font-bold pb-2 text-center'>Paper Submission: 
         <Link href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F" 
@@ -521,7 +521,7 @@ const Travel=()=>{
 
         </div>
         <div className="flex flex-col items-center">
-        <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col mx-16 lg:w-1/2 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-12 md:pb-12 md:mb-20 md:mx-10 px-8 py-5 m-8">
+        <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/2 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-12 md:pb-12 md:mb-20 md:mx-10 px-8 py-5 md:mx-16 mx-8 md:my-8 my-4">
         <div>
           <h1 className="text-2xl md:text-4xl text-black pt-4 font-bold">Important Dates</h1>
           <hr className="h-1 my-4 bg-[#87A2FF] border-0 mb-10" />
@@ -546,4 +546,3 @@ const Travel=()=>{
    </>
   );
 }
-
