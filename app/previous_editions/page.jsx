@@ -17,7 +17,7 @@ export default function Editions_News (){
             <hr className="h-1 my-4 bg-[#87A2FF] border-0 " />
             </div>
             <div className="flex flex-col font-bold  lg:flex-row">
-              <ul  className="lg:text-2xl pl-10">
+              <ul  className="lg:text-2xl lg:pl-10">
               <li className=" py-4">
                   <Link href="https://link.springer.com/book/10.1007/978-981-99-1588-0">ICICC 2022 (7<sup>th</sup> Edition)</Link>
                 </li>
