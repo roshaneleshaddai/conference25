@@ -25,13 +25,13 @@ const committees = () => {
     },
     {
       title: "Conference Chair",
-      members: ["Dr. E. Laxmi Lydia, Professor, Department of Information Technology"],
+      members: ["Dr. E. Laxmi Lydia, Professor, Department of Information Technology, VRSEC"],
     },
     {
       title: "Program Chair",
       members: [
-        "Dr. M. Suneetha, Professor & DEAN – Research, Technology Development & IQAC",
-        "Dr. D. Rajeswara Rao, Professor & DEAN – Industry Relations, Training & Placements",
+        "Dr. M. Suneetha, Professor & DEAN – Research, Technology Development & IQAC, VRSEC",
+        "Dr. D. Rajeswara Rao, Professor & DEAN – Industry Relations, Training & Placements, VRSEC",
       ],
     },
     {
@@ -41,12 +41,12 @@ const committees = () => {
     {
       title: "Conveners",
       members: [
-        "Dr. Anuradha Tadiparthi, Professor, IT, VRSEC",
-        "Dr. Kalyani Gadupudi, Associate Professor, IT, VRSEC",
+        "Dr. T. Anuradha, Professor, IT, VRSEC",
+        "Dr. K. Srinivas, Professor, CSE, VRSEC",
+        "Dr. K. Suvarna Vani, Professor, CSE, VRSEC",
+        "Dr. G. Kalyani, Associate Professor, IT, VRSEC",
         "Dr. S. Suhasini, Associate Professor, IT, VRSEC",
         "Dr. K. Sita Kumari, Associate Professor, IT, VRSEC",
-        "Dr. K. Suvarna Vani, Professor, CSE, VRSEC",
-        "Dr. K. Srinivas, Professor, CSE, VRSEC",
       ],
     },
     {
@@ -54,6 +54,8 @@ const committees = () => {
       members: [
         "Dr. Y. Sandeep, Assistant Professor, IT, VRSEC",
         "Dr. M. Gargi, Assistant Professor, IT, VRSEC",
+        "Mr. S. Ravi Kishan, Associate Professor, CSE, VRSEC",
+        "Dr. N. Sravani, Assistant Professor, CSE, VRSEC",
       ],
     },
     {
@@ -61,9 +63,10 @@ const committees = () => {
       "members": [
         "Dr. M. Suneetha, Professor & Dean – Research, Technology Development & IQAC, VRSEC, India",
         "Dr. Naif Almakayeel, Associate Professor, Industrial Engineering, King Khalid University",
+        "Dr. K. Srinivas, Professor, CSE, VRSEC, India",
         "Dr. K. Suvarna Vani, Professor, CSE, VRSEC, India",
         "Dr. E. Laxmi Lydia, Professor, IT, VRSEC, India",
-        "Dr. Kalyani Gadupudi, Associate Professor, IT, VRSEC, India",
+        "Dr. G. Kalyani, Associate Professor, IT, VRSEC, India",
         "Dr. Elvir Munirovich Akhmetshin, Department of Economics and Management, Elabuga Institute, Kazan Federal University, Kazan, Russia",
         "Dr. Cheng Cheng, Professor, Computer Science, Swansea University, UK",
         "Dr. Rabia Emhamed Al Mamlook, Department of Business Administration, Trine University, USA",
@@ -199,7 +202,7 @@ const committees = () => {
                 <h2 className="lg:text-2xl text-xl font-semibold text-black mb-4">
                   {committee.title}
                 </h2>
-                <ul className="list-disc list-inside space-y-2 lg:pl-5 text-gray-900 lg:text-lg text-base">
+                <ul className="list-disc list-outside space-y-2 lg:pl-8 pl-6 text-gray-900 lg:text-lg text-base">
                   {committee.members.map((member, idx) => (
                     <li key={idx}>{member}</li>
                   ))}
@@ -217,7 +220,7 @@ const committees = () => {
                 <h2 className="lg:text-2xl text-xl font-semibold text-black mb-4">
                   {committee.title}
                 </h2>
-                <ul className="list-disc list-inside space-y-2 lg:pl-5 text-gray-900 lg:text-lg text-base">
+                <ul className="list-disc list-outside space-y-2 lg:pl-8 pl-6 text-gray-900 lg:text-lg text-base">
                   {committee.members.map((member, idx) => (
                     <li key={idx}>{member}</li>
                   ))}
