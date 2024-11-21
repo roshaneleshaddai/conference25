@@ -22,6 +22,7 @@ module.exports = {
         },
       },
       animation: {
+        bounce: "bounce 1.5s infinite",
         fadeIn: "fadeIn 0.5s ease-in-out",
         swipeInLeft: "swipeInLeft 1.0s ease-in-out",
         swipeInRight: "swipeInRight 1.0s ease-in-out",
