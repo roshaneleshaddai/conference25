@@ -1,11 +1,13 @@
 'use client'
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
+import { FaRegCalendarAlt } from "react-icons/fa";
 import { motion } from 'framer-motion';
 import "./globals.css";
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import Dates from "./components/dates/page";
+import Imageplacer from "./components/imageplacer/page";
 
 export default function Home() {
   const About = () => {
@@ -115,15 +117,16 @@ export default function Home() {
             Publishing  Partners
             <hr className="h-1 my-4 bg-[#87A2FF] border-0  " />
             </div>
-            <div className="flex flex-col items-center lg:flex-row">
-          <Image
+            <div className="flex flex-col lg:flex-row">
+              <div className="justify-center items-center">
+              <Image
               src="/images/springer.png"
               alt="springer"
               width={300} 
               height={300}
               className=""
-            />
-            
+              />
+              </div>
             </div>
           </div>
         </div>
@@ -408,13 +411,138 @@ const Travel=()=>{
 
   return (
    <>
-   <div className="mt-44 lg:mt-96"></div>
-    <About/>
-    <Partners/>
-    <Editions_News/>
-    <About_vrsec/>
-{/*     <Travel/> */}
-    <Dates/>
+   <div className="mt-44 lg:mt-92">
+   <Imageplacer name="8th International Conference on Intelligent
+      Computing and Communication (ICICC - 2025)"/>
+        <div className="flex flex-col lg:flex-row mt-5 justify-evenly">
+      <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col mx-16 lg:w-1/2 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-20 px-8 py-5 m-8">
+        <div className="font-bold text-2xl lg:text-3xl pb-4">
+          Technical Partners
+          <hr className="h-1 my-4 bg-[#87A2FF] border-0" />
+        </div>
+        <div className="flex flex-col items-center">
+          {/* Row 1 */}
+          <div className="flex flex-col lg:flex-row lg:gap-10">
+            <Image
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGnicMMBfXdQJrZy9RvzmnhzvVw1bgLTs_qA&s"
+              alt="Computer Society Of India"
+              width={150}
+              height={200}
+              className="p-4"
+            />
+            <Image
+              src="https://cis.ieee.org/images/files/Branding/logos/color/IEEE_CIS_logo_RGB_72ppi.jpg"
+              alt="Cis"
+              width={150}
+              height={200}
+              className="p-4"
+            />
+          </div>
+          {/* Row 2 */}
+          <div className="flex flex-col lg:flex-row lg:gap-10">
+            <Image
+              src="https://d23qowwaqkh3fj.cloudfront.net/wp-content/uploads/2024/06/q-768x230.jpg"
+              alt="SMC"
+              width={150}
+              height={200}
+              className="p-4"
+            />
+            <Image
+              src="https://yt3.googleusercontent.com/ytc/AIdro_l3FuOt4ZYJ7dFFXpaWxjMcuAybjzTLtHqCrYMnMKnjjLn4=s900-c-k-c0x00ffffff-no-rj"
+              alt="ACM"
+              width={150}
+              height={200}
+              className="p-4"
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* Publishing Partners */}
+      <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col mx-16 lg:w-1/2 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-20 px-8 py-5 m-8">
+        <div className="font-bold text-2xl lg:text-3xl pb-4">
+          Publishing Partners
+          <hr className="h-1 my-4 bg-[#87A2FF] border-0" />
+        </div>
+        <div className="flex flex-col items-center">
+        <div className="flex flex-col lg:flex-row lg:gap-10">
+            <Image
+              src="/images/springer.png"
+              alt="springer"
+              width={300}
+              height={300}
+              className="p-4"
+            />
+          </div>
+          </div>
+      </div>
+    </div>
+
+    <div className="flex flex-col lg:flex-row justify-evenly">  
+      <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col mx-16 lg:w-1/2 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-20 px-8 py-5 m-8">
+        {/* <div className="font-bold text-2xl lg:text-3xl pb-4">
+          News and Updates
+          <hr className="h-1 my-4 bg-[#87A2FF] border-0  " />
+          </div>
+          <div className="flex flex-col items-center lg:flex-row">
+          <ol className="font-bold text-xl">
+         <li>
+           Poster Launched on 23rd November 2024 &nbsp;   
+            <span className="bg-red-600 rounded text-white p-2 animation-blink">new</span>
+           </li>
+          </ol>
+             
+          </div> */}
+
+        <div className="font-bold text-2xl lg:text-3xl pb-4">
+            News and Updates
+            <hr className="h-1 my-4 bg-[#87A2FF] border-0" />
+          </div>
+          <div className="flex flex-wrap items-center">
+            <ol className="font-bold text-xl flex items-center gap-2">
+              <li className="flex items-center">
+                <span>Poster Launched on 23rd November 2024</span>
+                <span className="ml-2 w-12 h-8 bg-red-500 text-base rounded-full shadow-lg shadow-cyan-500 blink text-white pt-1 pl-1">NEW</span>
+              </li>
+            </ol>
+          </div>
+        </div>
+
+        <div className='hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col mx-16 lg:w-1/2 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-20 md:m-20 px-8 py-5 m-8'>
+        <div className="flex flex-col items-center">
+        <h1 className='md:text-3xl text-2xl font-bold pb-2 text-center'>Paper Submission: 
+        <Link href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F" 
+        className='text-[#FF6600] cursor-pointer underline underline-offset-8 decoration-indigo-500 hover:underline hover:decoration-4'>Click Here
+        </Link>
+        </h1>
+        </div>
+        </div>
+      
+
+        </div>
+        <div className="flex flex-col items-center">
+        <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col mx-16 lg:w-1/2 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-12 md:pb-12 md:mb-20 md:mx-10 px-8 py-5 m-8">
+        <div>
+          <h1 className="text-2xl md:text-4xl text-black pt-4 font-bold">Important Dates</h1>
+          <hr className="h-1 my-4 bg-[#87A2FF] border-0 mb-10" />
+          <ul className="text-sm md:text-2xl space-y-4">
+             <li className="flex items-center">
+               <FaRegCalendarAlt className="mr-2" />
+               <span>2nd June 2025 - Deadline for Submission </span>
+             </li>
+             <li className="flex items-center">
+               <FaRegCalendarAlt className="mr-2" />
+               <span>25th June 2025 - Acceptance Notification & Registrations</span>
+             </li>
+             <li className="flex items-center">
+               <FaRegCalendarAlt className="mr-2" />
+               <span>30th June 2025 -  Registration & Final Paper Submission</span>
+             </li>
+           </ul>
+        </div>
+        </div>
+        </div>
+    </div>
    </>
   );
 }
