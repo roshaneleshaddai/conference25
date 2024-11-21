@@ -10,6 +10,74 @@ import Dates from "./components/dates/page";
 import Imageplacer from "./components/imageplacer/page";
 
 export default function Home() {
+  const ImageCarousel = () => {
+    const images = [
+      {
+        url: "/images/Administration_Office.jpg",
+        text: "8th International Conference on Intelligent Computing and Communication (ICICC - 2025)",
+      },
+      {
+        url: "/images/VRSEC_AdminB.jpg",
+        text: "8th International Conference on Intelligent Computing and Communication (ICICC - 2025)",
+      },
+    ];
+  
+    const [currentImage, setCurrentImage] = useState(0);
+  
+    useEffect(() => {
+      const interval = setInterval(() => {
+        setCurrentImage((prev) => (prev + 1) % images.length);
+      }, 4000); // Change image every 5 seconds
+      return () => clearInterval(interval);
+    }, [images.length]);
+  
+
+  return (
+    <div className="relative lg:h-screen lg:w-full h-44 w-full overflow-hidden">
+      {images.map((image, index) => (
+        <div
+        key={index}
+        className={`absolute inset-0 transition-opacity duration-1000 ${
+          index === currentImage ? "opacity-100" : "opacity-0"
+        } flex justify-center items-center`}
+      >
+        {/* <img
+          src={image.url}
+          alt=""
+          className="lg:w-full lg:h-full object-contain"
+        /> */}
+        <Image
+          src={image.url}
+          alt="Image Carousel"
+          width={1920} // Specify the width of the image
+          height={1080} // Specify the height of the image
+          className="w-full h-full object-fill"
+        />
+          <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-white">
+            <h1 className="text-xl md:text-5xl text-center font-bold lg:pt-20 mb-4">8th International Conference on Intelligent Computing and Communication (ICICC - 2025)</h1>
+            <div className="animate-bounce">
+              <svg
+                className="w-8 h-8 md:w-10 md:h-10"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+};
+
   const About = () => {
     const [visibleLines, setVisibleLines] = useState([]);
   
@@ -412,8 +480,65 @@ const Travel=()=>{
   return (
    <>
    <div className="mt-44 lg:mt-92">
-   <Imageplacer name="8th International Conference on Intelligent
-      Computing and Communication (ICICC - 2025)"/>
+   {/* <Imageplacer name="8th International Conference on Intelligent Computing and Communication (ICICC - 2025)"/> */}
+   <ImageCarousel/>
+   <div className="flex flex-col lg:flex-row justify-evenly gap-8 lg:gap-16 px-4 lg:px-16 py-8 mx-4">
+          
+          <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/3 w-full bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] px-8 py-6">
+            <div className="font-bold text-2xl lg:text-3xl pb-4">
+              News and Updates
+              <hr className="h-1 my-4 bg-[#87A2FF] border-0" />
+            </div>
+            <div className="flex flex-wrap items-center">
+              <ol className="font-bold text-xl flex items-center gap-2">
+                <li className="flex items-center">
+                  <span>Poster Launched on 23rd November 2024</span>
+                  <span className="ml-2 w-12 h-8 bg-red-500 text-base rounded-full shadow-lg shadow-cyan-500 blink text-white pt-1 pl-1">NEW</span>
+                </li>
+              </ol>
+            </div>
+          </div>
+
+          <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/3 w-full bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] px-8 py-6">
+              <div className="font-bold text-2xl lg:text-3xl pb-4">
+                Paper Submission
+                <hr className="h-1 my-4 bg-[#87A2FF] border-0" />
+              </div>
+
+              <div className="flex flex-col items-center justify-center">
+                <Link
+                  href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F"
+                  className="text-[#FF6600] text-3xl font-bold bg-black/5 rounded-xl hover:shadow-lg shadow-black p-4 text-center m-10 cursor-pointer underline underline-offset-8 decoration-indigo-500 hover:underline hover:decoration-4"
+                >
+                  Click Here
+                </Link>
+            </div>
+          </div>
+
+          <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/3 w-full bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] px-8 py-6">
+          <div className="font-bold text-2xl lg:text-3xl pb-4">
+                Important Dates
+                <hr className="h-1 my-4 bg-[#87A2FF] border-0" />
+              </div>
+              <div>
+              <ul className="text-sm md:text-2xl space-y-4">
+                <li className="flex items-center">
+                  <FaRegCalendarAlt className="mr-2" />
+                  <span>2nd June 2025 - Deadline for Submission</span>
+                </li>
+                <li className="flex items-center">
+                  <FaRegCalendarAlt className="mr-2" />
+                  <span>25th June 2025 - Acceptance Notification & Registrations</span>
+                </li>
+                <li className="flex items-center">
+                  <FaRegCalendarAlt className="mr-2" />
+                  <span>30th June 2025 - Registration & Final Paper Submission</span>
+                </li>
+              </ul>
+              </div>
+          </div>
+        </div>
+
         <div className="flex flex-col lg:flex-row mt-5 justify-evenly">
       <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/2 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-20 px-8 py-5 md:mx-16 mx-8 md:my-8 my-4">
         <div className="font-bold text-2xl lg:text-3xl pb-4">
@@ -478,22 +603,8 @@ const Travel=()=>{
       </div>
     </div>
 
-    <div className="flex flex-col lg:flex-row justify-evenly">  
-      <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/2 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-20 px-8 py-5 md:mx-16 mx-8 md:my-8 my-4">
-        {/* <div className="font-bold text-2xl lg:text-3xl pb-4">
-          News and Updates
-          <hr className="h-1 my-4 bg-[#87A2FF] border-0  " />
-          </div>
-          <div className="flex flex-col items-center lg:flex-row">
-          <ol className="font-bold text-xl">
-         <li>
-           Poster Launched on 23rd November 2024 &nbsp;   
-            <span className="bg-red-600 rounded text-white p-2 animation-blink">new</span>
-           </li>
-          </ol>
-             
-          </div> */}
-
+    {/* <div className="flex flex-col lg:flex-row justify-evenly">  
+      <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/3 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-20 px-8 py-5 md:mx-2 mx-8 md:my-8 my-4">
         <div className="font-bold text-2xl lg:text-3xl pb-4">
             News and Updates
             <hr className="h-1 my-4 bg-[#87A2FF] border-0" />
@@ -508,7 +619,7 @@ const Travel=()=>{
           </div>
         </div>
 
-        <div className='hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/2 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-20 md:m-20 px-8 py-5 md:mx-16 mx-8 md:my-8 my-4'>
+        <div className='hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/3 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-20 md:m-20 px-8 py-5 md:mx-2 mx-8 md:my-8 my-4'>
         <div className="flex flex-col items-center">
         <h1 className='md:text-3xl text-2xl font-bold pb-2 text-center'>Paper Submission: 
         <Link href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F" 
@@ -517,11 +628,8 @@ const Travel=()=>{
         </h1>
         </div>
         </div>
-      
-
-        </div>
-        <div className="flex flex-col items-center">
-        <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/2 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-12 md:pb-12 md:mb-20 md:mx-10 px-8 py-5 md:mx-16 mx-8 md:my-8 my-4">
+          
+        <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/3 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-12 md:pb-12 md:mb-20 md:mx-10 px-8 py-5 md:mx-2 mx-8 md:my-8 my-4">
         <div>
           <h1 className="text-2xl md:text-4xl text-black pt-4 font-bold">Important Dates</h1>
           <hr className="h-1 my-4 bg-[#87A2FF] border-0 mb-10" />
@@ -541,8 +649,35 @@ const Travel=()=>{
            </ul>
         </div>
         </div>
+
+        </div> */}
+
+
+
+        {/* <div className="flex flex-col items-center">
+        <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/3 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-12 md:pb-12 md:mb-20 md:mx-10 px-8 py-5 md:mx-16 mx-8 md:my-8 my-4">
+        <div>
+          <h1 className="text-2xl md:text-4xl text-black pt-4 font-bold">Important Dates</h1>
+          <hr className="h-1 my-4 bg-[#87A2FF] border-0 mb-10" />
+          <ul className="text-sm md:text-2xl space-y-4">
+             <li className="flex items-center">
+               <FaRegCalendarAlt className="mr-2" />
+               <span>2nd June 2025 - Deadline for Submission </span>
+             </li>
+             <li className="flex items-center">
+               <FaRegCalendarAlt className="mr-2" />
+               <span>25th June 2025 - Acceptance Notification & Registrations</span>
+             </li>
+             <li className="flex items-center">
+               <FaRegCalendarAlt className="mr-2" />
+               <span>30th June 2025 -  Registration & Final Paper Submission</span>
+             </li>
+           </ul>
         </div>
+        </div>
+        </div> */}
     </div>
    </>
   );
 }
+
