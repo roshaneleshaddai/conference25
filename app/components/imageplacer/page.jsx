@@ -13,7 +13,7 @@ const Imageplacer = ({name}) => {
    </div>
     <div  className='relative flex flex-col justify-center min-h-72 lg:min-h-screen '>
         <div>
-    <h1 className="text-2xl lg:text-7xl  font-extrabold  text-center text-white">{name} </h1>
+    <h1 className="text-2xl lg:text-5xl  font-extrabold  text-center text-white">{name} </h1>
     </div>
     </div>
     
