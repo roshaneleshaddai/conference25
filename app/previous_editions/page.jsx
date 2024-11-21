@@ -8,7 +8,7 @@ import Link from 'next/link';
 export default function Editions_News (){
 
     return (
-        <div className="mt-44 lg:mt-92 lg:p-32 mb-0 flex justify-center">
+        <div className="mt-48 lg:mt-92 lg:p-32 mb-0 flex justify-center">
       <section id="editions" className="bg-white lg:w-1/2 shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-20 px-4 py-5 m-8 w-full">
         <div className="flex justify-center">
           <div className="flex flex-col lg:mx-16 mx-8">
