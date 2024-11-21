@@ -187,8 +187,9 @@ const committees = () => {
 
   return (
     <>
-      <div className="mt-44 lg:mt-92 text-justify"></div>
-      <Imageplacer name="Committees" />
+      <div className="mt-44 lg:mt-92 text-justify">
+      {/* <Imageplacer name="Committees" /> */}
+      <h1 className="text-2xl lg:text-5xl md:mt-96 pt-10 mt-44 lg:mb-0 mb-4 font-extrabold  text-center text-black">Committees</h1>
       <div className="px-6 lg:py-10 py-5 lg:mt-5 mt-0 bg-white">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Left Column */}
@@ -228,6 +229,7 @@ const committees = () => {
             ))}
           </div>
         </div>
+      </div>
       </div>
     </>
   );
