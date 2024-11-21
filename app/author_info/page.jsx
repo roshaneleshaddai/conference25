@@ -59,7 +59,8 @@ const Regi = () => {
 const author_info = () => {
   return (
     <div className="md:mt-92 mt-44">
-      <Imageplacer name="Author Info" />
+      {/* <Imageplacer name="Author Info" /> */}
+    <h1 className="text-2xl lg:text-5xl md:mt-96 pt-10 mt-44 lg:mb-0 mb-4 font-extrabold  text-center text-black">Author Info</h1>
 {/* <p className="p-5 font-bold text-center text-black bg-[url('https://img.freepik.com/free-vector/medical-tech-background-with-hexagon-pattern_107791-30275.jpg?t=st=1728633368~exp=1728636968~hmac=cc61870f5b73b9658f533c2c416a8ea48ba36cc9240850a2ac53f2d998d5d902&w=1380')] bg-opacity-25 text-4xl">
       AUTHOR INFO
       </p> */}
@@ -140,7 +141,7 @@ const author_info = () => {
         href="https://www.springer.com/de/authors-editors/editors/publishing-ethics-for-journals/4176"
         className='text-[#FF6600] cursor-pointer underline underline-offset-8 decoration-indigo-500 hover:underline hover:decoration-4'>click here to read the Springer publication ethics and guidelines.
       </Link></span></p>
-      <p id='registration_id' className='py-2'>Paper Submission Deadline: 2nd June 2025</p>
+      <p id='registration_id' className='py-2'>Paper Submission Deadline: 15th July 2025</p>
       </div>
       </div>
 
