@@ -33,7 +33,7 @@ export default function Home() {
   
 
   return (
-    <div className="relative lg:h-screen lg:w-full h-44 w-full overflow-hidden">
+    <div className="relative lg:h-screen lg:w-full h-44 mt-w-full overflow-hidden">
       {images.map((image, index) => (
         <div
         key={index}
@@ -479,7 +479,7 @@ const Travel=()=>{
 
   return (
    <>
-   <div className="mt-44 lg:mt-92">
+   <div className="mt-56 lg:mt-92">
    {/* <Imageplacer name="8th International Conference on Intelligent Computing and Communication (ICICC - 2025)"/> */}
    <ImageCarousel/>
    <div className="flex flex-col lg:flex-row justify-evenly gap-8 lg:gap-16 px-4 lg:px-16 py-8 mx-4">
@@ -490,7 +490,7 @@ const Travel=()=>{
               <hr className="h-1 my-4 bg-[#87A2FF] border-0" />
             </div>
             <div className="flex flex-wrap items-center">
-              <ol className="font-bold text-xl flex items-center gap-2">
+              <ol className="text-xl flex items-center gap-2">
                 <li className="flex items-center">
                   <span>Poster Launched on 23rd November 2024</span>
                   <span className="ml-2 w-12 h-8 bg-red-500 text-base rounded-full shadow-lg shadow-cyan-500 blink text-white pt-1 pl-1">NEW</span>
@@ -508,7 +508,7 @@ const Travel=()=>{
               <div className="flex flex-col items-center justify-center">
                 <Link
                   href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F"
-                  className="text-[#FF6600] text-3xl font-bold bg-black/5 rounded-xl hover:shadow-lg shadow-black p-4 text-center m-10 cursor-pointer underline underline-offset-8 decoration-indigo-500 hover:underline hover:decoration-4"
+                  className="text-[#FF6600] lg:text-3xl text-2xl font-bold bg-black/5 rounded-xl hover:shadow-lg shadow-black p-4 text-center m-10 cursor-pointer underline underline-offset-8 decoration-indigo-500 hover:underline hover:decoration-4"
                 >
                   Click Here
                 </Link>
@@ -521,7 +521,7 @@ const Travel=()=>{
                 <hr className="h-1 my-4 bg-[#87A2FF] border-0" />
               </div>
               <div>
-              <ul className="text-sm md:text-2xl space-y-4">
+              <ul className="text-base md:text-2xl space-y-4">
                 <li className="flex items-center">
                   <FaRegCalendarAlt className="mr-2" />
                   <span>2nd June 2025 - Deadline for Submission</span>
