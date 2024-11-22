@@ -59,7 +59,7 @@ const call_for_papers = () => {
   };
   
   return (
-    <div className="md:mt-92 mt-44">
+    <div className="md:mt-92 mt-44 text-justify">
       
       {/* <Imageplacer name="Call for Papers" /> */}
       
