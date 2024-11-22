@@ -490,7 +490,7 @@ const Travel=()=>{
               <hr className="h-1 my-4 bg-[#87A2FF] border-0" />
             </div>
             <div className="flex flex-wrap items-center">
-              <ol className="text-xl flex items-center gap-2">
+              <ol className="text-base md:text-xl flex items-center gap-2">
                 <li className="flex items-center">
                   <span>Poster Launched on 23rd November 2024</span>
                   <span className="ml-2 w-12 h-8 bg-red-500 text-base rounded-full shadow-lg shadow-cyan-500 blink text-white pt-1 pl-1">NEW</span>
@@ -521,7 +521,7 @@ const Travel=()=>{
                 <hr className="h-1 my-4 bg-[#87A2FF] border-0" />
               </div>
               <div>
-              <ul className="text-base md:text-2xl space-y-4">
+              <ul className="text-base md:text-xl space-y-4">
                 <li className="flex items-center">
                   <FaRegCalendarAlt className="mr-2" />
                   <span>2nd June 2025 - Deadline for Submission</span>
