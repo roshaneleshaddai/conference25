@@ -176,6 +176,7 @@ const committees = () => {
         "Ghaida Muttashar Abdulsahib, University of Technology, Baghdad, Iraq",
         "Sameer Algburi, Al-Kitab University, Iraq",
         "Habib Hamam, Faculty of Engineering, Uni de Moncton, Canada",
+        "Dr Junali Jasmine Jena, KIIT University, Bhubaneswar",
       ],
     },
     
