@@ -9,7 +9,7 @@ const Dates = () => {
           <h1 className="text-2xl md:text-5xl text-[#87A2FF] p-4 font-bold">Important Dates</h1>
           <hr className="h-1 my-4 bg-[#87A2FF] border-0 " />
           <ul className="text-sm md:text-2xl  space-y-4">
-             <li className="flex items-center">
+             <li className="flex items-center"> 
                <FaRegCalendarAlt className="mr-2" />
                <span>1st May 2025 - Deadline for Submission </span>
              </li>
