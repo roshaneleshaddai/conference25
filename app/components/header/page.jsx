@@ -80,7 +80,7 @@ const Header = () => {
     />
     <div
       className={`lg:block lg:text-center transition-all duration-300 ease-in-out ${
-        isScrolled ? 'text-base lg:text-3xl' : 'text-xl lg:text-3xl'
+        isScrolled ? 'text-base lg:text-3xl' : 'text-lg lg:text-3xl'
       }`}
     >
       <h2 className={`font-bold text-[#16325B]`}>
