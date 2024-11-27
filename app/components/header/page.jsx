@@ -84,8 +84,8 @@ const Header = () => {
       }`}
     >
       <h2 className={`font-bold text-[#16325B]`}>
-        Velagapudi Ramakrishna<br />
-        Siddhartha Engineering College
+        VELAGAPUDI RAMAKRISHNA<br />
+        SIDDHARTHA ENGINEERING COLLEGE
       </h2>
       <h2
         className={`font-normal text-[#16325B] ${
