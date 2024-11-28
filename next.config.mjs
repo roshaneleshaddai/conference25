@@ -3,6 +3,7 @@ const nextConfig = {
     images: {
       domains: [
         "www.vrsiddhartha.ac.in",
+        "sweg.org",
         "www.siddharthaacademy.ac.in",
         "www.google.com",
         "videos.pexels.com",
@@ -19,6 +20,7 @@ const nextConfig = {
         "explorebyroad.blog",
           "sipnaengg.ac.in",
           "cis.ieee.org",
+          "1000logos.net"
       ],
     },
   };
