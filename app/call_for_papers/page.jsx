@@ -132,11 +132,11 @@ const call_for_papers = () => {
             <div className="mb-6">
               <h2 className="text-lg lg:text-2xl font-bold">1. Artificial Intelligence and Machine Learning</h2>
               <ul className="list-disc ml-5 text-sm lg:text-xl">
-                <li className="p-2">Deep Learning and Neural Networks</li>
-                <li className="p-2">Natural Language Processing</li>
-                <li className="p-2">Explainable AI and Ethics in AI</li>
-                <li className="p-2">Reinforcement Learning and Optimization</li>
-                <li className="p-2">AI in Healthcare and Industry Applications</li>
+                <li className="px-2">Deep Learning and Neural Networks</li>
+                <li className="px-2">Natural Language Processing</li>
+                <li className="px-2">Explainable AI and Ethics in AI</li>
+                <li className="px-2">Reinforcement Learning and Optimization</li>
+                <li className="px-2">AI in Healthcare and Industry Applications</li>
               </ul>
             </div>
 
@@ -144,11 +144,11 @@ const call_for_papers = () => {
             <div className="mb-6">
               <h2 className="text-lg lg:text-2xl font-bold">2. Data Science and Big Data Analytics</h2>
               <ul className="list-disc ml-5 text-sm lg:text-xl">
-                <li className="p-2">Data Mining and Predictive Analytics</li>
-                <li className="p-2">Big Data Infrastructure and Frameworks</li>
-                <li className="p-2">Visualization Techniques and Tools</li>
-                <li className="p-2">Real-Time Data Processing</li>
-                <li className="p-2">Privacy and Security in Data Analytics</li>
+                <li className="px-2">Data Mining and Predictive Analytics</li>
+                <li className="px-2">Big Data Infrastructure and Frameworks</li>
+                <li className="px-2">Visualization Techniques and Tools</li>
+                <li className="px-2">Real-Time Data Processing</li>
+                <li className="px-2">Privacy and Security in Data Analytics</li>
               </ul>
             </div>
 
@@ -156,11 +156,11 @@ const call_for_papers = () => {
             <div className="mb-6">
               <h2 className="text-lg lg:text-2xl font-bold">3. Internet of Things (IoT) and Smart Systems</h2>
               <ul className="list-disc ml-5 text-sm lg:text-xl">
-                <li className="p-2">IoT Architectures and Protocols</li>
-                <li className="p-2">Smart Cities and Smart Grids</li>
-                <li className="p-2">Wearable and Embedded Systems</li>
-                <li className="p-2">Edge and Fog Computing in IoT</li>
-                <li className="p-2">IoT Security and Privacy</li>
+                <li className="px-2">IoT Architectures and Protocols</li>
+                <li className="px-2">Smart Cities and Smart Grids</li>
+                <li className="px-2">Wearable and Embedded Systems</li>
+                <li className="px-2">Edge and Fog Computing in IoT</li>
+                <li className="px-2">IoT Security and Privacy</li>
               </ul>
             </div>
 
@@ -168,11 +168,11 @@ const call_for_papers = () => {
             <div className="mb-6">
               <h2 className="text-lg lg:text-2xl font-bold">4. Wireless Communication and Networking</h2>
               <ul className="list-disc ml-5 text-sm lg:text-xl">
-                <li className="p-2">5G/6G Networks and Beyond</li>
-                <li className="p-2">Cognitive and Software-Defined Radios</li>
-                <li className="p-2">Network Optimization and Traffic Management</li>
-                <li className="p-2">Wireless Sensor Networks and Ad Hoc Networks</li>
-                <li className="p-2">Security Challenges in Wireless Communication</li>
+                <li className="px-2">5G/6G Networks and Beyond</li>
+                <li className="px-2">Cognitive and Software-Defined Radios</li>
+                <li className="px-2">Network Optimization and Traffic Management</li>
+                <li className="px-2">Wireless Sensor Networks and Ad Hoc Networks</li>
+                <li className="px-2">Security Challenges in Wireless Communication</li>
               </ul>
             </div>
             </div>
@@ -182,11 +182,11 @@ const call_for_papers = () => {
             <div className="mb-6">
               <h2 className="text-lg lg:text-2xl font-bold">5. Cybersecurity and Cryptography</h2>
               <ul className="list-disc ml-5 text-sm lg:text-xl">
-                <li className="p-2">Network Security and Privacy</li>
-                <li className="p-2">Blockchain and Distributed Ledger Technologies</li>
-                <li className="p-2">Post-Quantum Cryptography</li>
-                <li className="p-2">Intrusion Detection and Prevention Systems</li>
-                <li className="p-2">AI and ML Applications in Cybersecurity</li>
+                <li className="px-2">Network Security and Privacy</li>
+                <li className="px-2">Blockchain and Distributed Ledger Technologies</li>
+                <li className="px-2">Post-Quantum Cryptography</li>
+                <li className="px-2">Intrusion Detection and Prevention Systems</li>
+                <li className="px-2">AI and ML Applications in Cybersecurity</li>
               </ul>
             </div>
 
@@ -194,11 +194,11 @@ const call_for_papers = () => {
             <div className="mb-6">
               <h2 className="text-lg lg:text-2xl font-bold">6. Robotics and Autonomous Systems</h2>
               <ul className="list-disc ml-5 text-sm lg:text-xl">
-                <li className="p-2">Swarm Robotics and Multi-Agent Systems</li>
-                <li className="p-2">Human-Robot Interaction</li>
-                <li className="p-2">Autonomous Vehicles and Drones</li>
-                <li className="p-2">Navigation and Mapping</li>
-                <li className="p-2">AI for Robotics</li>
+                <li className="px-2">Swarm Robotics and Multi-Agent Systems</li>
+                <li className="px-2">Human-Robot Interaction</li>
+                <li className="px-2">Autonomous Vehicles and Drones</li>
+                <li className="px-2">Navigation and Mapping</li>
+                <li className="px-2">AI for Robotics</li>
               </ul>
             </div>
 
@@ -206,11 +206,11 @@ const call_for_papers = () => {
             <div className="">
               <h2 className="text-lg lg:text-2xl font-bold">7. Cloud, Edge, and High-Performance Computing</h2>
               <ul className="list-disc ml-5 text-sm lg:text-xl">
-                <li className="p-2">Distributed and Cloud Computing</li>
-                <li className="p-2">Virtualization and Containerization</li>
-                <li className="p-2">Edge Computing Applications</li>
-                <li className="p-2">Green and Sustainable Computing</li>
-                <li className="p-2">High-Performance Computing Architectures</li>
+                <li className="px-2">Distributed and Cloud Computing</li>
+                <li className="px-2">Virtualization and Containerization</li>
+                <li className="px-2">Edge Computing Applications</li>
+                <li className="px-2">Green and Sustainable Computing</li>
+                <li className="px-2">High-Performance Computing Architectures</li>
               </ul>
             </div>
             </div>
