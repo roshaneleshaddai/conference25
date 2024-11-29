@@ -32,7 +32,7 @@ const contact = () => {
 
       {/* <Imageplacer name="Contact Us"/> */}
       <h1 className="text-2xl lg:text-5xl md:mt-96 lg:pt-10 pt-20 mt-44 lg:mb-0 mb-4 font-extrabold text-center text-black">
-        Contact Us
+        Contact us
       </h1>
       <div className="flex flex-col lg:flex-row justify-evenly items-center gap-10 lg:mx-32 lg:mb-32 m-20 lg:mx-16 mx-10">
         <div>
