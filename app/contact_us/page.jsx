@@ -40,7 +40,7 @@ const contact = () => {
           Vijayawada, Andhra Pradesh 520007.</p>
       </div>
       <div>
-      <h1 className='text-2xl lg:text-5xl font-bold pb-5 text-center'>Drop Us a Line</h1>
+      <h1 className='text-2xl lg:text-5xl font-bold pb-5 text-center'>Drop us a Line</h1>
          <div className='text-base lg:text-2xl '>
           {contact1.map((c1)=>{
            return( <li key={c1.id} className="flex items-center"><IoCallOutline className='mr-3' />{c1.name} - {c1.ph}</li>
