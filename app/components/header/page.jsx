@@ -253,7 +253,7 @@ const Header = () => {
         <li><Link
           href="/contact_us"
           className="" onClick={toggleMenu}>
-          Contact Us
+          Contact us
         </Link></li>
         <li><Link
           href="/vij_attractions"
@@ -323,7 +323,7 @@ const Header = () => {
           href="/contact_us"
           className={`cursor-pointer m-0.5   border-[#1A1A1A]  font-semibold transition-all duration-300 ease-in-out ${isScrolled ? 'text-base py-1 px-2' : 'text-base py-1 px-2'} hover:bg-[#FF6600]/15  hover:text-black hover:shadow-lg`}
         >
-         Contact Us
+         Contact us
         </Link>
         
         <Link
