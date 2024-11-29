@@ -136,11 +136,12 @@ const Header = () => {
       <Image
         src="/images/springer2.png"
         alt="Springer"
-        width={isScrolled ? 100 : 140}
-        height={isScrolled ? 100 : 80}
+        width={isScrolled ? 120 : 140}
+        height={isScrolled ? 120 : 140}
         className={`bg-white/90 rounded-lg object-fill ${isScrolled ? "max-w-100 max-h-100" : "max-w-100 max-h-100"}`}
       />
     </div>
+{/*   
     <div className="hidden lg:block">
       <Image
         // src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkfIkiMHtEZmhUmWnvIfSEXP3cPOnYSL_gnucq1KEYNuErxA_zPfdedSAU7u-GRiFvpRM&usqp=CAU"
@@ -151,7 +152,7 @@ const Header = () => {
         height={isScrolled ? 100 : 80}
         className={`bg-white/90 rounded-lg object-fill ${isScrolled ? "max-w-100 max-h-100" : "max-w-100 max-h-100"}`}
       />
-    </div>
+    </div> */}
   </div>
 
   {/* Second set of images */}
