@@ -147,7 +147,7 @@ export default function Home() {
           <div className="flex flex-col mx-16 lg:w-1/2 ">
             <div className="font-bold text-2xl lg:text-3xl pb-4">
             Technical Partners
-            <hr className="h-1 my-4 bg-[#87A2FF] border-0 " />
+            <hr className="h-1 mb-4 bg-[#87A2FF] border-0 " />
             </div>
             <div className="flex flex-col  lg:flex-row">
           <Image
@@ -183,7 +183,7 @@ export default function Home() {
           <div className="flex flex-col mx-16 lg:w-1/2 ">
           <div className="font-bold text-2xl lg:text-3xl pb-4">
             Publishing  Partners
-            <hr className="h-1 my-4 bg-[#87A2FF] border-0  " />
+            <hr className="h-1 mb-4 bg-[#87A2FF] border-0  " />
             </div>
             <div className="flex flex-col lg:flex-row">
               <div className="justify-center items-center">
@@ -479,18 +479,18 @@ const Travel=()=>{
 
   return (
    <>
-   <div className="mt-56 lg:mt-92">
+   <div className="mt-56 lg:mt-92 ">
    {/* <Imageplacer name="8th International Conference on Intelligent Computing and Communication (ICICC - 2025)"/> */}
    <ImageCarousel/>
    <div className="flex flex-col lg:flex-row justify-evenly gap-8 lg:gap-16 px-4 lg:px-16 py-8 mx-4">
           
-          <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/3 w-full bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] px-8 py-6">
-            <div className="font-bold text-2xl lg:text-3xl pb-4">
+          <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/4 w-full bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] px-8 py-6">
+            <div className="font-bold text-xl lg:text-2xl pb-4">
               News and Updates
-              <hr className="h-1 my-4 bg-[#87A2FF] border-0" />
+              <hr className="h-1 mb-1 bg-[#87A2FF] border-0" />
             </div>
             <div className="flex flex-wrap items-center">
-              <ol className="text-base md:text-xl flex items-center gap-2">
+              <ol className="text-base md:text-lg flex items-center gap-2">
                 <li className="flex items-center">
                   <span>Poster Launched on 23rd November 2024</span>
                   <span className="ml-2 w-12 h-8 bg-red-500 text-base rounded-full shadow-lg shadow-cyan-500 blink text-white pt-1 pl-1">NEW</span>
@@ -499,29 +499,29 @@ const Travel=()=>{
             </div>
           </div>
 
-          <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/3 w-full bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] px-8 py-6">
-              <div className="font-bold text-2xl lg:text-3xl pb-4">
+          <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/4 w-full bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] px-8 py-6">
+              <div className="font-bold text-xl lg:text-2xl pb-4">
                 Paper Submission
-                <hr className="h-1 my-4 bg-[#87A2FF] border-0" />
+                <hr className="h-1 mb-1 bg-[#87A2FF] border-0" />
               </div>
 
               <div className="flex flex-col items-center justify-center">
                 <Link
                   href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2F"
-                  className="text-[#FF6600] lg:text-3xl text-2xl font-bold bg-black/5 rounded-xl hover:shadow-lg shadow-black p-4 text-center m-10 cursor-pointer underline underline-offset-8 decoration-indigo-500 hover:underline hover:decoration-4"
+                  className="text-[#FF6600] lg:text-2xl text-xl font-bold bg-black/5 rounded-xl hover:shadow-lg shadow-black p-4 text-center m-10 cursor-pointer underline underline-offset-8 decoration-indigo-500 hover:underline hover:decoration-4"
                 >
                   Click Here
                 </Link>
             </div>
           </div>
 
-          <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/3 w-full bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] px-8 py-6">
-          <div className="font-bold text-2xl lg:text-3xl pb-4">
+          <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/4 w-full bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] px-8 py-6">
+          <div className="font-bold text-xl lg:text-2xl pb-4">
                 Important Dates
-                <hr className="h-1 my-4 bg-[#87A2FF] border-0" />
+                <hr className="h-1 mb-1 bg-[#87A2FF] border-0" />
               </div>
               <div>
-              <ul className="text-base md:text-xl space-y-4">
+              <ul className="text-base md:text-lg space-y-2">
                 <li className="flex items-center">
                   <FaRegCalendarAlt className="mr-2" />
                   <span>2nd June 2025 - Deadline for Submission</span>
@@ -540,10 +540,10 @@ const Travel=()=>{
         </div>
 
         <div className="flex flex-col lg:flex-row mt-5 justify-evenly">
-      <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/2 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-20 px-8 py-5 md:mx-16 mx-8 md:my-8 my-4">
-        <div className="font-bold text-2xl lg:text-3xl pb-4">
+      <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/3 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 px-8 py-5 md:mx-16 mx-8 md:my-8 my-4">
+        <div className="font-bold text-xl lg:text-2xl pb-4">
           Technical Partners
-          <hr className="h-1 my-4 bg-[#87A2FF] border-0" />
+          <hr className="h-1 mb-1 bg-[#87A2FF] border-0" />
         </div>
         <div className="flex flex-col items-center">
           {/* Row 1 */}
@@ -551,15 +551,15 @@ const Travel=()=>{
             <Image
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGnicMMBfXdQJrZy9RvzmnhzvVw1bgLTs_qA&s"
               alt="Computer Society Of India"
-              width={150}
-              height={200}
+              width={100}
+              height={150}
               className="p-4"
             />
             <Image
               src="https://cis.ieee.org/images/files/Branding/logos/color/IEEE_CIS_logo_RGB_72ppi.jpg"
               alt="Cis"
-              width={150}
-              height={200}
+              width={100}
+              height={150}
               className="p-4"
             />
           </div>
@@ -568,15 +568,15 @@ const Travel=()=>{
             <Image
               src="https://d23qowwaqkh3fj.cloudfront.net/wp-content/uploads/2024/06/q-768x230.jpg"
               alt="SMC"
-              width={150}
-              height={200}
+              width={100}
+              height={150}
               className="p-4"
             />
             <Image
               src="https://yt3.googleusercontent.com/ytc/AIdro_l3FuOt4ZYJ7dFFXpaWxjMcuAybjzTLtHqCrYMnMKnjjLn4=s900-c-k-c0x00ffffff-no-rj"
               alt="ACM"
-              width={150}
-              height={200}
+              width={100}
+              height={150}
               className="p-4"
             />
           </div>
@@ -584,18 +584,18 @@ const Travel=()=>{
       </div>
 
       {/* Publishing Partners */}
-      <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/2 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-20 px-8 py-5 md:mx-16 mx-8 md:my-8 my-4">
-        <div className="font-bold text-2xl lg:text-3xl pb-4">
+      <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/3 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-20 px-8 py-5 md:mx-16 mx-8 md:my-8 my-4">
+        <div className="font-bold text-xl lg:text-2xl pb-4">
           Publishing Partners
-          <hr className="h-1 my-4 bg-[#87A2FF] border-0" />
+          <hr className="h-1 mb- bg-[#87A2FF] border-0" />
         </div>
         <div className="flex flex-col items-center">
         <div className="flex flex-col lg:flex-row lg:gap-10">
             <Image
               src="/images/springer.png"
               alt="springer"
-              width={300}
-              height={300}
+              width={200}
+              height={200}
               className="p-4"
             />
           </div>
