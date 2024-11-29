@@ -47,12 +47,12 @@ export default function Home() {
       sustainability that may be applied to provide realistic solution to variegated
       problems in society, environment and industries. The scope is also extended
       towards deployment of emerging computational and knowledge transfer
-      approaches, optimizing solutions in a variety of disciplines of Computer Science
+      approaches, optimizing solutions in a variety of disciplines of Information Technology, Computer Science
       and Engineering, Electronics and Communication Engineering, Electrical and
       Electronics Engineering, Electronics and Instrumentation Engineering. The
       conference proceedings aim to publish unpublished work pertaining to the
       topics mentioned below. The conference is scheduled to be held on July,
-      2025 at Velagapudi Ramakrishna Siddhartha Engineering College,Kanuru,India...   
+      2025 at Velagapudi Ramakrishna Siddhartha Engineering College,Kanuru,India.   
             </p>
         
         </div>
@@ -95,7 +95,7 @@ const About_vrsec = () => {
         >
           <h2 className="text-2xl lg:text-4xl font-bold mb-4 text-[#87A2FF]">About VRSEC</h2>
           <p className="text-lg lg:text-xl text-justify ">
-          VRSEC has achieved significant recognition, ranked 141st in the NIRF 2022 and consistently below 200 for the past five years. It is NAAC accredited with an A+ grade and holds autonomous status extended to 2028. The institute has been NBA accredited since 1998 and follows outcome-based education (Tier I) since 2013. It has earned accolades such as the AICTE-CII IndPact award, platinum ratings, and ARIIA rankings, and is part of AICTE's MARGADARSHAN scheme. VRSEC is also recognized for its research contributions, NABL-accredited labs, and consultancy services. It collaborates with leading organizations and boasts strong placement records with top global companies.
+          VRSEC has achieved significant recognition, ranked between 150-200 in the NIRF 2023 and consistently below 200 for the past five years. It is NAAC accredited with an A+ grade and holds autonomous status extended to 2028. The institute has been NBA accredited since 1998 and follows outcome-based education (Tier I) since 2013. It has earned accolades such as the AICTE-CII IndPact award, platinum ratings, and ARIIA rankings, and is part of AICTE's MARGADARSHAN scheme. VRSEC is also recognized for its research contributions, NABL-accredited labs, and consultancy services. It collaborates with leading organizations and boasts strong placement records with top global companies.
           </p>
         </div>
     </section>
