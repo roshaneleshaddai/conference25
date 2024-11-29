@@ -154,7 +154,7 @@ const committees = () => {
 "Dr Girish S Pujar,Scientist SG & Head, Land Use and Cover Monitoring Division (LU&CMD),National Remote Sensing Centre (ISRO), Hyderabad", 
 "Dr T Ramakrishnudu,Associate Professor, Department of Computer Science and Engineering,National Institute of Technology,Warangal",
 "Shri Subramaniam, TCS",
-"Ms.Hiranmai Chamarthi, Application Developer, IBM",
+
 "Mrs.Dedeepya Anagani, Senior Consultant, Deloitte",
 "Ms.Satyavathi, senior software engineer, cloudera pvt limited ",
 "Mr.S.SaiRaghavendra Krishna Kiriti, Associate Consultant, Microsoft", 
