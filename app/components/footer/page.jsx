@@ -1,5 +1,6 @@
 import React from "react";
 import { FaInstagram, FaLinkedin, FaFacebook, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import { IoCallOutline, IoLocationOutline } from "react-icons/io5";
 
 const Footer = () => {
   return (
@@ -8,7 +9,9 @@ const Footer = () => {
         {/* Contact Information Section */}
         <div className="md:flex justify-around mb-8">
         <div className="">
-          <h2 className="text-lg font-semibold mb-2 text-center">Our Location</h2>
+          <h2 className="text-lg font-semibold mb-2 text-center flex items-center justify-center">
+              <IoLocationOutline className="mr-3" />
+            Our Location</h2>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.869961897907!2d80.68879827438411!3d16.482120928253742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35fb3cd8a69f41%3A0x9a0e1b5a776b918!2sVelagapudi%20Ramakrishna%20Siddhartha%20Engineering%20College!5e0!3m2!1sen!2sin!4v1732018692842!5m2!1sen!2sin"
               width="100%"
@@ -24,7 +27,9 @@ const Footer = () => {
           <div className="flex-col justify-around p-2 md:py-20 md:gap-10">
             <div className="md:flex gap-10">
           <div className="mb-6 md:mb-0">
-            <h2 className="text-lg font-semibold mb-2">College Address</h2>
+            <h2 className="text-lg font-semibold mb-2 text-center flex items-center justify-center">
+              <IoLocationOutline className="mr-3" />
+              College Address</h2>
             <p>
               Velagapudi Ramakrishna Siddhartha Engineering College,<br />
               Chalasani Nagar,<br />
