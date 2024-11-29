@@ -27,7 +27,7 @@ const Footer = () => {
           <div className="flex-col justify-around p-2 md:py-20 md:gap-10">
             <div className="md:flex gap-10">
           <div className="mb-6 md:mb-0">
-            <h2 className="text-lg font-semibold mb-2 text-center flex items-center justify-center">
+            <h2 className="text-lg font-semibold mb-2  flex items-center justify-start">
               <IoLocationOutline className="mr-3" />
               College Address</h2>
             <p>
