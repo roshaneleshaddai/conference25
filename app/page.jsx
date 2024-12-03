@@ -485,7 +485,7 @@ const Travel=()=>{
    <div className="flex flex-col lg:flex-row justify-evenly gap-8 lg:gap-16 px-4 lg:px-16 py-8 mx-4">
           
           <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/4 w-full bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] px-8 py-6">
-            <div className="font-bold text-xl lg:text-2xl pb-4">
+            <div className="font-bold text-center text-xl lg:text-2xl pb-4">
               News and Updates
               <hr className="h-1 mb-1 bg-[#87A2FF] border-0" />
             </div>
@@ -500,7 +500,7 @@ const Travel=()=>{
           </div>
 
           <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/4 w-full bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] px-8 py-6">
-              <div className="font-bold text-xl lg:text-2xl pb-4">
+              <div className="font-bold text-center text-xl lg:text-2xl pb-4">
                 Paper Submission
                 <hr className="h-1 mb-1 bg-[#87A2FF] border-0" />
               </div>
@@ -516,7 +516,7 @@ const Travel=()=>{
           </div>
 
           <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/4 w-full bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] px-8 py-6">
-          <div className="font-bold text-xl lg:text-2xl pb-4">
+          <div className="font-bold text-center text-xl lg:text-2xl pb-4">
                 Important Dates
                 <hr className="h-1 mb-1 bg-[#87A2FF] border-0" />
               </div>
@@ -541,7 +541,7 @@ const Travel=()=>{
 
         <div className="flex flex-col lg:flex-row mt-5 justify-evenly">
       <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/3 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 px-8 py-5 md:mx-16 mx-8 md:my-8 my-4">
-        <div className="font-bold text-xl lg:text-2xl pb-4">
+        <div className="font-bold text-center text-xl lg:text-2xl pb-4">
           Technical Partners
           <hr className="h-1 mb-1 bg-[#87A2FF] border-0" />
         </div>
@@ -585,7 +585,7 @@ const Travel=()=>{
 
       {/* Publishing Partners */}
       <div className="hover:shadow-2xl hover:border-black/15 transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-105 duration-200 flex flex-col lg:w-1/3 bg-white shadow-xl border-2 border-black/10 rounded-tr-[4rem] rounded-bl-[4rem] md:px-20 md:py-10 md:m-20 px-8 py-5 md:mx-16 mx-8 md:my-8 my-4">
-        <div className="font-bold text-xl lg:text-2xl pb-4">
+        <div className="font-bold text-center text-xl lg:text-2xl pb-4">
           Publishing Partners
           <hr className="h-1 mb- bg-[#87A2FF] border-0" />
         </div>
